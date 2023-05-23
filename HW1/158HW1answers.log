@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.23)  23 MAY 2023 14:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.23)  23 MAY 2023 15:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/tbwil/Documents/LaTeX Documents/Phys 158 Redesign/HW1/158HW1.tex"
-(c:/Users/tbwil/Documents/LaTeX Documents/Phys 158 Redesign/HW1/158HW1.tex
+**"c:/Users/tbwil/Documents/LaTeX Documents/Phys 158 Redesign/HW1/158HW1answers.tex"
+(c:/Users/tbwil/Documents/LaTeX Documents/Phys 158 Redesign/HW1/158HW1answers.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2022-12-17> (c:/texlive/2022/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
@@ -196,8 +196,8 @@ Package: amsthm 2020/05/29 v2.20.6
 File: l3backend-pdftex.def 2022-10-26 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count276
 \l__pdf_internal_box=\box56
-) (./158HW1.aux)
-\openout1 = `158HW1.aux'.
+) (./158HW1answers.aux)
+\openout1 = `158HW1answers.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
 LaTeX Font Info:    ... okay on input line 24.
@@ -249,20 +249,20 @@ LaTeX Font Info:    Trying to load font information for U+rsfs on input line 27.
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ) [1
 
-{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./158HW1.aux) ) 
+{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./158HW1answers.aux) ) 
 Here is how much of TeX's memory you used:
- 4063 strings out of 476093
- 64129 string characters out of 5795582
- 1850787 words of memory out of 5000000
- 24387 multiletter control sequences out of 15000+600000
- 520311 words of font info for 67 fonts, out of 8000000 for 9000
+ 4053 strings out of 476093
+ 64050 string characters out of 5795582
+ 1849787 words of memory out of 5000000
+ 24378 multiletter control sequences out of 15000+600000
+ 518226 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,5n,62p,335b,219s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-Output written on 158HW1.pdf (1 page, 63842 bytes).
+ 55i,5n,62p,342b,219s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on 158HW1answers.pdf (1 page, 36158 bytes).
 PDF statistics:
- 38 PDF objects out of 1000 (max. 8388607)
- 22 compressed objects within 1 object stream
+ 23 PDF objects out of 1000 (max. 8388607)
+ 13 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
