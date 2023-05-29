@@ -1,9 +1,14 @@
 # Fdb version 4
-["pdflatex"] 1685243194 "c:/Users/tbwil/Documents/LaTeX Documents/Phys 158 Redesign/HW1/158HW1.tex" "158HW1.pdf" "158HW1" 1685243195 0
-  "158HW1.aux" 1685243195 32 044b7f8fc9779af7531264e0c5c84b6d "pdflatex"
-  "158HW1.tex" 1685243192 3113 ae66ad594cd52662e561074a7291b667 ""
+["pdflatex"] 1685343009 "c:/Users/tbwil/Documents/LaTeX Documents/Phys 158 Redesign/HW1/158HW1.tex" "158HW1.pdf" "158HW1" 1685343011 0
+  "158HW1.aux" 1685343010 32 2d1df76398b3c48c6419a45a7331db2d "pdflatex"
+  "158HW1.tex" 1685343008 9163 f48ec5062b33f4348fcf4dc82a986ac0 ""
+  "Images/CircularLight.png" 1685342774 5480 cd5864a0a69fef760f8a3ac59c7b25a7 ""
+  "Images/CompoundWire.png" 1685341245 7171 ceedd6a6f5ba8460721c28387d3d078c ""
   "Images/InterferenceTube.png" 1685139094 10096 d079409b5848fd1c057be747c1d5417b ""
-  "c:/Users/tbwil/Documents/LaTeX Documents/Phys 158 Redesign/HW1/158HW1.tex" 1685243192 3113 ae66ad594cd52662e561074a7291b667 ""
+  "Images/RightAngleInterference.png" 1685341307 5308 6bd315d398386e1dd736b2149ee0d74b ""
+  "Images/RightAngleInterference2.png" 1685342644 6828 2dc4f5c26a71b15c1f6c4137fc1a44ec ""
+  "Images/ThinFilmBlock.png" 1685342962 3975 11f9668bd27011b4141b163c31aca8c4 ""
+  "c:/Users/tbwil/Documents/LaTeX Documents/Phys 158 Redesign/HW1/158HW1.tex" 1685343008 9163 f48ec5062b33f4348fcf4dc82a986ac0 ""
   "c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1671859246 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1671856204 1004 54797486969f23fa377b128694d548df ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1671856204 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -39,6 +44,7 @@
   "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1671856204 32362 bc3f3eec7ab7d65fe700963d4017d32c ""
   "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1671856204 32726 39f0f9e62e84beb801509898a605dbd5 ""
   "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1671856204 32569 5e5ddc8df908dea60932f3c484a54c0d ""
+  "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1671856204 32626 5abc8bb2f28aa647d4c70f8ea38cc0d3 ""
   "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1671856204 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1671856204 34694 870c211f62cb72718a00e353f14f254d ""
   "c:/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1671861760 71627 94eb9990bed73c364d7f53f960cc8c5b ""
