@@ -64,7 +64,6 @@ Thought for tutorials: create simple problems that encourage design (this is for
 
 
 \section*{Problem 1 (Resistor Circuits)}
-LG: 1,2,3,4,
 
 \section*{Problem 2 (Capacitor Conservation of Charge)}
 
@@ -73,7 +72,49 @@ LG: 1,2,3,4,
 \section*{Problem 4 (RC/LR Time Dependent)}
 
 \section*{Problem 5 (Application of RC/LR Circuits)}
-Using their newfound knowledge of LR circuits, a Phys 158 student came up with a clever idea for a prank. They want to design an alarm clock that will continue to play for 10 seconds after the battery is removed. The alarm clock can be thought of as a $10\units{k\Omega}$ resistor which requires at least 2 Watts to operate. They designed the following circuit to achieve this.
+Using their newfound knowledge of LR circuits, a Phys 158 student came up with a clever idea for a prank. They want to design an alarm clock that will continue to play for 10 seconds after the battery is removed. The alarm clock can be thought of as a $1\units{k\Omega}$ resistor which requires at least 1 Watt to operate. They designed the following circuit to achieve this.\\
+\includegraphics{Images/AlarmClockCircuit}\\
+a) What value should the battery be such that the power supplied to the clock does not exceed 3 Watts?\\
+b) What value of inductor should they use so that the alarm clock remains on for 10 seconds after the battery is disconnected?\\
+
+\textbf{Solution:}\\
+a)
+\begin{align*}
+    &P_C=3\units{W}\\
+    &P_C=i_C^2R_C\Ra i_C=\sqrt{\frac{P_C}{R_C}}\\
+    &\varepsilon=V_C=i_CR_C=\sqrt{\frac{P_C}{R_C}}\cdot R_C=\sqrt{P_CR_C}=\sqrt{(3\units{W})(1000\units{\Omega})}=54.8\units{V}
+\end{align*}
+b)\\
+We can start by writing out Kirchoff's loop voltage law for the circuit and then solving the resulting ODE to get an expression for the current as a function of time:
+\begin{align*}
+    &iR+iR_C+L\ddx[i]{t}=0\\
+    &L\ddx[i]{t}=-i(R+R_C)\\
+    &\ddx[i]{t}=-\frac{R+R_C}{L}i\\
+    &\frac{di}{i}=-\frac{R+R_C}{L}dt\\
+    &\int\frac{di}{i}=-\frac{R+R_C}{L}\int dt\\
+    &\ln|i|=-\frac{R+R_C}{L}t+\text{Constant}\\
+    &i(t)=e^{-\frac{R+R_C}{L}t+\text{Constant}}=i_0e^{-\frac{R+R_C}{L}t}
+\end{align*}
+Alternatively, we can get the same expression by thinking about it conceptually and computing the time constant.\\
+We know that the current will initially want to stay the same because of the inductor and will slowly decay to 0 so we can determine that the equation of the current should look like exponential decay and be of the form
+\[i(t)=i_0e^{-t/\tau}\]
+We can then compute the time constant for an RL circuit as
+\[\tau=\frac{L}{R_{eq}}=\frac{L}{R+R_C}\]
+Plugging this in will yield the same expression as above.\\
+The initial current, $i_0$, will be the current that was initially flowing through the inductor. We computed this in part (a) to be
+\[i_0=i_C=\sqrt{\frac{P_C}{R_C}}=\sqrt{\frac{3\units{W}}{1000\units{\Omega}}}=54.8\units{mA}\]
+Now we have a complete expression for the current as a function of time. We can get the power as a function of time as
+\begin{align*}
+    &P(t)=i^2R_C=i_0^2R_Ce^{-\frac{2(R+R_C)}{L}t}\\
+    &i_0^2R_C=\frac{P_C}{R_C}\cdot R_C=P_C\\
+    &P(t)=P_Ce^{-\frac{2(R+R_C)}{L}t}
+\end{align*}
+We are told that the clock must have a minimum of 1 Watt and we want it to last for 10 seconds so we can set $P=1$ and $t=10$ and solve for $L$.
+\begin{align*}
+    &\frac{P}{P_C}=e^{-\frac{2(R+R_C)}{L}t}\\
+    &\ln\bfrac{P}{P_C}=-\frac{2(R+R_C)}{L}t\\
+    &L=-\frac{2(R+R_C)t}{\ln\bfrac{P}{P_C}}=-\frac{2(100\units{\Omega}+1000\units{\Omega})(10\units{s})}{\ln\bfrac{1\units{W}}{3\units{W}}}=20,025\units{H}
+\end{align*}
 
 
 
