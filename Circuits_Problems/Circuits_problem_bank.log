@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.23)  9 JUN 2023 00:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.23)  9 JUN 2023 02:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -490,22 +490,28 @@ File: uesint.fd
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 25.
  (c:/texlive/2022/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-) (./Problems/Circuits1.tex (./Problems//Images/P1Img1)) [1
+) (./Problems/Circuits1.tex
+<Problems///Images/P1img1.png, id=4, 347.49825pt x 170.43675pt>
+File: Problems///Images/P1img1.png Graphic file (type png)
+<use Problems///Images/P1img1.png>
+Package pdftex.def Info: Problems///Images/P1img1.png  used on input line 6.
+(pdftex.def)             Requested size: 281.85587pt x 138.25064pt.
+) [1
 
-{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./Circuits_problem_bank.aux) ) 
+{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Problems///Images/P1img1.png>] (./Circuits_problem_bank.aux) ) 
 Here is how much of TeX's memory you used:
- 31264 strings out of 476093
- 792336 string characters out of 5795582
- 1857787 words of memory out of 5000000
- 51286 multiletter control sequences out of 15000+600000
- 520618 words of font info for 68 fonts, out of 8000000 for 9000
+ 30783 strings out of 476093
+ 779149 string characters out of 5795582
+ 1852787 words of memory out of 5000000
+ 50806 multiletter control sequences out of 15000+600000
+ 520926 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,6n,80p,504b,726s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on Circuits_problem_bank.pdf (1 page, 34131 bytes).
+ 84i,7n,80p,504b,219s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on Circuits_problem_bank.pdf (1 page, 70602 bytes).
 PDF statistics:
- 26 PDF objects out of 1000 (max. 8388607)
- 16 compressed objects within 1 object stream
+ 39 PDF objects out of 1000 (max. 8388607)
+ 23 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
