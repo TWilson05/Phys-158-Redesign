@@ -1,0 +1,11 @@
+\begin{circuitikz}
+    \draw (0,0)
+    to[battery1, l_=$4000\units{V}$] (0,-2)
+    to[short] (2,-2)
+    to[C] (2,0)
+    to[normal open switch] (0,0);
+    \draw (2,-2)
+    to[short] (4,-2)
+    to[C] (4,0)
+    to[short] (2,0);
+\end{circuitikz}
