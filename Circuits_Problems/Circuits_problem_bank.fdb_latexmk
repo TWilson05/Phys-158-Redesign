@@ -1,14 +1,16 @@
 # Fdb version 4
-["pdflatex"] 1686306400 "c:/Users/tbwil/Documents/LaTeX Documents/Phys 158 Redesign/Circuits_Problems/Circuits_problem_bank.tex" "Circuits_problem_bank.pdf" "Circuits_problem_bank" 1686306402 0
-  "Circuits_problem_bank.aux" 1686306401 32 c81c40425fbb5e93b90fba65da0b5e61 "pdflatex"
-  "Circuits_problem_bank.tex" 1686305139 858 2510985708984f0bb2679212fb4896ac ""
+["pdflatex"] 1686306908 "c:/Users/tbwil/Documents/LaTeX Documents/Phys 158 Redesign/Circuits_Problems/Circuits_problem_bank.tex" "Circuits_problem_bank.pdf" "Circuits_problem_bank" 1686306910 0
+  "Circuits_problem_bank.aux" 1686306910 32 c81c40425fbb5e93b90fba65da0b5e61 "pdflatex"
+  "Circuits_problem_bank.tex" 1686306710 893 58160bd981a3c34a548624605289dd8d ""
   "Problems///Images/P1img1.png" 1686301589 10656 6bb051515199dfa4eed8ee6b5219453b ""
   "Problems///Images/P3img1.png" 1686305088 12295 e7c09a2b6d8edbb0e715b3b4c1fdde21 ""
+  "Problems///Images/P4img1.png" 1686306464 14150 7f9e9a0fed7f5397b17cf7490ac6d290 ""
   "Problems//Images/P2img1.tex" 1686303439 615 c067dd84a5b6178c892d0b0a3cd6af60 ""
   "Problems/Circuits1.tex" 1686302056 571 e8994847e8a4841dc69524eb8be80d04 ""
   "Problems/Circuits2.tex" 1686304903 2595 81848608898533c2c8e22719af6f4fdc ""
   "Problems/Circuits3.tex" 1686306399 2172 e10a6e484b05bcb250853b708f2278b4 ""
-  "c:/Users/tbwil/Documents/LaTeX Documents/Phys 158 Redesign/Circuits_Problems/Circuits_problem_bank.tex" 1686305139 858 2510985708984f0bb2679212fb4896ac ""
+  "Problems/Circuits4.tex" 1686306907 567 660efc8bef7155b975ec77aa17da37ac ""
+  "c:/Users/tbwil/Documents/LaTeX Documents/Phys 158 Redesign/Circuits_Problems/Circuits_problem_bank.tex" 1686306710 893 58160bd981a3c34a548624605289dd8d ""
   "c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1671857571 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1671859246 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm" 1671858536 1536 02c06700a42be0f5a28664c7273f82e7 ""
