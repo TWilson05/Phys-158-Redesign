@@ -1,0 +1,25 @@
+\subsection*{Problem 3}
+In the circuit shown, both resistors have the same value
+R. Suppose switch S is initially closed for a very long time.\\
+\centerline{\includegraphics[width=0.6\textwidth]{/Images/P3img1.png}}
+\begin{enumerate}
+    \item Find all currents initially.
+    \item Find all currents the instant after the switch is opened.
+    \item Find the time constants for both case switch open and switch closed.    
+\end{enumerate}
+
+\textbf{Solution:}
+\begin{enumerate}
+    \item The switch has been closed for a long time so we can assume that the capacitor is fully charged. This will mean that it acts as a short-circuit so it will have no current flowing through it. So the current through branch 1 is $\answer{I_1=0}$ and the current through branch 2 is $\answer{\units{I_2=\frac{E}{R}}}$
+    \item The instant before the switch is opened we can use Kirchoff's loop law to state that the large outer loop must have a volatge that sums to 0. We know the current through the upper resistor is 0 from part a so then we can say that the voltage of the capacitor must equal that of the battery.\\
+    When the switch is opened, it removes the battery from the circuit so we just have the loop on the left. Using Kirchoff's law agian, we know that the voltage must sum to 0 so we can say that the voltage of the resistors must equal the voltage of the capacitor.
+    \[V_C=V_{R_1}+V_{R_2}\]
+    We know the resistors are the same and we know $V_C=E$ so we get $E=2V_R=2IR$. We can solve for the current to get that the current in the left loop is $\answer{I=\frac{E}{2R}}$ and there is no current through the battery.
+    \item We can break this down into two cases:
+    \begin{itemize}
+        \item Charging the capacitor (after the switch is closed)\\
+        When the switch is closed, take the loop through the battery and C. This gives $\answer{\tau=RC}$
+        \item Discharging the capacitor (after the switch is opened)\\
+        When the switch is open, only the loop not containing the battery has current which gives a time constant of $\answer{\tau=2RC}$ because both resistors are included.
+    \end{itemize}
+\end{enumerate}
