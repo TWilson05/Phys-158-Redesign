@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.23)  7 JUN 2023 18:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.23)  8 JUN 2023 23:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/tbwil/Documents/LaTeX Documents/Phys 158 Redesign/HW-circuits1/HW-circuits1.tex"
-(c:/Users/tbwil/Documents/LaTeX Documents/Phys 158 Redesign/HW-circuits1/HW-circuits1.tex
+**"c:/Users/tbwil/Documents/LaTeX Documents/Phys 158 Redesign/Circuits_Problems/Circuits_problem_bank.tex"
+(c:/Users/tbwil/Documents/LaTeX Documents/Phys 158 Redesign/Circuits_Problems/Circuits_problem_bank.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2022-12-17> (c:/texlive/2022/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
@@ -177,11 +177,7 @@ Package: esint
 ) (c:/texlive/2022/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup7
-) (./fizztex.sty
-Package: fizztex 2022/09/16 Tyler's Engineering Physics Package
- (c:/texlive/2022/texmf-dist/tex/latex/fundus-calligra/calligra.sty
-Package: calligra 2012/04/10 v1.9 LaTeX package calligra
-)) (c:/texlive/2022/texmf-dist/tex/latex/amscls/amsthm.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
 \thm@style=\toks25
 \thm@bodyfont=\toks26
@@ -196,23 +192,23 @@ Package: amsthm 2020/05/29 v2.20.6
 File: l3backend-pdftex.def 2022-10-26 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count276
 \l__pdf_internal_box=\box56
-) (./HW-circuits1.aux)
-\openout1 = `HW-circuits1.aux'.
+) (./Circuits_problem_bank.aux)
+\openout1 = `Circuits_problem_bank.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
  (c:/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count277
@@ -232,48 +228,37 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (c:/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 27.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 23.
  (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 27.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 23.
  (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+esint on input line 27.
+LaTeX Font Info:    Trying to load font information for U+esint on input line 23.
  (c:/texlive/2022/texmf-dist/tex/latex/esint/uesint.fd
 File: uesint.fd 
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 27.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 23.
  (c:/texlive/2022/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ) [1
 
-{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<Images/AlarmClockCircuit.png, id=10, 281.05pt x 200.75pt>
-File: Images/AlarmClockCircuit.png Graphic file (type png)
-<use Images/AlarmClockCircuit.png>
-Package pdftex.def Info: Images/AlarmClockCircuit.png  used on input line 91.
-(pdftex.def)             Requested size: 281.0493pt x 200.7495pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--95
-
- []
-
-[2] [3 <./Images/AlarmClockCircuit.png>] [4] (./HW-circuits1.aux) ) 
+{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./Circuits_problem_bank.aux) ) 
 Here is how much of TeX's memory you used:
- 4085 strings out of 476093
- 64678 string characters out of 5795582
- 1862787 words of memory out of 5000000
- 24403 multiletter control sequences out of 15000+600000
- 521306 words of font info for 70 fonts, out of 8000000 for 9000
+ 3955 strings out of 476093
+ 62569 string characters out of 5795582
+ 1851787 words of memory out of 5000000
+ 24286 multiletter control sequences out of 15000+600000
+ 518567 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,11n,62p,489b,219s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/esint-type1/esint10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on HW-circuits1.pdf (4 pages, 173132 bytes).
+ 55i,5n,62p,315b,219s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on Circuits_problem_bank.pdf (1 page, 38821 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
+ 24 PDF objects out of 1000 (max. 8388607)
+ 14 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
