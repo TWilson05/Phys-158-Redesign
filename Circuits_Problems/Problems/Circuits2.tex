@@ -1,0 +1,37 @@
+\subsection*{Problem 2}
+The capacitors in the figure are initially uncharged
+and are connected, as in the diagram, with the
+switch S open. The applied potential difference is $V_{ab}=210\units{V}$\\
+\subimport*{/Images}{P2img1.tex}
+\begin{enumerate}
+    \item What is the potential difference $V_{cd}$
+    \item What is the potential difference across each
+    capacitor after the switch S is closed?
+    \item How much charge flowed through the switch
+    when it was closed?
+\end{enumerate}
+
+\textbf{Solution:}\\
+With the switch open each pair of $3.00 \units{\mu F}$ and $6 \units{\mu F}$ capacitors are in series with each other and each
+pair is in parallel with the other pair. When the switch is closed each pair of $3\units{\mu F}$ and $6 \units{\mu F}$ capacitors are in
+parallel with each other and the two pairs are in series.
+\begin{enumerate}
+    \item With the switch open
+    \begin{align*}
+    &C_\text{eq}=\frac{1}{\frac{1}{3\units{\mu F}}+\frac{1}{6\units{\mu F}}}+\frac{1}{\frac{1}{3\units{\mu F}}+\frac{1}{6\units{\mu F}}}=4\units{\mu F}\\
+    &Q_\text{total} = C_\text{eq}V=(4\units{\mu F})(210\units{V})=8.40\Exp{-4}\units{C}
+    \end{align*}
+    By symmetry, each capacitor carries $4.20\Exp{-4}\units{C}$. The voltages are then calculated via $V=\frac{Q}{C}$. This gives $V_{ad}=\frac{Q}{C_3}=140\units{V}$ and $V_{ac}=\frac{Q}{C_6}=70\units{V}$. We then get $V_{cd}$ as
+    \[V_{cd}=V_{ad}-V_{ac}=\answer{70\units{V}}\]
+
+    \item When the switch is closed, the points c and d must be at the same potential, so the equivalent capacitance is
+    \begin{align*}
+        &C_\text{eq}=\frac{1}{\frac{1}{(3+6)\units{\mu F}}+\frac{1}{(3+6)\units{\mu F}}}=4.5\units{\mu F}\\
+        &Q_\text{total}=C_\text{eq}V=(4.5\units{\mu F})(210\units{V})=9.5\Exp{-4}\units{C}
+    \end{align*}
+    and each capacitor has the same potential difference of $\answer{105\units{V}}$ (again, by symmetry).
+
+    \item The only way for the sum of the positive charge on one plate of $C_2$ and the negative charge on one plate of $C_1$ to change is for charge to flow through the switch. That is, the quantity of charge that flows through the switch is equal to the change in $Q_2-Q_1$. With the switch open, $Q_1=Q_2$ and $Q_2-Q_1=0$. After the switch is closed, $Q_2-Q_1=315\units{\mu C}$, so $\answer{315\units{\mu C}}$ of charge flowed through the switch.\\
+    \textit{Note: It is better to compute the absolute charges on each plate before and after the
+    switch is closed and then to follow the flow of the electrons through the switch.}
+\end{enumerate}

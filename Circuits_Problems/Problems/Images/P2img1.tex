@@ -1,0 +1,21 @@
+\begin{center}
+\begin{circuitikz}
+    \draw (0,0) node[label={$a$}] {}
+    to[short, *-] (1,0)
+    to[short] (1,1)
+    to[C=$3\units{\mu F}$, -*] (3,1) node[label={$d$}] {}
+    to[normal open switch, l=S] (3,-1) node[label={below:$c$}] {}
+    to[C=$6\units{\mu F}$, *-] (1,-1)
+    to[short] (1,0);
+    \draw (3,1)
+    to[C=$6\units{\mu F}$] (5,1)
+    to[short] (5,-1)
+    to[C=$3\units{\mu F}$] (3,-1);
+    \draw (5,0)
+    to[short, -*] (6,0) node[label={$b$}] {}
+    to[short] (6,-3);
+    \draw (0,0)
+    to[short] (0,-3)
+    to[battery1, l=$210\units{V}$] (6,-3);
+\end{circuitikz}
+\end{center}
