@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.23)  12 JUN 2023 13:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.23)  12 JUN 2023 14:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -526,26 +526,62 @@ Package pdftex.def Info: Problems///Images/P5img1.png  used on input line 6.
 File: Problems//Images/P6img1.png Graphic file (type png)
 <use Problems//Images/P6img1.png>
 Package pdftex.def Info: Problems//Images/P6img1.png  used on input line 4.
-(pdftex.def)             Requested size: 281.0493pt x 200.7495pt.
+(pdftex.def)             Requested size: 281.85587pt x 201.33762pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-[6 <./Problems//Images/P6img1.png>] [7]) [8] (./Circuits_problem_bank.aux) ) 
+[6 <./Problems//Images/P6img1.png>] [7]) (./Problems/Circuits7.tex
+<Problems//Images/P7img1.png, id=53, 121.6545pt x 100.57574pt>
+File: Problems//Images/P7img1.png Graphic file (type png)
+<use Problems//Images/P7img1.png>
+Package pdftex.def Info: Problems//Images/P7img1.png  used on input line 5.
+(pdftex.def)             Requested size: 234.8775pt x 194.20203pt.
+) (./Problems/Circuits8.tex
+<Problems//Images/P8img1.png, id=54, 172.84575pt x 71.0655pt>
+File: Problems//Images/P8img1.png Graphic file (type png)
+<use Problems//Images/P8img1.png>
+Package pdftex.def Info: Problems//Images/P8img1.png  used on input line 4.
+(pdftex.def)             Requested size: 234.8775pt x 96.5697pt.
+ [8 <./Problems//Images/P7img1.png>]) (./Problems/Circuits9.tex
+<Problems//Images/P9img1.png, id=59, 68.05424pt x 61.4295pt>
+File: Problems//Images/P9img1.png Graphic file (type png)
+<use Problems//Images/P9img1.png>
+Package pdftex.def Info: Problems//Images/P9img1.png  used on input line 6.
+(pdftex.def)             Requested size: 140.92793pt x 127.22197pt.
+) (./Problems/Circuits10.tex
+<Problems//Images/P10img1.png, id=60, 156.585pt x 85.5195pt>
+File: Problems//Images/P10img1.png Graphic file (type png)
+<use Problems//Images/P10img1.png>
+Package pdftex.def Info: Problems//Images/P10img1.png  used on input line 4.
+(pdftex.def)             Requested size: 234.8775pt x 128.28412pt.
+ [9 <./Problems//Images/P8img1.png> <./Problems//Images/P9img1.png>]) (./Problems/Circuits11.tex
+<Problems//Images/P11img1.png, id=66, 177.66376pt x 109.00725pt>
+File: Problems//Images/P11img1.png Graphic file (type png)
+<use Problems//Images/P11img1.png>
+Package pdftex.def Info: Problems//Images/P11img1.png  used on input line 4.
+(pdftex.def)             Requested size: 234.8775pt x 144.11621pt.
+) (./Problems/Circuits12.tex
+<Problems//Images/P12img1.png, id=67, 181.8795pt x 154.77824pt>
+File: Problems//Images/P12img1.png Graphic file (type png)
+<use Problems//Images/P12img1.png>
+Package pdftex.def Info: Problems//Images/P12img1.png  used on input line 5.
+(pdftex.def)             Requested size: 234.8775pt x 199.88203pt.
+ [10 <./Problems//Images/P10img1.png> <./Problems//Images/P11img1.png>]) [11 <./Problems//Images/P12img1.png>] (./Circuits_problem_bank.aux) ) 
 Here is how much of TeX's memory you used:
- 31552 strings out of 476093
- 800497 string characters out of 5795582
+ 31636 strings out of 476093
+ 802699 string characters out of 5795582
  1879787 words of memory out of 5000000
- 51548 multiletter control sequences out of 15000+600000
+ 51608 multiletter control sequences out of 15000+600000
  521613 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,13n,80p,611b,781s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/esint-type1/esint10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on Circuits_problem_bank.pdf (8 pages, 261375 bytes).
+Output written on Circuits_problem_bank.pdf (11 pages, 375317 bytes).
 PDF statistics:
- 120 PDF objects out of 1000 (max. 8388607)
- 70 compressed objects within 1 object stream
+ 141 PDF objects out of 1000 (max. 8388607)
+ 76 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 38 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 68 words of extra memory for PDF output out of 10000 (max. 10000000)
 
