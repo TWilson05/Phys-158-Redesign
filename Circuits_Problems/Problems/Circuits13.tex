@@ -1,0 +1,34 @@
+\subsection*{Problem 13}
+% Tutorial 5 Q1
+Mystery RLC circuit: You are given an RLC circuit with elements
+connected in series. Values of $R$, $L$ and $C$ are unknown. You have at your disposal a source
+of AC voltage with $V_\text{RMS} = 8\units{V}$ and a tunable frequency $\omega$. You also have an Ammeter which
+measures the RMS current $I_\text{RMS}$ and the power factor $\cos\phi$.\\
+Suppose you measured $I_\text{RMS}$ as a function of frequency and found that the maximum RMS current occurs at $\omega_0=12.5\units{kHz}$ and is equal to $40\units{mA}$.
+\begin{enumerate}
+    \item What is the resistance, $R$? What does this tell you about $L$ and $C$?
+    \item What is the power factor at $\omega=\omega_0$?
+    \item In addition you find that at $\omega_1=17\units{kHz}$ the power factor is $0.5$. Based on this information, what are the values of $L$ and $C$?
+\end{enumerate}
+
+\textbf{Solution:}\\
+The key formulas that will help solve this problem are
+$$I_\text{RMS}=\frac{V_\text{RMS}}{\sqrt{R^2+(L\omega-\frac{1}{C\omega})^2}}$$
+and
+$$\tan\phi=\frac{L\omega-\frac{1}{C\omega}}{R}$$
+\begin{enumerate}
+    \item At resonance frequency, we will have $L\omega_0=\frac{1}{C\omega_0}$. This simplifies our above equation for the current to be $I_\text{RMS}=\frac{V_\text{RMS}}{R}$. Rearranging we can solve for $R$ to be 
+    \[R=\frac{V_\text{RMS}}{I_\text{RMS}}=\frac{8\units{V}}{40\units{mA}}=\answer{200\units{\Omega}}\]
+    \item At resonance, the circuit is purely resistive so $\phi=0$. Therefore, $\answer{\cos\phi=1}$
+    \item At $\omega_1=17\units{kHz}$, $\cos\phi=0.5$ so $\phi=60^\circ$.
+    \begin{align*}
+        &\tan60^\circ=\sqrt{3}=\frac{L\omega_1-\frac{1}{\omega_1C}}{R}\\
+        &L\omega_1-\frac{1}{C\omega_1}=R\sqrt{3}
+    \end{align*}
+    and from part a we have $\frac{1}{C\omega_0}=L\omega_0$\\
+    Solve for $L$:
+    \begin{align*}
+        &L\brround{\omega_1-\frac{\omega_0^2}{\omega_1}}=R\sqrt{3}\Ra L=\frac{R\sqrt{3}}{\omega_1-\frac{\omega_0^2}{\omega_1}}=44.3\units{mH}\\
+        &C=\frac{1}{L\omega_0^2}=0.144\units{pF}
+    \end{align*}
+\end{enumerate}
