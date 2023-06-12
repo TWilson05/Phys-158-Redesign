@@ -7,3 +7,38 @@ The circuit below has the switch S is opened for a long time. $R_1=2\units{\Omeg
     \item After the switch was closed for a very long time it is opened again find the current
     through $R_2$ as a function of time.
 \end{enumerate}
+
+\textbf{Solution:}
+\begin{enumerate}
+    \item The capacitor will want to initially act as a wire so we can analyze the circuit as two resistors in parallel. Due to Kirchoff's loop law, we can say that each resistor must have a voltage drop of $12\units{V}$ and we can get the current of each from Ohm's law:
+    \begin{align*}
+        &I_1=\frac{\varepsilon}{R_1}=\frac{12}{2}=\answer{6\units{A}}\\
+        &I_2=\frac{\varepsilon}{R_2}=\frac{12}{4}=\answer{3\units{A}}
+    \end{align*}
+    \item After the switch has been closed for a long time, the capacitor will be fully charged and act as a short circuit. The circuit can then be analyzed as the loop going through the battery and $R_1$
+    \begin{align*}
+        &I_1=\frac{\varepsilon}{R_1}=\frac{12}{2}=\answer{6\units{A}}\\
+        &\answer{I_2=0\units{A}}
+    \end{align*}
+    \item After the switch is opened the current will flow through the loop containing $R_1$, $R_2$, and $C$. We can write the voltage loop equation as
+    \[0=V_C+V_{R_1}+V_{R_2}\]
+    \[0=\frac{q}{C}+iR_1+iR_2\]
+    We know that $i=\ddx[q]{t}$ and can take the derivative of both sides to get a 1st order differential equation and solve for $i(t)$
+    \begin{align*}
+        &0=\frac{i}{C}+\ddx[i]{t}(R_1+R_2)\\
+        &\ddx[i]{t}=-\frac{i}{(R_1+R_2)C}\\
+        &\frac{di}{i}=-\frac{dt}{(R_1+R_2)C}\\
+        &\int\frac{di}{i}=-\int\frac{dt}{(R_1+R_2)C}\\
+        &\ln|i|=-\frac{t}{(R_1+R_2)C}+\text{Constant}\\
+        &i=i_0e^{-\frac{t}{(R_1+R_2)C}}
+    \end{align*}
+    We can solve for the initial current by using our same voltage loop equation and knowing that the initial voltage across the capacitor is $12\units{V}$ from the charge stored on it. The capacitor will be discharging so the potential in the equation can be thought of as negative.
+    \begin{align*}
+        &0=V_C+i_0(R_1+R_2)\\
+        &0=-12+6i_0\Ra i_0=2\units{A}
+    \end{align*}
+    Plugging this all in we get,
+    \begin{align*}
+        &\answer{i(t)=2e^{-\frac{t}{12}}\text{ Amps}}
+    \end{align*}
+\end{enumerate}
