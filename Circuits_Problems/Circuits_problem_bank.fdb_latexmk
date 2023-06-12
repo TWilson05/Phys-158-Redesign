@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1686543412 "c:/Users/tbwil/Documents/LaTeX Documents/Phys 158 Redesign/Circuits_Problems/Circuits_problem_bank.tex" "Circuits_problem_bank.pdf" "Circuits_problem_bank" 1686543414 0
-  "Circuits_problem_bank.aux" 1686543414 32 f852561997c05a7d986acd1deeb530ec "pdflatex"
+["pdflatex"] 1686602578 "c:/Users/tbwil/Documents/LaTeX Documents/Phys 158 Redesign/Circuits_Problems/Circuits_problem_bank.tex" "Circuits_problem_bank.pdf" "Circuits_problem_bank" 1686602580 0
+  "Circuits_problem_bank.aux" 1686602579 32 f852561997c05a7d986acd1deeb530ec "pdflatex"
   "Circuits_problem_bank.tex" 1686543411 963 59fda7f2fa1e2b90eeb2d1f2625a55d7 ""
   "Problems///Images/P1img1.png" 1686301589 10656 6bb051515199dfa4eed8ee6b5219453b ""
   "Problems///Images/P3img1.png" 1686305088 12295 e7c09a2b6d8edbb0e715b3b4c1fdde21 ""
@@ -8,12 +8,12 @@
   "Problems///Images/P5img1.png" 1686540053 45672 1997da67678aaad0826c75e6df11dffd ""
   "Problems//Images/P2img1.tex" 1686303439 615 c067dd84a5b6178c892d0b0a3cd6af60 ""
   "Problems//Images/P6img1.png" 1686036840 3461 fe60a00ee6fe4e3d4b6784d663461591 ""
-  "Problems/Circuits1.tex" 1686302056 571 e8994847e8a4841dc69524eb8be80d04 ""
-  "Problems/Circuits2.tex" 1686304903 2595 81848608898533c2c8e22719af6f4fdc ""
-  "Problems/Circuits3.tex" 1686306399 2172 e10a6e484b05bcb250853b708f2278b4 ""
-  "Problems/Circuits4.tex" 1686542833 2636 3d578b484be5ef01e495b5ab678ebacd ""
+  "Problems/Circuits1.tex" 1686602561 588 738f912df4b20ab4fb788112fe6b693c ""
+  "Problems/Circuits2.tex" 1686602550 2612 68e8f5a0bddad9531e57ad4ef4ec3f6e ""
+  "Problems/Circuits3.tex" 1686602534 2189 a395998568b459dd84575b074bdba534 ""
+  "Problems/Circuits4.tex" 1686602519 2653 983b980dc88e20a2bd1ddcfbed67cfe2 ""
   "Problems/Circuits5.tex" 1686543334 753 1e2693a25f57a285218f6f0b21420acc ""
-  "Problems/Circuits6.tex" 1686543396 3119 318ea5d40936db660e65ee88306309a9 ""
+  "Problems/Circuits6.tex" 1686602577 3146 a4bd70dd6945f7f6f6972cc594025a4d ""
   "c:/Users/tbwil/Documents/LaTeX Documents/Phys 158 Redesign/Circuits_Problems/Circuits_problem_bank.tex" 1686543411 963 59fda7f2fa1e2b90eeb2d1f2625a55d7 ""
   "c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1671857571 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1671859246 3524 cb3e574dea2d1052e39280babc910dc8 ""
