@@ -1,0 +1,24 @@
+\subsection*{Problem 14}
+% Tutorial 5 Q3
+A $100\units{\Omega}$ resistor, $0.2\units{\mu F}$ capacitor and $50\units{mH}$ inductor are connected in parallel to an AC voltage source that provides instantaneous voltage according to $v(t)=V_\text{peak}\sin(\omega t)$. Draw the circuit, then answer the following questions:
+\begin{enumerate}
+    \item Find the instantaneous voltages $v_R(t),\ v_L(t)$, and $v_C(t)$ on the three elements.
+    \item Find the instantaneous currents $i_R(t),\ i_L(t)$, and $i_C(t)$ flowing through the three elements.
+    \item Given that $V_\text{peak}=100\units{V}$ and $\omega=50\units{kHz}$ what is the total RMS current supplied by the source? What is the phase angle $\phi$?
+\end{enumerate}
+
+\textbf{Solution:}
+\begin{enumerate}
+    \item \centerline{\includegraphics[width=0.35\textwidth]{Images/P14img1.png}}
+    Because they are all connected to the source by a wire,
+    \[v_R(t)=v_L(t)=v_C(t)=V_\text{peak}\sin(\omega t)\]
+    \item $i_R(t)=\frac{V_\text{peak}}{R}\sin(\omega t)$ (in phase)\\
+    $i_L(t)=\frac{V_\text{peak}}{L\omega}\sin(\omega t-\frac{\pi}{2})$ (lags behind)\\
+    $i_C=V_\text{peak}C\omega\sin(\omega t+\frac{\pi}{2})$ (leads)
+    \item The RMS current is determined from the impedence triangle\\
+    \includegraphics[width=0.3\textwidth]{Images/P14img2.png}
+    \begin{align*}
+        &I_\text{RMS}=\sqrt{I_R^2+(I_C-I_L)^2}=V_\text{RMS}\sqrt{\frac{1}{R^2}+\brround{C\omega-\frac{1}{L\omega}}^2}\\
+        &\tan\phi=\frac{I_C-I_L}{I_R}=R\brround{C\omega-\frac{1}{L\omega}}
+    \end{align*}
+\end{enumerate}

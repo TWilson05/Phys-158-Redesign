@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1686608432 "c:/Users/tbwil/Documents/LaTeX Documents/Phys 158 Redesign/Circuits_Problems/Circuits_problem_bank.tex" "Circuits_problem_bank.pdf" "Circuits_problem_bank" 1686608434 0
-  "Circuits_problem_bank.aux" 1686608434 33 e6d77a6cc1977d88a849501f83258f9d "pdflatex"
-  "Circuits_problem_bank.tex" 1686606723 1296 cc0171c3c7d7b6470d41f32af098f4da ""
+["pdflatex"] 1686609744 "c:/Users/tbwil/Documents/LaTeX Documents/Phys 158 Redesign/Circuits_Problems/Circuits_problem_bank.tex" "Circuits_problem_bank.pdf" "Circuits_problem_bank" 1686609746 0
+  "Circuits_problem_bank.aux" 1686609746 33 caafbda2f246531a72f60df9bc4c0d5b "pdflatex"
+  "Circuits_problem_bank.tex" 1686609391 1332 df95169f5e8f543cc831345a67aa7797 ""
   "Problems///Images/P1img1.png" 1686301589 10656 6bb051515199dfa4eed8ee6b5219453b ""
   "Problems///Images/P3img1.png" 1686305088 12295 e7c09a2b6d8edbb0e715b3b4c1fdde21 ""
   "Problems///Images/P4img1.png" 1686306464 14150 7f9e9a0fed7f5397b17cf7490ac6d290 ""
@@ -9,6 +9,8 @@
   "Problems//Images/P10img1.png" 1686604189 23156 9bb771d10c67153336ff0caf6dcc547f ""
   "Problems//Images/P11img1.png" 1686604210 43947 5eae39c8380c4a21960a94afbaa445ac ""
   "Problems//Images/P12img1.png" 1686604246 15413 d720f966ad04af2108528c004a1d4a76 ""
+  "Problems//Images/P14img1.png" 1686609634 7330 09e9be456f421bce6bb2b3d2785615f8 ""
+  "Problems//Images/P14img2.png" 1686609652 9582 8a5a4f16fff8e98442579b28fe466c1f ""
   "Problems//Images/P2img1.tex" 1686303439 615 c067dd84a5b6178c892d0b0a3cd6af60 ""
   "Problems//Images/P6img1.png" 1686036840 3461 fe60a00ee6fe4e3d4b6784d663461591 ""
   "Problems//Images/P7img1.png" 1686603537 23711 77f7f564ddbd474cba31481f10a260b7 ""
@@ -19,6 +21,7 @@
   "Problems/Circuits11.tex" 1686604952 485 38342e17cdd92f47111b3fa0aa31d531 ""
   "Problems/Circuits12.tex" 1686605222 856 666b3a949d25f855a1aceb09c756f3f1 ""
   "Problems/Circuits13.tex" 1686608431 2126 1a1536e5719030993c31ee460f4d53ba ""
+  "Problems/Circuits14.tex" 1686609743 1586 2da8c627783467aad5df6b9bd0500557 ""
   "Problems/Circuits2.tex" 1686602550 2612 68e8f5a0bddad9531e57ad4ef4ec3f6e ""
   "Problems/Circuits3.tex" 1686602534 2189 a395998568b459dd84575b074bdba534 ""
   "Problems/Circuits4.tex" 1686602519 2653 983b980dc88e20a2bd1ddcfbed67cfe2 ""
@@ -27,7 +30,7 @@
   "Problems/Circuits7.tex" 1686604671 612 5b3df78ea7c24f2d24211a4c461a454d ""
   "Problems/Circuits8.tex" 1686604687 552 4a2707af2ff5b5d0a461cc8f2dbe8699 ""
   "Problems/Circuits9.tex" 1686604719 734 baf26f3389507f4d55cb6e043e82789c ""
-  "c:/Users/tbwil/Documents/LaTeX Documents/Phys 158 Redesign/Circuits_Problems/Circuits_problem_bank.tex" 1686606723 1296 cc0171c3c7d7b6470d41f32af098f4da ""
+  "c:/Users/tbwil/Documents/LaTeX Documents/Phys 158 Redesign/Circuits_Problems/Circuits_problem_bank.tex" 1686609391 1332 df95169f5e8f543cc831345a67aa7797 ""
   "c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1671857571 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1671859246 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm" 1671858536 1536 02c06700a42be0f5a28664c7273f82e7 ""
