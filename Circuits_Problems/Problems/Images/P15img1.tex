@@ -1,0 +1,24 @@
+\begin{center}
+    \begin{circuitikz}
+        \draw (0,0)
+        to[R=$R_1$, *-] (4,0)
+        to[short] (4,-1)
+        to[short] (3,-1)
+        to[R,l_=$R_2$] (3,-3)
+        to[short] (4,-3)
+        to[R,l^=$R_3$] (4,-1)
+        to[short] (6,-1)
+        to[short] (6,-2)
+        to[short] (5,-2)
+        to[R,l_=$R_4$] (5,-4)
+        to[short] (7,-4)
+        to[R,l^=$R_5$] (7,-2)
+        to[short] (6,-2);
+        \draw (6,-4)
+        to[R,l_=$R_6$] (6,-6)
+        to[short] (3,-6)
+        to[short] (3,-3);
+        \draw (3,-6)
+        to[R=$R_7$, -*] (0,-6);
+    \end{circuitikz}
+\end{center}
