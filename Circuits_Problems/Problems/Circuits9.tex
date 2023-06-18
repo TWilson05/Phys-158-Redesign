@@ -10,3 +10,76 @@ resistance of the light bulb is $1000 \units{\Omega}$, $R = 50\units{\Omega}$ an
     \item Find the current in the bulb as a function of time.
     \item Sketch the brightness of the bulb as a function of time.
 \end{enumerate}
+
+\textbf{Solution:}\\
+Light Bulb circuit:
+\vspace{5mm}
+
+\includegraphics[width=0.35\linewidth]{Images/P9img2.png}
+
+$V=12\textrm{Volts}$, $R_B=1000\Omega$, $R=50\Omega$, $C=100\mu F$
+
+
+$$K_1 \implies I = I_B+I_C$$
+$$K_2 \implies V-IR-\frac{q_C}{C}=0$$
+$$V-IR-I_BR_B=0$$
+
+\begin{enumerate}
+	\item  At $t=0$ $q_C=0$ so $V_C=0$ and $V_C=V_B=0=I_BR_B$. Hence $I_B=0$ and $\underline{I=I_C=\frac{V}{R}=\frac{12}{50}\textrm{Amps}}$.
+	\vspace{5mm}
+	
+	\item As $t\rightarrow \infty$, $I_C\rightarrow 0$ so $I=I_B=\frac{V}{R+R_B}=\underline{\frac{12}{1050}A}$.
+	\vspace{5mm}
+	
+	\item Now we study the time dependence of $I,I_B,I_C$. Consider the following equation from earlier $V-IR-q_C/C=0$
+	$$\frac{d}{dr}\left(V-IR-\frac{1}{C}{q_C}\right)=0=0-R\frac{dI}{dt}-\frac{1}{C}\frac{dq}{dt}.$$
+	
+	Hence
+	
+	$$\frac{dq_C}{dt}=\underline{I_C=-RC\frac{dI}{dt}}.$$
+	
+	Consider the following equation from earlier $I_C=I-I_B$ so $-RC\frac{dI}{dt}=I-I_B$
+	
+	and finally use the equation $I_B=\frac{V-IR}{R_B}$ so that $$-RC\frac{dI}{dt}=I-\frac{1}{R_B}(V-IR)=\frac{-V}{R_B}+I(1+\frac{R}{R_B}).$$
+	
+	Simplifying $\implies -RR_BC\frac{dI}{dt}=-V+I(R_B+R)$ or 
+	
+	$$\frac{dI}{dt}=\frac{V}{RR_BC}-\frac{I}{C}\left(\frac{R_B+R}{R_BR}\right)$$
+	
+	$$\underline{\frac{dI}{dt}=\frac{V}{RR_BC}-\frac{I}{C} \left(\frac{1}{R}+\frac{1}{R_B}\right)}$$
+	
+	this has a solution $I(t)=A\exp(-t/\tau)+B$ so
+	
+	$$\frac{dI}{dt}=-\frac{A}{\tau}\exp(-t/\tau)$$
+	
+	substituting and solving for A and B we find (using) $I(0)=\frac{V}{R}$
+	$$\implies A= \left(\frac{V}{R}-\frac{V}{R+R_B}\right), \: B=\left(\frac{V}{R+R_B}\right)$$
+	
+	$$\therefore I(t)=V\left(\frac{1}{R}-\frac{1}{R+R_B}\right)\exp(-t/\tau)+\frac{V}{R+R_B}$$
+	
+	$$\underline{I(t) = \frac{VR_B\exp(-t/\tau)}{R(R+R_B)}+\frac{V}{R+R_B}}$$
+	
+	$$\rightarrow \tau=\frac{RR_BC}{R+R_B} \textrm{ from found equation for rate of change of current.}$$
+	
+	Finally
+	$$I_C(t)=I(t)-I_B(t),\textrm{ but } I_B(t)=\frac{V-IR}{R_B}.$$
+	$$\underline{I_B(t)=\frac{V}{R_B}-\frac{R}{R_B}\left(\frac{V}{R+R_B}\left(1+R_B\exp(-t/\tau\right)\right)}$$
+	
+	Inserting the values $\tau=4.76ms, \: \frac{1}{\tau}=210s^{-1}$
+	\vspace{5mm}
+	
+	$I_C(t)=240\exp(-210t)mA$
+	
+	$I_B(t)=11.43mA(1-\exp(-210t))$
+	
+	\item See sketch below
+	
+	\vspace{5mm}
+	\includegraphics[width=0.7\linewidth]{Images/P9img3.png}
+	
+	
+	$P_B=I_B^2R_B$
+	
+	\vspace{5mm}
+	\textbf{\large This problem is too difficult for any EXAM!!}
+\end{enumerate}

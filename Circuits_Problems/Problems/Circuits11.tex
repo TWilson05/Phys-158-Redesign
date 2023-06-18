@@ -7,3 +7,58 @@ The switch S in has been open a very long time and then it is closed at $t=0$. $
     \item After the switch has been closed for a very long time calculate all the voltage and current values.
 \end{enumerate}
 (The circles represent voltmeters and ammeters.)
+
+\textbf{Solution:}\\
+\begin{enumerate}
+	\item At $t=0$, $V_C=0$, $I_{ind}=0 \implies$ Equivalent Circuit
+	
+	\vspace{5mm}
+	\includegraphics[width=0.4\linewidth]{Images/P11img2.png}
+	\vspace{5mm}
+	
+	$12.0\mu F$ capacitor shorts the second $50\Omega$ resistor on RHS
+	
+	$40V=I_0(50\Omega)\implies \underline{I_0=0.8\textrm{Amps}}$
+	
+	Hence $A_1=0.8A=A_4, \: A_2=A_3=0, \: V_1=40V, \: V_2=0=V_3=V_4$
+	
+	\item as $t\rightarrow \infty$ Capacitors are fully charged $I_C\rightarrow 0$ and the Inductor becomes a \underline{WIRE}
+	\vspace{5mm}
+	
+	Equivalent Circuit $\implies$
+	
+	\vspace{5mm}
+	\includegraphics[width=0.6\linewidth]{Images/P11img3.png}
+	
+	$$\frac{1}{R_{eq}}=\frac{1}{100}+\frac{1}{50}=\frac{3}{100}$$
+	
+	$$\rightarrow R_{eq}=33.3\Omega$$
+	
+	\vspace{5mm}
+	\includegraphics[width=0.35\linewidth]{Images/P11img4.png}
+	\vspace{5mm}
+	
+	\begin{minipage}{0.5\linewidth}
+		$I_0=\frac{40}{83.3}=\underline{0.48\textrm{Amps}}$
+		
+		$I_0=I_1+I_2 \;\;\;\;\;\;\; I_2=I_3$
+		
+		$100I=50I_3\implies I_3=2I_1$
+		
+		$I_0=I_1+I_3=3I_1=0.48A$
+		
+		$\therefore I_1=0.16A \textrm{ and } I_3=0.32A$
+	\end{minipage} %
+	\begin{minipage}{0.5\linewidth}
+		$V_1=I_0(50)=24V$
+		
+		$V_2=0$
+		
+		$V_3=0.16(100)=16V$
+		
+		$V_4=0.32(50)=16V$
+		
+		$\underline{V_5=16V \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;}$
+	\end{minipage} 
+	
+\end{enumerate}

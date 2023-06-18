@@ -7,3 +7,58 @@ The circuit below has been open for a very long time and then the switch is clos
     \item Find all of the currents after a very long time.
     \item Find all of the currents as a function of time
 \end{enumerate}
+
+\textbf{Solution:}\\
+\includegraphics[width=0.5\linewidth]{Images/P10img2.png}
+\vspace{5mm}
+
+\begin{enumerate}
+	\item Close switch at $t=0$, then
+	$I_2(0)=0$ and the
+	Inductor acts like a Battery
+	
+	$I_0(0)=I_1(0)$
+	$$\mathcal{E} - I_1R_1=0 \implies \underline{I_1=\frac{\mathcal{E}}{R_1}=I_0}$$
+	
+	\item As $t\rightarrow \infty$ the Inductor voltage $\rightarrow 0$ (becomes a wire)
+	
+	\vspace{5mm}
+	\includegraphics[width=0.4\linewidth]{Images/P10img3.png}
+	\vspace{5mm}
+	
+	Now $I_0' = I_1' +I_2'$:
+	
+	$$I_1'R_1=I_2'R_2=\mathcal{E}=I$$
+	
+	$$\therefore \underline{I_1'=\frac{\mathcal{E}}{R_1}, \: I_2'=\frac{\mathcal{E}}{R_2}, \: I_0'=\mathcal{E}\left(\frac{1}{R_1}+\frac{1}{R_2}\right)}$$
+	
+	
+	\item At any time $t$ we have
+	
+	$K_1 \implies I_0(t) = I_1(t)+I_2(t)$
+	
+	$K_2 \implies \begin{cases}
+		\mathcal{E} - I_1R_1 = 0\\
+		\mathcal{E} - I_2R_2 -L\frac{dI_2}{dt}=0
+	\end{cases} $
+	\vspace{5mm}
+	
+	This last equation looks like a regular RL circuit, so its solution is $I_2(t)=A\exp(-t/\tau)+B$ with $\tau=$ time constant
+	
+	$$I_2(\infty)\rightarrow \frac{\mathcal{E}}{R_2}=B, \: I_2(0)=A+B=0 \implies A=\frac{\mathcal{E}}{R_2}$$
+	
+	so $I_2(t)=-\frac{\mathcal{E}}{R_2}\exp(-t/\tau)+\frac{\mathcal{E}}{R_2}=\frac{\mathcal{E}}{R_2}\left(1-\exp(t/\tau\right)$.
+	\vspace{5mm}
+	
+	To find $\tau$ we use the aforementioned equation that looks like a regular RL circuit
+	$$\mathcal{E}-R_2\left(\frac{\mathcal{E}}{R_2}\left(1-\exp(-t/\tau\right)\right)-\frac{L\mathcal{E}}{R_2}\left(\frac{1}{\tau}\exp(-t/\tau)\right)=0.$$
+	
+	$$\therefore \mathcal{E} - \mathcal{E} + \mathcal{E}\exp(-t/\tau)-\frac{L\mathcal{E}}{R_2}\frac{1}{\tau}\exp(-t/\tau)=0,$$
+	
+	and all $\mathcal{E}$ can be divide out, resulting in
+	$$\left(1-\frac{L}{R_2}\frac{1}{\tau}\right)=0 \implies \tau = \frac{L}{R_2}$$
+	
+	$$\implies \underline{I_2= \frac{\mathcal{E}}{R_2}(1-\exp(-tR_2/\tau))}$$
+	
+	$$\underline{I_1=\frac{\mathcal{E}}{R_1} \:\: I_0=\frac{\mathcal{E}}{R_1}+\frac{\mathcal{E}}{R_2}\left(1-\exp(-tR_2/L)\right)}$$
+\end{enumerate}

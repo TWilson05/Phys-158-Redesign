@@ -9,3 +9,50 @@ The circuit shown below initially has no charge on the capacitors and the switch
     \item After the switch S has been closed for a very long time,
     find the potential difference across the $28.0\units{\mu F}$ capacitor.
 \end{enumerate}
+
+\textbf{Solution:}\\
+\begin{enumerate}
+	\item just after we close the switch there is \underline{NO} charge on the Capacitors. Hence we have the following circuit:
+	
+	\vspace{5mm}
+	\includegraphics[width=0.6\textwidth]{Images/P8img2.png}
+	
+	Note the Capacitors act like a wire when uncharged
+	\vspace{5mm}
+	
+	$K_1 \implies \textrm{ Hence } \underline{I_4=0}, I+1=I_2+I_3, I_3=I_4+I_5=I_5$
+	
+	$K_2 \implies 50-10I_1-20I_2=0$
+	
+	$0=-5I_3+20I_2$
+	\vspace{5mm}
+	
+	You now have 3 equations and 3 unknowns. \underline{Solve}
+	
+	\vspace{5mm}
+	
+	\underline{EQUIVALENT Circuit}
+	
+	\includegraphics[width=\linewidth]{Images/P8img3.png}
+	
+	$$\frac{1}{R_{eq}}=\frac{1}{20}+\frac{1}{5}=\frac{1}{20}+\frac{4}{20}=\frac{5}{20}=\frac{1}{4}$$
+	$$\rightarrow R_{eq}=4\Omega$$
+	
+	Hence $I_1=\frac{50V}{14\Omega}$, Since $I_1=I_2+I_3$ and $20I_2=5I_3$ we have
+	
+	$$\underline{I_1=\frac{50}{14}\text{ Amps}}=3.57\,A=I_2+4I_2=5I_2$$
+	
+	$$\therefore\underline{I_2=\frac{10}{14}\textrm{ Amps}}=0.714\,A$$
+	
+	and finally $$I_3=4I_2=\underline{\frac{40}{14}\textrm{ Amps}}=2.86\,A$$
+	
+	\item after a long time the Capacitors are fully charged
+	$$\therefore I_2'=0, I_5'=0 \implies I_1'=I_3'=I_4'$$
+	
+	\includegraphics[width=0.6\linewidth]{Images/P8img4.png}
+	
+	$$\therefore \underline{\frac{50V}{30\Omega}=I_1'=\frac{5}{3}\textrm{Amp}}$$
+	
+	\item $V_{28\mu F}=V_{15\Omega}=I_4'(15\Omega)=\frac{5}{3}(15)=
+	\underline{25V}$
+\end{enumerate}

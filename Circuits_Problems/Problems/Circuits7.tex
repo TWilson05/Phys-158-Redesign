@@ -13,3 +13,41 @@ The switch is now closed
     \item After a long time calculate the final charge on the capacitors.
     \item How much charge flows through the switch in 300 seconds?
 \end{enumerate}
+
+\textbf{Solution:}\\
+\underline{Open Switch Case}
+$$I_0 = I_1 + I_2$$
+\vspace{5mm}
+
+\hspace{5mm}\includegraphics[width=0.4\linewidth]{Images/P7img2.png}
+
+\begin{enumerate}
+    \item after a long time both Capacitors are fully charged
+        $$\therefore I_1=I_2=0$$
+        $$\therefore V_a=18V, V_b=0 \implies V_{ab}=V_a-V_b=18V$$
+    
+    \item Hence $$Q_{3\mu F}=C_1V_{3\mu F} = (3\mu F)(18V) = 54\mu C$$
+        $$Q_{6\mu F} = C_2V_{6\mu F} = 6\mu F (18V) = 108\mu C$$
+\end{enumerate}
+
+\pagebreak
+\underline{Closed Switch Case} ($\implies \underline{V_{ab}=0}$) 
+$$I_0=I_3+I_4=I_5+I_6$$
+\vspace{5mm}
+
+\hspace{5mm}\includegraphics[width=0.4\linewidth]{Images/P7img3.png}
+
+\begin{enumerate}
+    \setcounter{enumi}{2}
+    \item after a long time Capacitors are charged
+        $$\implies I_4=I_5 \rightarrow 0,\: \therefore I_0=I_3=I_6$$
+        $$18V=I_3(6\Omega)+I_6(3\Omega)=I_3(9\Omega)$$
+        $$\implies I_3=I_6=I_0=2\textrm{Amps}$$
+        $$\implies V_6=2(6)=12V$$
+        $$V_3=2(3)=6V$$
+        $$\therefore V_{6\mu F}=V_{6\Omega}=12V=\frac{Q_{6\mu F}}{6\mu F} \implies \underline{Q_{6\mu F} = 72\mu C}$$
+        $$V_{3\mu F}=V_{3\Omega}=6V=\frac{Q_{3\mu F}}{3\mu F} \implies \underline{Q_{3\mu F} = 18\mu C}$$
+
+    \item the power supply (18V) is connected to the circuit all the time it can deliver current (and charge) forever.
+        $$Q_{Tot}=\int_0^{300}I(t)dt=(2A)(300s)=600\textrm{Coulombs}$$
+\end{enumerate}
