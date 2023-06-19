@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.23)  18 JUN 2023 05:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.23)  19 JUN 2023 02:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -490,61 +490,60 @@ File: uesint.fd
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 28.
  (c:/texlive/2022/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-) (./Problems/Circuits15.tex (./Problems//Images/P15img1.tex)) (./Problems/Circuits1.tex
-<Problems///Images/P1img1.png, id=4, 347.49825pt x 170.43675pt>
+) (./Problems/Circuits15.tex (./Problems//Images/P15img1.tex) [1
+
+{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (./Problems/Circuits1.tex
+<Problems///Images/P1img1.png, id=16, 347.49825pt x 170.43675pt>
 File: Problems///Images/P1img1.png Graphic file (type png)
 <use Problems///Images/P1img1.png>
 Package pdftex.def Info: Problems///Images/P1img1.png  used on input line 7.
 (pdftex.def)             Requested size: 281.85587pt x 138.25064pt.
- [1
-
-{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (./Problems/Circuits2.tex (./Problems//Images/P2img1.tex
+) (./Problems/Circuits2.tex (./Problems//Images/P2img1.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--1
 
  []
 
-) [2 <./Problems///Images/P1img1.png>]) (./Problems/Circuits3.tex
+[2 <./Problems///Images/P1img1.png>])) (./Problems/Circuits3.tex
 <Problems///Images/P3img1.png, id=23, 392.667pt x 201.75375pt>
 File: Problems///Images/P3img1.png Graphic file (type png)
 <use Problems///Images/P3img1.png>
 Package pdftex.def Info: Problems///Images/P3img1.png  used on input line 5.
 (pdftex.def)             Requested size: 281.85587pt x 144.81927pt.
- [3 <./Problems///Images/P3img1.png>]) (./Problems/Circuits4.tex
-<Problems///Images/P4img1.png, id=31, 462.528pt x 239.09325pt>
+ [3] [4 <./Problems///Images/P3img1.png>]) (./Problems/Circuits4.tex
+<Problems///Images/P4img1.png, id=35, 462.528pt x 239.09325pt>
 File: Problems///Images/P4img1.png Graphic file (type png)
 <use Problems///Images/P4img1.png>
 Package pdftex.def Info: Problems///Images/P4img1.png  used on input line 4.
 (pdftex.def)             Requested size: 281.85587pt x 145.70438pt.
- [4 <./Problems///Images/P4img1.png>] [5]) (./Problems/Circuits5.tex
-<Problems///Images/P5img1.png, id=42, 567.3195pt x 322.806pt>
+ [5 <./Problems///Images/P4img1.png>]) (./Problems/Circuits5.tex
+<Problems///Images/P5img1.png, id=40, 567.3195pt x 322.806pt>
 File: Problems///Images/P5img1.png Graphic file (type png)
 <use Problems///Images/P5img1.png>
 Package pdftex.def Info: Problems///Images/P5img1.png  used on input line 6.
 (pdftex.def)             Requested size: 281.85587pt x 160.37807pt.
-) (./Problems/Circuits6.tex
-<Problems//Images/P6img1.png, id=43, 281.05pt x 200.75pt>
+ [6 <./Problems///Images/P5img1.png>]) (./Problems/Circuits6.tex
+<Problems//Images/P6img1.png, id=47, 281.05pt x 200.75pt>
 File: Problems//Images/P6img1.png Graphic file (type png)
 <use Problems//Images/P6img1.png>
 Package pdftex.def Info: Problems//Images/P6img1.png  used on input line 4.
 (pdftex.def)             Requested size: 281.85587pt x 201.33762pt.
- [6 <./Problems///Images/P5img1.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-[7 <./Problems//Images/P6img1.png>]) (./Problems/Circuits7.tex
-<Problems//Images/P7img1.png, id=53, 121.6545pt x 100.57574pt>
+[7 <./Problems//Images/P6img1.png>] [8]) (./Problems/Circuits7.tex
+<Problems//Images/P7img1.png, id=56, 121.6545pt x 100.57574pt>
 File: Problems//Images/P7img1.png Graphic file (type png)
 <use Problems//Images/P7img1.png>
 Package pdftex.def Info: Problems//Images/P7img1.png  used on input line 5.
 (pdftex.def)             Requested size: 234.8775pt x 194.20203pt.
- [8]
 <Problems//Images/P7img2.png, id=57, 170.5572pt x 151.0443pt>
 File: Problems//Images/P7img2.png Graphic file (type png)
 <use Problems//Images/P7img2.png>
 Package pdftex.def Info: Problems//Images/P7img2.png  used on input line 22.
 (pdftex.def)             Requested size: 187.89914pt x 166.40965pt.
- [9 <./Problems//Images/P7img1.png> <./Problems//Images/P7img2.png>] [10]
+ [9 <./Problems//Images/P7img1.png>] [10 <./Problems//Images/P7img2.png>]
 <Problems//Images/P7img3.png, id=67, 173.448pt x 151.0443pt>
 File: Problems//Images/P7img3.png Graphic file (type png)
 <use Problems//Images/P7img3.png>
@@ -682,13 +681,13 @@ Package pdftex.def Info: Problems//Images/P14img2.png  used on input line 19.
 Here is how much of TeX's memory you used:
  32252 strings out of 476093
  821547 string characters out of 5795582
- 1874787 words of memory out of 5000000
+ 1881787 words of memory out of 5000000
  52196 multiletter control sequences out of 15000+600000
  521613 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,13n,80p,611b,778s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/esint-type1/esint10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on Circuits_problem_bank.pdf (24 pages, 701077 bytes).
+Output written on Circuits_problem_bank.pdf (24 pages, 702157 bytes).
 PDF statistics:
  220 PDF objects out of 1000 (max. 8388607)
  107 compressed objects within 2 object streams

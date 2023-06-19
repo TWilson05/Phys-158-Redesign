@@ -681,6 +681,8 @@ INPUT Problems//Images/P15img1.tex
 INPUT ./Problems//Images/P15img1.tex
 INPUT Problems//Images/P15img1.tex
 INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+OUTPUT Circuits_problem_bank.pdf
+INPUT c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT ./Problems/Circuits1.tex
 INPUT Problems/Circuits1.tex
 INPUT ./Problems/Circuits1.tex
@@ -688,9 +690,7 @@ INPUT Problems/Circuits1.tex
 INPUT ./Problems///Images/P1img1.png
 INPUT Problems///Images/P1img1.png
 INPUT ./Problems///Images/P1img1.png
-OUTPUT Circuits_problem_bank.pdf
 INPUT ./Problems///Images/P1img1.png
-INPUT c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT ./Problems/Circuits2.tex
 INPUT Problems/Circuits2.tex
 INPUT ./Problems/Circuits2.tex
