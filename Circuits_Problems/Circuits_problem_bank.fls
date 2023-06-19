@@ -683,6 +683,14 @@ INPUT Problems//Images/P15img1.tex
 INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 OUTPUT Circuits_problem_bank.pdf
 INPUT c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT ./Problems/Circuits16.tex
+INPUT Problems/Circuits16.tex
+INPUT ./Problems/Circuits16.tex
+INPUT Problems/Circuits16.tex
+INPUT ./Problems//Images/P16img1.tex
+INPUT Problems//Images/P16img1.tex
+INPUT ./Problems//Images/P16img1.tex
+INPUT Problems//Images/P16img1.tex
 INPUT ./Problems/Circuits1.tex
 INPUT Problems/Circuits1.tex
 INPUT ./Problems/Circuits1.tex

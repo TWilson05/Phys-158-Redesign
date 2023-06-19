@@ -1,0 +1,51 @@
+\subsection*{Problem 16}
+If the switch is open,
+\begin{enumerate}
+    \item Find all currents and potentials at the labelled points.
+\end{enumerate}
+If the switch is then closed,
+\begin{enumerate}
+    \setcounter{enumi}{1}
+    \item Find all currents and potentials at the labelled points.
+\end{enumerate}
+$E=12\units{V}$, $R_1=7\units{\Omega}$, $R_2=4\units{\Omega}$, $R_3=10\units{\Omega}$
+\subimport*{/Images}{P16img1.tex}
+
+\textbf{Solution:}
+\begin{enumerate}
+    \item When the switch is open, there is a short circuit in the branch with $R_3$ so the circuit will act as a series circuit containing $R_1$, $R_2$, and $E$. The potential and voltage at point $c$ will be 0.\\
+    The equivalent resistance will be $R_\text{eq}=R_1+R_2$. The current can be computed from Ohm's law:
+    \begin{align*}
+        &E=I_aR_\text{eq}\\
+        &I_a=I_b=\frac{E}{R_\text{eq}}=\frac{E}{R_1+R_2}=\frac{12\units{V}}{11\units{\Omega}}=\answer{1.1\units{A}}
+    \end{align*}
+    Point $b$ is connected to ground so the potential of point $b$ will be $0\units{V}$. The potential of point $a$ can be computed as the voltage drop across $R_2$.
+    \begin{align*}
+        &V_{R_2}=V_{ab}=V_a-V_b=V_a\\
+        &V_{R_2}=I_aR_2=\frac{12}{11}\units{A}\cdot 4\units{\Omega}=\answer{4.36\units{V}}
+    \end{align*}
+    \item When the switch is closed, $R_2$ and $R_3$ will be in parallel. We can compute the equivalent resistance for the circuit as
+    \begin{align*}
+        &\frac{1}{R_{23}}=\frac{1}{R_2}+\frac{1}{R_3}=\frac{1}{4}+\frac{1}{10}=\frac{7}{20}\Ra R_{23}=\frac{20}{7}\\
+        &R_\text{eq}=R_1+R_{23}=7+\frac{20}{7}=\frac{69}{7}
+    \end{align*}
+    Then we can compute the total current as
+    \begin{align*}
+        &E=I_aR_\text{eq}\Ra I_a=\frac{E}{R_\text{eq}}=\frac{12\units{V}}{\frac{69}{7}\units{\Omega}}=\answer{1.22\units{A}}
+    \end{align*}
+    We can use this to compute the volatge across $R_1$
+    \begin{align*}
+        &V_{R_1}=I_aR_1=8.52\units{V}
+    \end{align*}
+    Then we can use Kirchoff's voltage law to find the remaining voltages
+    \begin{align*}
+        &V_{R_2}=V_{R_3}\\
+        &V_E=V_{R_1}+V_{R_2}\Ra V_{R_2}=V_{R_3}=V_E-V_{R_1}=3.48\units{V}
+    \end{align*}
+    From this we can get that the potential at $c$ and the potential at $a$ will be $V_a=V_c=\answer{3.48\units{V}}$ while the potential at $b$ will be $0\units{V}$ as in part a.\\
+    We can also use the voltages across the resistors to compute the currents in each branch.
+    \begin{align*}
+        &I_b=\frac{V_{R_2}}{R_2}=\frac{3.48}{4}=\answer{0.87\units{A}}\\
+        &I_c=\frac{V_{R_3}}{R_3}=\frac{3.48}{10}=\answer{0.35\units{A}}
+    \end{align*}
+\end{enumerate}
