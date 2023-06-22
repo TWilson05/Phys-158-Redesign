@@ -1,0 +1,13 @@
+\subsection*{Problem 18}
+An AC circuit is connected in series with a resistor, capacitor, and an inductor with values of $30\units{\Omega}$, $2\units{\mu F}$, and $2\units{H}$. If the circuit has an impedence of $Z=220\units{\Omega}$ what are all of the possible frequency values, $\omega$?\\
+
+\textbf{Solution:}
+\begin{align*}
+    &Z^2=R^2+\brround{L\omega-\frac{1}{C\omega}}^2\\
+    &Z^2-R^2=\brround{L\omega-\frac{1}{C\omega}}^2=L^2\omega^2-\frac{2L}{C}+\frac{1}{C^2\omega^2}\\
+    &L^2\omega^2+R^2-Z^2-\frac{2L}{C}+\frac{1}{C^2\omega^2}=0\\
+    &L^2\omega^4+\brround{R^2-Z^2-\frac{2L}{C}}\omega^2+\frac{1}{C^2}=0\\
+    &\omega^2=\frac{Z^2+\frac{2L}{C}-R^2\pm\sqrt{\brround{Z^2+\frac{2L}{C}-R^2}-\frac{4L^2}{C^2}}}{2L^2}
+\end{align*}
+Plugging this in gives $\omega = \pm2.25\units{Hz}$ and $\omega=\pm22.25\units{Hz}$.\\
+Because we can only have positive frequencies, the answer is $\omega=2.25\units{Hz}$ and $\omega=22.25\units{Hz}$.
