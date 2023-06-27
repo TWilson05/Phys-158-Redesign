@@ -1,0 +1,30 @@
+\subsection*{Problem 19}
+A $2\units{F}$ capacitor, $0.25\units{H}$ inductor, and a $100\units{\Omega}$ resistor are connected in series with a voltage source $v(t)=25\cos(80t-\tfrac{\pi}{2})$
+\begin{enumerate}
+    \item What is the impedence of this circuit?
+    \item What is the peak current?
+    \item What is the peak voltage across each element?
+\end{enumerate}
+
+\textbf{Solution:}\\
+\begin{enumerate}
+    \item We can recognize that the frequency, $\omega$ is 80Hz. The impedence can then be computed as
+    \[Z=\sqrt{R^2+\brround{L\omega-\frac{1}{\omega C}}^2}=\sqrt{100^2+\brround{(0.25)(80)-\frac{1}{(2)(80)}}}=\answer{101.98\units{\Omega}}\]
+    \item The peak current can be computed using the peak voltage and the impedence to be
+    \[I_\text{peak}=\frac{V_\text{peak}}{Z}=\frac{25\units{V}}{101.98\units{\Omega}}=\answer{0.25\units{A}}\]
+    \item The peak voltage across each element can be computed as $V=I_\text{peak}X$.
+    \begin{itemize}
+        \item For the resistor:
+        \[V_R=I_\text{peak}R=(0.25\units{A})(100\units{\Omega})=\answer{24.51\units{V}}\]
+        \item For the capacitor:
+        \begin{align*}
+            &X_C=\frac{1}{\omega C}=\frac{1}{(80)(2)}=0.00625\units{\Omega}\\
+            &V_C=I_\text{peak}X_C=(0.25)(0.00625)=\answer{0.0015\units{V}}
+        \end{align*}
+        \item For the inductor:
+        \begin{align*}
+            &X_L=\omega L=(80)(0.25)=20\units{\Omega}\\
+            &V_L=I_\text{peak}X_L=(0.25)(20)=\answer{4.90\units{V}}
+        \end{align*}
+    \end{itemize}
+\end{enumerate}
