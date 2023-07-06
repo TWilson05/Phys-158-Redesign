@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1688637786 "c:/Users/tbwil/Documents/LaTeX Documents/Phys 158 Redesign/Circuits_Problems/Circuits_problem_bank.tex" "Circuits_problem_bank.pdf" "Circuits_problem_bank" 1688637789 0
-  "Circuits_problem_bank.aux" 1688637789 33 d2184818cd16c7334a2328a01fa4fb24 "pdflatex"
+["pdflatex"] 1688639156 "c:/Users/tbwil/Documents/LaTeX Documents/Phys 158 Redesign/Circuits_Problems/Circuits_problem_bank.tex" "Circuits_problem_bank.pdf" "Circuits_problem_bank" 1688639160 0
+  "Circuits_problem_bank.aux" 1688639159 33 d2184818cd16c7334a2328a01fa4fb24 "pdflatex"
   "Circuits_problem_bank.tex" 1687852533 1428 aaf4724e5720fe0f678246fd201c07b4 ""
   "Problems///Images/P1img1.png" 1686301589 10656 6bb051515199dfa4eed8ee6b5219453b ""
   "Problems///Images/P3img1.png" 1686305088 12295 e7c09a2b6d8edbb0e715b3b4c1fdde21 ""
@@ -24,7 +24,7 @@
   "Problems//Images/P7img1.png" 1686603537 23711 77f7f564ddbd474cba31481f10a260b7 ""
   "Problems//Images/P7img2.png" 1686818226 27779 3b7e5052aaa3d892c37139b323c33ecc ""
   "Problems//Images/P7img3.png" 1686818226 28703 350d042e3ceafa5a435ccfdd8b9eca77 ""
-  "Problems//Images/P8img1.png" 1686604136 10491 de39a8aa597a80299eec160ad785e303 ""
+  "Problems//Images/P8img1.png" 1688639129 25481 fcec90732bdcf6a982c632be55c08000 ""
   "Problems//Images/P8img2.png" 1686818227 30361 f5eacdeaa1aaf935214f7a6121ac3979 ""
   "Problems//Images/P8img3.png" 1686818227 38489 c7289c011d9db78f83389375ea12da00 ""
   "Problems//Images/P8img4.png" 1686818227 29930 c90d472500df8fcece8427fbc2cc37ac ""
@@ -47,7 +47,7 @@
   "Problems/Circuits5.tex" 1686543334 753 1e2693a25f57a285218f6f0b21420acc ""
   "Problems/Circuits6.tex" 1688030767 3246 5acf19b8248523b4f52e2455c0676529 ""
   "Problems/Circuits7.tex" 1688637046 2108 7c74318cde2c8248a73d9eb950c16b07 ""
-  "Problems/Circuits8.tex" 1687087286 2013 7900dcf143f0b32865cb7dddbd3c9476 ""
+  "Problems/Circuits8.tex" 1688639155 2013 fab012c48e5db27371be01afc8bcd717 ""
   "Problems/Circuits9.tex" 1688637311 3239 c896a4455202f514c77c6674b3fdd821 ""
   "Problems/Images/P17img1.tex" 1687422113 356 8f95ce8ca29be4bfe3be25e6ec8ac710 ""
   "Problems/Images/P6img1.tex" 1688027744 363 b53e4413fe94f87d3e1e5ebd815ccab9 ""
