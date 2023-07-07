@@ -1,4 +1,8 @@
 \subsection*{Problem 16}
+\iftoggle{contributions}{
+\textit{Created by Tyler Wilson 2023}
+}{}
+
 If the switch is open,
 \begin{enumerate}
     \item Find all currents and potentials at the labelled points.
@@ -11,6 +15,7 @@ If the switch is then closed,
 $E=12\units{V}$, $R_1=7\units{\Omega}$, $R_2=4\units{\Omega}$, $R_3=10\units{\Omega}$
 \subimport*{/Images}{P16img1.tex}
 
+\iftoggle{solutions}{
 \textbf{Solution:}
 \begin{enumerate}
     \item When the switch is open, there is a short circuit in the branch with $R_3$ so the circuit will act as a series circuit containing $R_1$, $R_2$, and $E$. The potential and voltage at point $c$ will be 0.\\
@@ -49,3 +54,4 @@ $E=12\units{V}$, $R_1=7\units{\Omega}$, $R_2=4\units{\Omega}$, $R_3=10\units{\Om
         &I_c=\frac{V_{R_3}}{R_3}=\frac{3.48}{10}=\answer{0.35\units{A}}
     \end{align*}
 \end{enumerate}
+}{}

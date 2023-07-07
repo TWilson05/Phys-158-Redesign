@@ -13,10 +13,23 @@
 \usepackage{import}
 \usepackage{tikz}
 \usepackage{circuitikz}
+\usepackage{etoolbox} % included for conditionals
 \setlength{\parindent}{0em}
 
 % sets the enumerate to a), b), c), ...
 \renewcommand{\labelenumi}{\alph{enumi})}
+
+% define conditionals
+\newtoggle{solutions}
+\newtoggle{contributions}
+\newtoggle{P20}
+\togglefalse{P20}
+
+% set conditionals values
+\toggletrue{solutions}
+\toggletrue{contributions}
+% \togglefalse{solutions}
+% \togglefalse{contributions}
 
 \title{Physics 158 Circuits Problem Bank}
 \author{}

@@ -1,5 +1,8 @@
 \subsection*{Problem 14}
-% Tutorial 5 Q3
+\iftoggle{contributions}{
+\textit{2023 PHYS 158 Tutorial 5 Question 3}
+}{}
+
 A $100\units{\Omega}$ resistor, $0.2\units{\mu F}$ capacitor and $50\units{mH}$ inductor are connected in \textbf{\underline{parallel}} to an AC voltage source that provides instantaneous voltage according to $v(t)=V_\text{peak}\sin(\omega t)$. Draw the circuit, then answer the following questions:
 \begin{enumerate}
     \item Find the instantaneous voltages $v_R(t),\ v_L(t)$, and $v_C(t)$ on the three elements.
@@ -7,6 +10,7 @@ A $100\units{\Omega}$ resistor, $0.2\units{\mu F}$ capacitor and $50\units{mH}$ 
     \item Given that $V_\text{peak}=100\units{V}$ and $\omega=50\units{kHz}$ what is the total RMS current supplied by the source? What is the phase angle $\phi$?
 \end{enumerate}
 
+\iftoggle{solutions}{
 \textbf{Solution:}
 \begin{enumerate}
     \item \centerline{\includegraphics[width=0.35\textwidth]{Images/P14img1.png}}
@@ -22,3 +26,4 @@ A $100\units{\Omega}$ resistor, $0.2\units{\mu F}$ capacitor and $50\units{mH}$ 
         &\tan\phi=\frac{I_C-I_L}{I_R}=R\brround{C\omega-\frac{1}{L\omega}}
     \end{align*}
 \end{enumerate}
+}{}

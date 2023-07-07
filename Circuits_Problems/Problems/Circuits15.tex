@@ -1,8 +1,13 @@
 \subsection*{Problem 15}
+\iftoggle{contributions}{
+\textit{Created by Tyler Wilson 2023}
+}{}
+
 For the following resistor configuration, find the equivalent resistance.\\
 $R_1=2\units{\Omega}$, $R_2=8\units{\Omega}$, $R_3=3\units{\Omega}$, $R_4=10\units{\Omega}$, $R_5=12\units{\Omega}$, $R_6=7\units{\Omega}$, $R_7=4\units{\Omega}$.
 \subimport*{/Images}{P15img1.tex}
 
+\iftoggle{solutions}{
 \textbf{Solution:}\\
 We can recognize that $R_2$ and $R_3$ are in parallel and so we can compute the equivalent as
 \[\frac{1}{R_{23}}=\frac{1}{R_2}+\frac{1}{R_3}=\frac{1}{8}+\frac{1}{3}=\frac{11}{24}\Ra R_{23}=\frac{24}{11}\units{\Omega}=2.18\units{\Omega}\]
@@ -14,3 +19,4 @@ Then we get that $R_{23}$ and $R_{456}$ are in parallel and get
 \[\frac{1}{R_{23456}}=\frac{1}{R_{23}}+\frac{1}{R_{456}}\Ra R_{23456}=\frac{1}{\frac{11}{24}+\frac{11}{137}}= 1.86\units{\Omega}\]
 The remaining resistors will all be in series which gives
 \[R_\text{eq}=R_1+R_{23456}+R_7=2+1.86+4=\answer{7.86\units{\Omega}}\]
+}{}

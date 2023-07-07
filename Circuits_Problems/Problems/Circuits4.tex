@@ -1,5 +1,8 @@
 \subsection*{Problem 4}
-% Tutorial 4 Q2
+\iftoggle{contributions}{
+\textit{2023 PHYS 158 Tutorial 4 Question 2}
+}{}
+
 The circuit below has the switch S is opened for a long time. $R_1=2\units{\Omega},\ R_2=4\units{\Omega},\ C=2\units{F}$\\
 \centerline{\includegraphics[width=0.6\textwidth]{/Images/P4img1.png}}
 \begin{enumerate}
@@ -9,6 +12,7 @@ The circuit below has the switch S is opened for a long time. $R_1=2\units{\Omeg
     through $R_2$ as a function of time.
 \end{enumerate}
 
+\iftoggle{solutions}{
 \textbf{Solution:}
 \begin{enumerate}
     \item The capacitor will want to initially act as a wire so we can analyze the circuit as two resistors in parallel. Due to Kirchoff's loop law, we can say that each resistor must have a voltage drop of $12\units{V}$ and we can get the current of each from Ohm's law:
@@ -43,3 +47,4 @@ The circuit below has the switch S is opened for a long time. $R_1=2\units{\Omeg
         &\answer{i(t)=2e^{-\frac{t}{12}}\text{ Amps}}
     \end{align*}
 \end{enumerate}
+}{}

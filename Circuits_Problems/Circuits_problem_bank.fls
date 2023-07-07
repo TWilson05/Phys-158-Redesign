@@ -586,6 +586,17 @@ INPUT c:/texlive/2022/texmf-dist/tex/generic/circuitikz/pgfcirclabel.tex
 INPUT c:/texlive/2022/texmf-dist/tex/generic/circuitikz/pgfcircvoltage.tex
 INPUT c:/texlive/2022/texmf-dist/tex/generic/circuitikz/pgfcirccurrent.tex
 INPUT c:/texlive/2022/texmf-dist/tex/generic/circuitikz/pgfcircflow.tex
+INPUT c:/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT c:/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT c:/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT c:/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT c:/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT c:/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT c:/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT c:/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT c:/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT c:/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT c:/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 INPUT c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -669,6 +680,7 @@ INPUT Problems/Circuits15.tex
 INPUT ./Problems/Circuits15.tex
 INPUT Problems/Circuits15.tex
 INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
@@ -715,7 +727,6 @@ INPUT ./Problems//Images/P2img1.tex
 INPUT Problems//Images/P2img1.tex
 INPUT ./Problems//Images/P2img1.tex
 INPUT Problems//Images/P2img1.tex
-INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT ./Problems/Circuits3.tex
 INPUT Problems/Circuits3.tex
 INPUT ./Problems/Circuits3.tex

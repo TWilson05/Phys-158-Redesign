@@ -1,5 +1,8 @@
 \subsection*{Problem 3}
-% Tutorial 4 Q1
+\iftoggle{contributions}{
+\textit{2023 PHYS 158 Tutorial 4 Question 1}
+}{}
+
 In the circuit shown, both resistors have the same value
 R. Suppose switch S is initially closed for a very long time.\\
 \centerline{\includegraphics[width=0.6\textwidth]{/Images/P3img1.png}}
@@ -9,6 +12,7 @@ R. Suppose switch S is initially closed for a very long time.\\
     \item Find the time constants for both case switch open and switch closed.    
 \end{enumerate}
 
+\iftoggle{solutions}{
 \textbf{Solution:}
 \begin{enumerate}
     \item The switch has been closed for a long time so we can assume that the capacitor is fully charged. This will mean that it acts as a short-circuit so it will have no current flowing through it. So the current through branch 1 is $\answer{I_1=0\units{A}}$ and the current through branch 2 is $\answer{\units{I_2=\frac{E}{R}}}$
@@ -24,3 +28,4 @@ R. Suppose switch S is initially closed for a very long time.\\
         When the switch is open, only the loop not containing the battery has current which gives a time constant of $\answer{\tau=2RC}$ because both resistors are included.
     \end{itemize}
 \end{enumerate}
+}{}

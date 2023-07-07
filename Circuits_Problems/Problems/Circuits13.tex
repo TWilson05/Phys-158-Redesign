@@ -1,5 +1,8 @@
 \subsection*{Problem 13}
-% Tutorial 5 Q1
+\iftoggle{contributions}{
+\textit{2023 PHYS 158 Tutorial 5 Question 1}
+}{}
+
 Mystery RLC circuit: You are given an RLC circuit with elements
 connected in series. Values of $R$, $L$ and $C$ are unknown. You have at your disposal a source
 of AC voltage with $V_\text{RMS} = 8\units{V}$ and a tunable frequency $\omega$. You also have an Ammeter which
@@ -11,6 +14,7 @@ Suppose you measured $I_\text{RMS}$ as a function of frequency and found that th
     \item In addition you find that at $\omega_1=17\units{kHz}$ the power factor is $0.5$. Based on this information, what are the values of $L$ and $C$?
 \end{enumerate}
 
+\iftoggle{solutions}{
 \textbf{Solution:}\\
 The key formulas that will help solve this problem are
 $$I_\text{RMS}=\frac{V_\text{RMS}}{\sqrt{R^2+(L\omega-\frac{1}{C\omega})^2}}$$
@@ -32,3 +36,4 @@ $$\tan\phi=\frac{L\omega-\frac{1}{C\omega}}{R}$$
         &C=\frac{1}{L\omega_0^2}=0.144\units{pF}
     \end{align*}
 \end{enumerate}
+}{}

@@ -1,7 +1,12 @@
 \subsection*{Problem 17}
+\iftoggle{contributions}{
+\textit{Created by Tyler Wilson 2023}
+}{}
+
 If the total power dissipated in the circuit is 15W, what is the value of $R$?
 \subimport*{Images/}{P17img1.tex}
 
+\iftoggle{solutions}{
 \textbf{Solution:}\\
 The total power dissipated in the circuit will be the sum of the power dissipated in each resistor. We know that the power dissipated across a resistor is $P=IV$. We also know $V=IR$ and can rearrange to get $P=\frac{V^2}{R}$.\\
 The voltage across the $8\units{\Omega}$ resistor is $8\units{V}$ so power across that resistor will be
@@ -12,3 +17,4 @@ We can combine resistor $R$ and the $6\units{\Omega}$ to get an equivalent resis
     &7\units{W}=\frac{(8\units{V})^2}{R+6\units{\Omega}}\\
     &R=\frac{(8\units{V})^2}{7\units{W}}-6\units{\Omega}=\answer{3.14\units{\Omega}}
 \end{align*}
+}{}

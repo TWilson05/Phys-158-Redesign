@@ -1,5 +1,8 @@
 \subsection*{Problem 10}
-% HW2 Q4
+\iftoggle{contributions}{
+\textit{2023 PHYS 158 Homework 3 Question 4}
+}{}
+
 The circuit below has been open for a very long time and then the switch is closed at $t=0$.\\
 \centerline{\includegraphics[width=0.5\textwidth]{Images/P10img1.png}}
 \begin{enumerate}
@@ -8,6 +11,7 @@ The circuit below has been open for a very long time and then the switch is clos
     \item Find all of the currents as a function of time
 \end{enumerate}
 
+\iftoggle{solutions}{
 \textbf{Solution:}\\
 \includegraphics[width=0.5\linewidth]{Images/P10img2.png}
 \vspace{5mm}
@@ -62,3 +66,4 @@ The circuit below has been open for a very long time and then the switch is clos
 	
 	$$\underline{I_1=\frac{\mathcal{E}}{R_1} \:\: I_0=\frac{\mathcal{E}}{R_1}+\frac{\mathcal{E}}{R_2}\left(1-\exp(-tR_2/L)\right)}$$
 \end{enumerate}
+}{}

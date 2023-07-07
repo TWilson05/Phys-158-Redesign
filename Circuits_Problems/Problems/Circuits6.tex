@@ -1,5 +1,8 @@
 \subsection*{Problem 6}
-% Created by Tyler Wilson
+\iftoggle{contributions}{
+\textit{Created by Tyler Wilson 2023}
+}{}
+
 Using their newfound knowledge of LR circuits, a Phys 158 student came up with a clever idea for a prank. They want to design an alarm clock that will continue to ring for 10 seconds after the battery is removed. The alarm clock can be thought of as a $1\units{k\Omega}$ resistor which requires at least 1 Watt to operate. They designed the following circuit to achieve this.
 \subimport*{Images/}{P6img1.tex}
 \begin{enumerate}
@@ -8,6 +11,7 @@ Using their newfound knowledge of LR circuits, a Phys 158 student came up with a
 % \item Plot the energy stored in the inductor as a function of time after the batter has been disconnected.
 \end{enumerate}
 
+\iftoggle{solutions}{
 \textbf{Solution:}
 \begin{enumerate}
 \item For maximum power to be supplied to the clock, $P_c=3\units{W}$
@@ -47,3 +51,4 @@ We are told that the clock must have a minimum of 1 Watt and we want it to last 
     &L=-\frac{2(R+R_C)t}{\ln\bfrac{P}{P_C}}=-\frac{2(100\units{\Omega}+1000\units{\Omega})(10\units{s})}{\ln\bfrac{1\units{W}}{3\units{W}}}=20,025\units{H}
 \end{align*}
 \end{enumerate}
+}{}
