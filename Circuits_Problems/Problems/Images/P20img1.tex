@@ -1,0 +1,13 @@
+\begin{center}
+    \begin{circuitikz}
+        \draw (0,2)
+        to[american voltage source, l_=$\mathcal{E}$] (0,0)
+        to[R, l_=$R$] (2,0)
+        to[C=$C$] (2,2)
+        to[normal open switch] (0,2);
+        \draw (2,0)
+        to[short] (4,0)
+        to[L=$L$] (4,2)
+        to[short] (2,2);
+    \end{circuitikz}
+\end{center}

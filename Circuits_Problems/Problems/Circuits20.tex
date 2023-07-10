@@ -3,15 +3,48 @@
 \textit{Created by Tyler Wilson 2023}
 }{}
 
-An LC circuit is constructed in series with a $12\units{V}$ battery, capacitor $C = 5\units{\mu F}$, and
-inductor $L = 0.5\units{H}$. Find:
+The LRC circuit below is constructed with a $12\units{V}$ battery, $6\units{\Omega}$ resistor, $5\units{\mu F}$ capacitor, and $0.5\units{mH}$ inductor.
+\subimport*{Images}{P20img1.tex}
+If the switch has been closed for a long time and is suddenly opened, find:
 \begin{enumerate}
-    \item The initial energy in the circuit
-    \item The max current in the circuit
-    \item How often the capacitor attains a max charge in 12.2 seconds
-    \item How much power is dissipated in the circuit after 40 seconds
+    \item How much current is flowing through the inductor just after the switch has been opened.
+    \item How much charge is stored on the capacitor at the instant the switch is opened.
+    \item The initial energy in the circuit.
+    \item The max current in the circuit.
+    \item How often the capacitor attains a max charge per second (only consider the absolute value of the charge).
+    \item How much power is dissipated in the circuit after 40 seconds.
 \end{enumerate}
 
 \iftoggle{solutions}{
 \textbf{Solution:}
+\begin{enumerate}
+    \item When the switch is closed for a long time the capacitor is fully charged and all the current is flowing through the inductor. This current can be computed as:
+    \[i_L(0^-)=\frac{\varepsilon}{R}=\frac{12}{6}=2\units{A}\]
+    The instant the switch is opened, the current through the inductor will want to stay the same so the current will be
+    \[i(0^+)=i(0^-)=\answer{2\units{A}}\]
+    \item The capacitor was fully charged at the moment the swicth was open so the charge will be
+    \[q(0^+)=q(0^-)=\varepsilon C=(12)(5\cdot10^{-6})=\answer{60\units{\mu C}}\]
+    \item The total energy stored in the new circuit will be the initial enery stored in the capacitor plus the initial energy stored in the inductor.
+    \begin{align*}
+        &U_C=\frac{1}{2}C\varepsilon^2=\frac{1}{2}(5\cdot10^{-6})(12)^2=0.36\units{mJ}\\
+        &U_L=\frac{1}{2}Li^2=\frac{1}{2}(0.5\cdot10^{-3})(2)^2=1\units{mJ}\\
+        &U_\text{total}=U_C+U_L=\answer{1.36\units{mJ}}
+    \end{align*}
+    \item The max current will occur when all of the energy is stored in the inductor.
+    \begin{align*}
+        &U_\text{total}=U_L=\frac{1}{2}Li_\text{max}^2\\
+        &i_\text{max}=\sqrt{\frac{2U_\text{total}}{L}}=\answer{2.33\units{A}}
+    \end{align*}
+    \item We can solve this by using the angular frequency of the circuit which is defined to be
+    \begin{align*}
+        &\omega=\frac{1}{\sqrt{LC}}=2\pi f\\
+        &f=\frac{1}{2\pi\sqrt{LC}}=3183\units{Hz}
+    \end{align*}
+    Note that this is the frequency for which the charge will attain a positive maximum. We must also account for when the current switches directions and we get a negative maximim so our frequency will be double this value.
+    \begin{align*}
+        &f_\text{abs}=6366\units{Hz}\\
+        &N=(6366\units{Hz})\cdot(1\units{s})=\answer{6366\text{ times}}
+    \end{align*}
+    \item This is a trick question. Power is only dissipated in an RLC circuit through resistors. Because there are no resistors connected, there will be \underline{no power dissipated}.
+\end{enumerate}
 }{}
