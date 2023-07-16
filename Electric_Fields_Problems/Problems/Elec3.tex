@@ -1,0 +1,31 @@
+\subsection*{Problem 3}
+\iftoggle{contributions}{
+\textit{Created by Tyler Wilson 2023}
+}{}
+
+The potential above some charged Gaussian surface is given by the equation
+\[V=\frac{k\sigma}{3y}\ \text{Volts}\]
+\begin{enumerate}
+    \item What is the equation for the electric field?
+    \item If $\sigma=6\units{\mu C}$, find the electric field strength and direction at $y=2\units{m}$.
+    \item What can you say about the electric field in the x-direction?
+\end{enumerate}
+
+\textit{Hint:}
+\[\vec{E}=-\pdx[V]{x}\hat{i}-\pdx[V]{y}\hat{j}-\pdx[V]{z}\hat{k}\]
+
+\iftoggle{solutions}{
+\textbf{Solution:}\\
+\begin{enumerate}
+    \item The electric field is the negative gradient of the potential. This was defined in the hint above. The electric field would then be
+    \begin{align*}
+        &\vec{E}=-\pdx{y}\brround{\frac{k\sigma}{3y}}\hat{j}=\answer{\frac{k\sigma}{3y^2}\hat{j}}
+    \end{align*}
+    \item Plugging in these values we would get
+    \[\vec{E}(y=2)=\frac{k(6\cdot10^{-6})}{3(2)^2}=\]
+    \item \begin{align*}
+        &\vec{E}_x=-\pdx{x}\bfrac{k\sigma}{3y}=0
+    \end{align*}
+    Therefore, the electric field in the x-direction is 0.
+\end{enumerate}
+}{}
