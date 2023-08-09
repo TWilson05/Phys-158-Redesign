@@ -3,11 +3,11 @@
 \textit{Created by Tyler Wilson 2023}
 }{}
 
-An insulating cylinder of radius $R=5\units{cm}$ and effectively infinite length contains a uniform charge density of $10\units{C/m^3}$.
+An insulating cylinder of radius $R=5\units{cm}$ and effectively infinite length in the z-direction contains a uniform charge density of $10\units{C/m^3}$.
 \begin{enumerate}
     \item Find the electric field everywhere in space
 \end{enumerate}
-If there is now a hollow spherical cavity of radius $r=1\units{cm}$ located at the center of the cylinder,
+If there is now a \underline{hollow} spherical cavity of radius $a=1\units{cm}$ located at the center of the cylinder,
 \centerline{\includegraphics[width=\textwidth]{/Images/P2img1.png}}
 
 \begin{enumerate}
@@ -17,8 +17,38 @@ If there is now a hollow spherical cavity of radius $r=1\units{cm}$ located at t
     \item Find the electric field just outside the sphere at point C.
     \item If $h=10\units{cm}$, find the electric field outside both objects at point D.
 \end{enumerate}
-If the potential at the point $E$ is 0V,
+If the potential at the point X is 0V,
 \begin{enumerate}
     \setcounter{enumi}{5}
     \item What is the potential at point A?
 \end{enumerate}
+
+\iftoggle{solutions}{
+\textbf{Solutions:}\\
+\begin{enumerate}
+\item We can use Gauss's Law to find the electric field everywhere in space. We will use a Gaussian cylinder of radius $r$ and length $L$.
+\begin{align*}
+    &\oiint\vec{E}\cdot d\vec{A}=\frac{Q_\text{enc}}{\epsilon_0}
+\end{align*}
+We will need to break this into two parts: the inside of the cylinder and the outside of the cylinder.\\
+For the inside of the cylinder,
+\begin{align*}
+    &\oiint\vec{E}_\text{in}\cdot d\vec{A}=E_\text{in}A=\frac{Q_\text{enc}}{\epsilon_0}\\
+    &Q_\text{enc}=\rho V_\text{enc}=\rho\pi r^2L\\
+    &E_\text{in}A=\frac{\rho\pi r^2L}{\epsilon_0}\\
+    &2\pi rLE_\text{in}=\frac{\rho\pi r^2L}{\epsilon_0}\\
+    &E_\text{in}=\frac{\rho r}{2\epsilon_0}\\
+    &\answer{\vec{E}_\text{in}=\frac{\rho r}{2\epsilon_0}\hat{r}}
+\end{align*}
+For the outside of the cylinder,
+\begin{align*}
+    &\oiint\vec{E}_\text{out}\cdot d\vec{A}=E_\text{out}A=\frac{Q_\text{enc}}{\epsilon_0}\\
+    &Q_\text{enc}=\rho V_\text{enc}=\rho\pi R^2L\\
+    &E_\text{out}A=\frac{\rho\pi R^2L}{\epsilon_0}\\
+    &2\pi rLE_\text{out}=\frac{\rho\pi R^2L}{\epsilon_0}\\
+    &E_\text{out}=\frac{\rho R^2}{2\epsilon_0r}\\
+    &\answer{\vec{E}_\text{out}=\frac{\rho R^2}{2\epsilon_0r}\hat{r}}
+\end{align*}
+\item 
+\end{enumerate}
+}{}
