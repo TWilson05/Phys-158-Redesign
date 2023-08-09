@@ -687,6 +687,8 @@ INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/esint/esint10.tfm
 INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+OUTPUT Electric_fiels_problem_bank.pdf
+INPUT c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT ./Problems/Elec2.tex
 INPUT Problems/Elec2.tex
 INPUT ./Problems/Elec2.tex
@@ -694,9 +696,7 @@ INPUT Problems/Elec2.tex
 INPUT ./Problems///Images/P2img1.png
 INPUT Problems///Images/P2img1.png
 INPUT ./Problems///Images/P2img1.png
-OUTPUT Electric_fiels_problem_bank.pdf
 INPUT ./Problems///Images/P2img1.png
-INPUT c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT ./Problems/Elec3.tex
 INPUT Problems/Elec3.tex
 INPUT ./Problems/Elec3.tex

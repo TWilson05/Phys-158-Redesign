@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.23)  9 AUG 2023 02:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.23)  9 AUG 2023 04:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -493,38 +493,38 @@ File: uesint.fd
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 39.
  (c:/texlive/2022/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-) (./Problems/Elec1.tex) (./Problems/Elec2.tex
-<Problems///Images/P2img1.png, id=4, 601.0455pt x 239.09325pt>
+) (./Problems/Elec1.tex [1
+
+{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]) (./Problems/Elec2.tex
+<Problems///Images/P2img1.png, id=24, 601.0455pt x 239.09325pt>
 File: Problems///Images/P2img1.png Graphic file (type png)
 <use Problems///Images/P2img1.png>
 Package pdftex.def Info: Problems///Images/P2img1.png  used on input line 11.
 (pdftex.def)             Requested size: 469.75502pt x 186.86774pt.
- [1
-
-{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Problems///Images/P2img1.png>]
+ [3]
 Underfull \hbox (badness 10000) in paragraph at lines 54--54
 
  []
 
-) (./Problems/Elec3.tex [2]
+[4 <./Problems///Images/P2img1.png>]) (./Problems/Elec3.tex
 Underfull \hbox (badness 10000) in paragraph at lines 31--31
 
  []
 
-) (./Problems/Elec4.tex [3]) (./Problems/Elec5.tex) (./Problems/Elec6.tex) (./Problems/Elec7.tex) [4] (./Electric_fiels_problem_bank.aux) ) 
+[5]) (./Problems/Elec4.tex) (./Problems/Elec5.tex) (./Problems/Elec6.tex) (./Problems/Elec7.tex) [6] [7] (./Electric_fiels_problem_bank.aux) ) 
 Here is how much of TeX's memory you used:
- 31135 strings out of 476093
- 783782 string characters out of 5795582
- 1863787 words of memory out of 5000000
- 51135 multiletter control sequences out of 15000+600000
+ 31236 strings out of 476093
+ 786339 string characters out of 5795582
+ 1869787 words of memory out of 5000000
+ 51236 multiletter control sequences out of 15000+600000
  520667 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,13n,80p,517b,267s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,13n,80p,531b,730s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/esint-type1/esint10.pfb>
-Output written on Electric_fiels_problem_bank.pdf (4 pages, 148879 bytes).
+Output written on Electric_fiels_problem_bank.pdf (7 pages, 159727 bytes).
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
- 50 compressed objects within 1 object stream
+ 94 PDF objects out of 1000 (max. 8388607)
+ 58 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
