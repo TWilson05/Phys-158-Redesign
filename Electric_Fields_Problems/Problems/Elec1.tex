@@ -89,16 +89,38 @@ A point charge of mass $m=100\units{g}$ and charge $-5\units{\mu C}$ is now plac
         &E_z=\frac{2k\lambda az}{(a^2/4+z^2)\sqrt{a^2/2+z^2}}\\
         &a=\frac{L}{4},\quad\lambda=\frac{Q}{L}\\
         &E_z=\frac{\frac{1}{2}kQ z}{(L^2/64+z^2)\sqrt{L^2/32+z^2}}\\
-        &\answer{\vec{E}_\text{total}=4E_z\hat{z}=\frac{2kQ z}{(L^2/64+z^2)\sqrt{L^2/32+z^2}}\hat{z}}\\
+        &\vec{E}_\text{total}=4E_z\hat{z}=\frac{2kQ z}{(L^2/64+z^2)\sqrt{L^2/32+z^2}}\hat{z}\\
+    \end{align*}
+    Now we can plug in the values $L=0.16\units{m}$, $Q=40\units{\mu C}$, and $z=0.2\units{m}$ to get the magnitude of the electric field.
+    \begin{align*}
+        &\vec{E}_\text{total}=\frac{2(8.99\times10^9\units{N\cdot m^2/C^2})(40\times10^{-6}\units{C})(0.2\units{m})}{(0.16^2\units{m^2}/64+(0.2\units{m})^2)\sqrt{(0.16^2\units{m^2}/32+(0.2\units{m})^2)}}\hat{z}=1.76\times10^7\units{N/C}\hat{z}\\
     \end{align*}
     \item The force can be computed as $\vec{F}=q\vec{E}$ and the direction will be toward the center of the square for a negative point charge.
     \begin{align*}
-        &\vec{F}=q\vec{E}=-\frac{2kQq z}{(L^2/64+z^2)\sqrt{L^2/32+z^2}}\hat{z}\\
+        &\vec{F}=q\vec{E}=-\frac{2kQq z}{(L^2/64+z^2)\sqrt{L^2/32+z^2}}\hat{z}=-88\units{N}\hat{z}\\
     \end{align*}
     \item We can get an expression for the acceleration from the force
     \begin{align*}
         &\vec{F}=m\vec{a}\\
         &\vec{a}=-\frac{2kQq z}{m(L^2/64+z^2)\sqrt{L^2/32+z^2}}\hat{z}\\
     \end{align*}
+    \begin{center}
+    \begin{tikzpicture}
+        \begin{axis}[
+            axis lines=middle,
+            xlabel={$z$},
+            ylabel={$a(z)$},
+            xmin=-0.3, xmax=0.3,
+            % ymin=-2.5, ymax=2.5,
+            grid,
+            grid style={dashed, gray!50},
+            samples=100,
+            smooth,
+            domain=-0.3:0.3,
+        ]
+        \addplot[blue,thick] {-2*8.99*10^9*40*10^(-12)*5*x/(0.1*(0.16^2/64+x^2)*sqrt(0.16^2/32+x^2))};
+        \end{axis}
+    \end{tikzpicture}
+    \end{center}
 \end{enumerate}
 }{}
