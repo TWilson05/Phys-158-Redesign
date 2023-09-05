@@ -3,4 +3,25 @@
 \textit{Created by Tyler Wilson 2023}
 }{}
 
-A parallel plate capacitor is hooked up to a battery in series. At time $t$, a dielectric is inserted into the capacitor and the \underline{volatge source is doubled}. If the charge on the capacitor remains the same, find the dielectric constant.
+A parallel plate capacitor is hooked up to a battery and resister in series. At time $t$, the \underline{volatge source is doubled} and a dielectric is inserted into the capacitor. If the maximum charge on the capacitor remains the same, find the value of the dielectric constant.
+
+\iftoggle{solutions}{
+\textbf{Solution:}\\
+
+\begin{center}
+    \begin{circuitikz}
+        \draw (0,0)
+        to[battery1, l_=$V$] (0,-2)
+        to[short] (2,-2)
+        to[C, l_=$C$] (2,0)
+        to[R] (0,0);
+    \end{circuitikz}
+\end{center}
+\begin{align*}
+    &Q_\text{max}=CV\\
+    &Q_0=Q_f\Ra C_0V_0=C_fV_f\\
+    &V_f=2V_0\Ra C_0V_0=2C_fV_0\Ra C_0=2C_f\\
+    &C_f=\kappa C_0\Ra C_0=2\kappa C_0\Ra 1=2\kappa\\
+    &\answer{\kappa=\frac{1}{2}}
+\end{align*}
+}{}
