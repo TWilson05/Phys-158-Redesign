@@ -3,17 +3,49 @@
 \textit{Created by Tyler Wilson 2023}
 }{}
 
-A rectangular box has dimensions $2\units{m}\times4\units{m}\times8\units{m}$. At each corner of the box sits a point charge of value $Q$.
+A rectangular box has dimensions $2\units{m}\times4\units{m}\times8\units{m}$. At each corner of the box sits a point charge of value $Q$.\\
+\textit{Leave your answers in terms of $k$ and $Q$.}
 \begin{enumerate}
     \item What is the electric field at the center of the box?
     \item What is the potential at the center of the box?
-    \item What is the total energy of the system?
 \end{enumerate}
 One of the point charges on the corners is removed.
 \begin{enumerate}
-    \setcounter{enumi}{3}
-    \item What is the new electric field at the center of the box?
+    \setcounter{enumi}{2}
+    \item What is the magnitude of the new electric field at the center of the box?
     \item What is the new potential at the center of the box?
     \item What is the work done on the system in removing that point charge?
-    \item What is the new total energy of the system?
 \end{enumerate}
+
+\iftoggle{solutions}{
+\textbf{Solution:}\\
+\begin{enumerate}
+\item Because of the symmetry at the center of the box we find that the electric field from each point charge cancels out with another point charge. We can find the electric field due to each point charge at the center and add the eight vectors together to get the total contribution. In doing this, we will see that the electric field at the center of the box is zero.
+\item All of the point charges are the same distance away from the center of the box. So, to compute the potential at the center of the box we can just compute the potential due to one point charge and multiply by eight.
+\begin{align*}
+    &r=\sqrt{1^2+2^2+4^2}=\sqrt{21}\\
+    &V_1=\frac{kQ}{r}=\frac{kQ}{\sqrt{21}}\\
+    &V_\text{total}=8V_1=\answer{\frac{8kQ}{\sqrt{21}}}
+\end{align*}
+\item Originally, the charges diagonally opposite one another were cancelling another out. Once we remove one of the point charges then one of the point charges will no longer be cancelled out so the magnitude of the electric field will be the same as the electric field felt at the center due to one point charge.
+\begin{align*}
+    &r=\sqrt{21}\\
+    &|\vec{E}|=\frac{kQ}{r^2}=\answer{\frac{kQ}{21}}
+\end{align*}
+\item The potential at the center can be computed in the same manner as before, except now we only have seven point charges contributing to the potential.
+\[\answer{V=\frac{7kQ}{\sqrt{21}}}\]
+\item To compute the work done in removing the charge we must compute the potential energy existing between the point that was removed and each of the other charges. This will give the potential difference which we can use to get the work done.
+\begin{align*}
+    &W_{12}=\frac{kQ^2}{2}\\
+    &W_{13}=\frac{kQ^2}{4}\\
+    &W_{14}=\frac{kQ^2}{\sqrt{2^2+4^2}}=\frac{kQ^2}{\sqrt{20}}\\
+    &W_{15}=\frac{kQ^2}{8}\\
+    &W_{16}=\frac{kQ^2}{\sqrt{2^2+8^2}}=\frac{kQ^2}{\sqrt{68}}\\
+    &W_{17}=\frac{kQ^2}{\sqrt{4^2+8^2}}=\frac{kQ^2}{\sqrt{80}}\\
+    &W_{18}=\frac{kQ^2}{\sqrt{2^2+4^2+8^2}}=\frac{kQ^2}{\sqrt{84}}\\
+    &W_\text{total}=W_{12}+W_{13}+W_{14}+W_{15}+W_{16}+W_{17}+W_{18}\\
+    &W_\text{total}=\frac{kQ^2}{2}+\frac{kQ^2}{4}+\frac{kQ^2}{\sqrt{20}}+\frac{kQ^2}{8}+\frac{kQ^2}{\sqrt{68}}+\frac{kQ^2}{\sqrt{80}}+\frac{kQ^2}{\sqrt{84}}\\
+    &W_\text{total}\approx\answer{1.44kQ^2}
+\end{align*}
+\end{enumerate}
+}{}
