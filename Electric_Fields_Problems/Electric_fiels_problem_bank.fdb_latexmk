@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1693957143 "c:/Users/tbwil/Documents/LaTeX Documents/Phys 158 Redesign/Electric_Fields_Problems/Electric_fiels_problem_bank.tex" "Electric_fiels_problem_bank.pdf" "Electric_fiels_problem_bank" 1693957146 0
-  "Electric_fiels_problem_bank.aux" 1693957145 33 e6d77a6cc1977d88a849501f83258f9d "pdflatex"
+["pdflatex"] 1693958828 "c:/Users/tbwil/Documents/LaTeX Documents/Phys 158 Redesign/Electric_Fields_Problems/Electric_fiels_problem_bank.tex" "Electric_fiels_problem_bank.pdf" "Electric_fiels_problem_bank" 1693958831 0
+  "Electric_fiels_problem_bank.aux" 1693958830 33 caafbda2f246531a72f60df9bc4c0d5b "pdflatex"
   "Electric_fiels_problem_bank.tex" 1693954117 1208 fab1355be51059168b2452f4c73b1f1d ""
   "Problems///Images/P2img1.png" 1693889348 10938 a82564de22ac2475dcad855e6d07de9d ""
   "Problems/Elec1.tex" 1691658437 6469 a4a26ca93f835d404699c3776e30077a ""
@@ -8,7 +8,7 @@
   "Problems/Elec3.tex" 1690183109 1231 40ba28d8182b7447c075bfb89c22b06f ""
   "Problems/Elec4.tex" 1693955660 3171 2c8ad25f2e4844785aafc528f64ed183 ""
   "Problems/Elec5.tex" 1693957142 866 2d55d7a35149dbfb6d5d365ed54095dc ""
-  "Problems/Elec6.tex" 1691574663 686 a6a99f042189d9bb4fa0db8cd27be680 ""
+  "Problems/Elec6.tex" 1693958827 3077 67fe806a0c2c25fd3d5cbe2b77006882 ""
   "Problems/Elec7.tex" 1690447155 573 7786585403a4da97a1db2f5e3ce5f0fd ""
   "c:/Users/tbwil/Documents/LaTeX Documents/Phys 158 Redesign/Electric_Fields_Problems/Electric_fiels_problem_bank.tex" 1693954117 1208 fab1355be51059168b2452f4c73b1f1d ""
   "c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1671859246 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -44,6 +44,7 @@
   "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1671856204 35469 dcf3a5f2fc1862f5952e3ee5eb1d98c4 ""
   "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1671856204 35752 024fb6c41858982481f6968b5fc26508 ""
   "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1671856204 32362 bc3f3eec7ab7d65fe700963d4017d32c ""
+  "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb" 1671856204 32734 69e00a6b65cedb993666e42eedb3d48f ""
   "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1671856204 32726 39f0f9e62e84beb801509898a605dbd5 ""
   "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1671856204 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1671856204 32626 5abc8bb2f28aa647d4c70f8ea38cc0d3 ""

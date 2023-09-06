@@ -3,12 +3,70 @@
 \textit{Created by Tyler Wilson 2023}
 }{}
 
-A resistor ($R=2\units{\Omega}$) and a capacitor ($C=16\units{\mu F}$) are connected in parallel to a $10\units{V}$ battery. 
+A resistor ($R_2=2\units{\Omega}$) and a capacitor ($C=16\units{\mu F}$) are connected in parallel to a $10\units{V}$ battery with another resistor ($R_1=1\units{\Omega}$) as shown. 
+\begin{center}
+    \begin{circuitikz}
+        \draw (0,0)
+        to[battery1, l_=$10\units{V}$] (0,-2)
+        to[short] (2,-2)
+        to[C, l_=$16\units{\mu F}$] (2,0)
+        to[R, l_={$R_1=1\units{\Omega}$}] (0,0);
+        \draw (2,0)
+        to[short] (4,0)
+        to[R, l^={$R_2=2\units{\Omega}$}] (4,-2)
+        to[short] (2,-2);
+    \end{circuitikz}
+\end{center}
 \begin{enumerate}
-    \item What is the current flowing through the resistor after a long period of time?
+    \item What is the current flowing through $R_2$ after a long period of time?
 \end{enumerate}
 At time $t=t_0$ a dielectric of $\kappa=4$ is inserted into the capacitor. 
 \begin{enumerate}
-    \item What is the new current flowing through the resistor at the instant just after the dielectric is inserted (at $t=t_0$)?
-    \item What is the new current flowing through the resistor after a long time has passed?
+    \setcounter{enumi}{1}
+    \item What is the new current flowing through $R_2$ at the instant just after the dielectric is inserted (at $t=t_0^+$)?
 \end{enumerate}
+
+\iftoggle{solutions}{
+\textbf{Solution:}\\
+
+\begin{enumerate}
+\item The capacitor will act as a short so we are left with a series circuit
+\begin{center}
+    \begin{circuitikz}
+        \draw (0,0)
+        to[battery1, l_=$10\units{V}$] (0,-2)
+        to[short] (2,-2);
+        \draw (2,0)
+        to[R, l_={$R_1=1\units{\Omega}$}] (0,0);
+        \draw (2,0)
+        to[short] (4,0)
+        to[R, l^={$R_2=2\units{\Omega}$}] (4,-2)
+        to[short] (2,-2);
+    \end{circuitikz}
+\end{center}
+\begin{align*}
+    &R_{eq}=R_1+R_2=3\units{\Omega}\\
+    &I=\frac{V}{R_{eq}}=\frac{10\units{V}}{3\units{\Omega}}=\answer{3.33\units{A}}
+\end{align*}
+\item At the instant just before the dielectric is inserted the voltage across $R_1$ is
+\begin{align*}
+    &V_{R_1}=IR_1=3.33\units{A}\cdot1\units{\Omega}=3.33\units{V}
+\end{align*}
+This means that there must be $10\units{V}-3.33\units{V}=6.67\units{V}$ across the capacitor just before the dielectric is inserted.\\
+The charge on the capacitor just before the dielectric is inserted is
+\begin{align*}
+    &Q=CV=16\units{\mu F}\cdot6.67\units{V}=106.67\units{\mu C}
+\end{align*}
+The new capacitance value with the dielectric will be
+\[C=\kappa C_0=4\cdot 16\units{\mu C}=48\units{\mu C}\]
+The charge that was accumulated on the capacitor cannot instantaneously jump in value so we know that the charge on the capacitor just after the dielectric is inserted is the same as the charge just before the dielectric is inserted ($q(t_0^-)=q(t_0^+)$). This means that the voltage across the capactor must have changed when the dielectric was inserted.
+\begin{align*}
+    &V=\frac{Q}{C}=\frac{106.67\units{\mu C}}{48\units{\mu C}}=2.22\units{V}
+\end{align*}
+Because $R_2$ is in parallel with the capacitor, it must have the same voltage. We can use this to compute the current.
+\begin{align*}
+    &V_{R_2}=2.22\units{V}\\
+    &I_{R_2}=\frac{V_{R_2}}{R_2}=\frac{2.22\units{V}}{2\units{\Omega}}=\answer{1.11\units{A}}
+\end{align*}
+\end{enumerate}
+}{}
