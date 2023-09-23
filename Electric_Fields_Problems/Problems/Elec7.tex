@@ -3,6 +3,68 @@
 \textit{Created by Tyler Wilson 2023}
 }{}
 
-A resistor ($R=6\units{\Omega}$) and a capacitor of unknown value are connected in series to a $12\units{V}$ battery at time $t=0$. The current through the resistor $0.1$ seconds after the battery is connected is measured to be $1\units{A}$.\\
-A dielectric of unknown value $\kappa$ is then inserted in the capacitor. and the current through the resistor after $0.1$ seconds is measured to be $0.75\units{A}$.\\
-What are the values of both the capacitor and the dielectric?
+A very rough approximation for a water molecule can be represented by the following diagram: (a negative oxygen atom (blue) with two positive hydrogen atoms (red) attached to it)\\
+\textit{Assume $V(\infty)=0$}
+\begin{center}
+    \begin{tikzpicture}
+        \draw[<->] (-1.9,2) -- (-0.1,2);
+        \draw[<->] (0.1,2) -- (1.9,2);
+        \draw[<->] (0,0.1) -- (0,1.9);
+        \draw[fill=black] (0,2) circle (0.05);
+        \draw[fill=blue] (0,0) circle (0.1);
+        \draw[fill=red] (2,2) circle (0.1);
+        \draw[fill=red] (-2,2) circle (0.1);
+        \node[above] at (0,2.2) {A};
+        \node[below left] at (-2,2) {$q/2$};
+        \node[below right] at (2,2) {$q/2$};
+        \node[below] at (0,-0.2) {$-q$};
+        \node[above] at (1,2) {$a$};
+        \node[above] at (-1,2) {$a$};
+        \node[right] at (0,1) {$a$};
+    \end{tikzpicture}
+\end{center}
+\begin{enumerate}
+    \item What is the total electrical energy stored in this molecule in terms of charge $q$ and distance $a$?
+    \item Interpret the sign of your answer to part (a). What does it mean in terms of the work required to assemble the molecule?
+    \item Assuming all the charges are fixed in place, if you bring a positive test charge ($q'$) from infinity to the point A, how much external work would be required?\\
+    (Simplify your answer as much as possible)
+    \item After bringing the point charge to the origin in part (c), what would the new total energy stored in the system?
+\end{enumerate}
+
+\iftoggle{solutions}{
+\textbf{Solution:}
+\begin{enumerate}
+    \item The total electrical energy stored in this molecule is the sum of the potential energy of each pair of charges. The general expression for the potential energy between two point charges is
+    \[W=-\frac{kq_1q_2}{r}\]
+    For the energy between either hydrogen atom and the oxygen atom we get
+    \begin{align*}
+        &r=\sqrt{a^2+a^2}=a\sqrt{2}\\
+        &W=-\frac{k(-q)(\tfrac{q}{2})}{a\sqrt{2}}=\frac{kq^2}{2a\sqrt{2}}
+    \end{align*}
+    For the energy between the two hydrogen atoms we get
+    \begin{align*}
+        &r=2a\\
+        &W=-\frac{k(\tfrac{q}{2})(\tfrac{q}{2})}{2a}=-\frac{kq^2}{8a}
+    \end{align*}
+    Summing all of the energies together we get
+    \begin{align*}
+        &W=\frac{kq^2}{2a\sqrt{2}}+\frac{kq^2}{2a\sqrt{2}}-\frac{kq^2}{8a}\\
+        &W=\frac{kq^2}{a\sqrt{2}}-\frac{kq^2}{8a}\\
+        &\answer{W=\frac{kq^2}{a}\brround{\frac{1}{\sqrt{2}}-\frac{1}{8}}}
+    \end{align*}
+    \item $W>0$ which means that energy was added in order to create the system. If the system were released then energy would be released.
+    \item We know that the test charge starts at infinity and ends at point A. The work done on the point charge can be computed as
+    \[W=q'V\]
+    This means to solve the problem we just need to compute the potential difference. To compute the potential, we can compute the potential difference between infinity and point A.\\
+    We already know that the potential at infinity is zero. We can compute the potential at point A by summing the potential due to each charge.
+    \begin{align*}
+        &V=\frac{kq}{r}\\
+        &V(A)=\frac{k(\tfrac{q}{2})}{a}+\frac{k(\tfrac{q}{2})}{a}+\frac{k(-q)}{a}\\
+        &V(A)=0\\
+        &V(A)-V(\infty)=0\\
+    \end{align*}
+    We get that the charge at point A is the same as that at infinity. Therefore, no work is required to bring the charge from infinity to point A.
+    \item This is a bit of a trick question. Becasue there was no work done in bringing the charge into the system, the total energy stored in the system is the same as it was before.
+    \[\answer{W=\frac{kq^2}{a}\brround{\frac{1}{\sqrt{2}}-\frac{1}{8}}}\]
+\end{enumerate}
+}{}
