@@ -1,0 +1,41 @@
+\subsection*{Problem 1}
+\iftoggle{contributions}{
+\textit{Created by Tyler Wilson 2023}
+}{}
+
+Two current carrying loops, each with current $I$ and radius $R$, are placed a distance $d$ apart from each other, centered at the points $(-\tfrac{d}{2},0,0)$ and $(\tfrac{d}{2},0,0)$
+
+\begin{center}
+    \begin{tikzpicture}
+        \draw[dashed, ->] (-4,0) -- (4,0);
+        \node[right] at (4,0) {$x$};
+        \draw[postaction={decorate, decoration={
+            markings,
+            mark=at position 0.2 with {\arrow{>}}
+        }}] (2,0) ellipse (0.5 and 2);
+        \draw[postaction={decorate, decoration={
+            markings,
+            mark=at position 0.2 with {\arrow{>}}
+        }}] (-2,0) ellipse (0.5 and 2);
+        \draw[fill=black] (0,0) circle (0.05);
+        \node[above] at (0,0) {$0$};
+        \draw[<->] (-2,-2.5) -- (2,-2.5) node[midway, below] {$d$};
+    \end{tikzpicture}
+\end{center}
+
+\begin{enumerate}
+    \item Compute the magnitude of the magnetic field at the origin $(0,0,0)$ due to this configuration.
+    \item Compute the magnitude of the magnetic field for all points on the $x$-axis, $|\vec{B}(x)|$.
+    \item Determine the optimal distance $d$ between the two loops such that the magnetic field along the x-axis is as uniform as possible.\\
+    \textit{Hint: This can be done by choosing $d$ to make as many derivatives of $|\vec{B}(x)|$ equal to zero as possible.}
+\end{enumerate}
+
+\iftoggle{solutions}{
+\textbf{Solution:}
+\begin{enumerate}
+    \item We can start by writing the Biot-Savart law for the magnetic field due to a current carrying loop.
+    \begin{align*}
+        &B=\frac{\mu_0I}{4\pi}\int_0^{2\pi}\frac{d\vec{l}\times\hat{r}}{r^2}
+    \end{align*}
+\end{enumerate}
+}{}
