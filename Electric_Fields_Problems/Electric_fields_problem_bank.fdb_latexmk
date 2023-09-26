@@ -1,10 +1,9 @@
 # Fdb version 4
-["pdflatex"] 1695718267 "c:/Users/tbwil/Documents/LaTeX Documents/Phys 158 Redesign/Electric_Fields_Problems/Electric_fields_problem_bank.tex" "Electric_fields_problem_bank.pdf" "Electric_fields_problem_bank" 1695718271 0
-  "Electric_fields_problem_bank.aux" 1695718271 33 49835556b7333b11e315c53cb0218aaa "pdflatex"
+["pdflatex"] 1695725562 "c:/Users/tbwil/Documents/LaTeX Documents/Phys 158 Redesign/Electric_Fields_Problems/Electric_fields_problem_bank.tex" "Electric_fields_problem_bank.pdf" "Electric_fields_problem_bank" 1695725567 0
+  "Electric_fields_problem_bank.aux" 1695725567 33 7c0742bf35ce21725e3e7ead3b0fecc6 "pdflatex"
   "Electric_fields_problem_bank.tex" 1695717959 1374 3c77468e0bb09ba8cf232c2eb369deab ""
-  "Problems///Images/P2img1.png" 1693889348 10938 a82564de22ac2475dcad855e6d07de9d ""
-  "Problems/Elec1.tex" 1695718035 6557 54baf745aff12b52e0e98292a188c921 ""
-  "Problems/Elec2.tex" 1695718083 7847 d2b169f09c81cda6fc5d5761e8bc6463 ""
+  "Problems/Elec1.tex" 1695724378 7700 29eb7034e063013519cf2bbb11d10b62 ""
+  "Problems/Elec2.tex" 1695725560 8936 197dddb8fa307cd1ef93e3241b97c272 ""
   "Problems/Elec3.tex" 1695718115 1319 8575642bc09b755eda7c815383f1ed76 ""
   "Problems/Elec4.tex" 1695718145 3259 80277ef468abee079cf0b79d90749164 ""
   "Problems/Elec5.tex" 1695718163 954 862c015686518829e2aad860af737e03 ""

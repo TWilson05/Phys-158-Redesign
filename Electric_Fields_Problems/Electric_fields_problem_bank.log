@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.23)  26 SEP 2023 09:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.23)  26 SEP 2023 11:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -711,13 +711,12 @@ LaTeX Font Info:    Trying to load font information for LS2+stixtt on input line
 File: ls2stixtt.fd 2015/04/17 v1.1.2-latex STIX typewriter LS2 font definitions
 ) (./Problems/Elec1.tex [1
 
-{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]) (./Problems/Elec2.tex
-<Problems///Images/P2img1.png, id=24, 598.03426pt x 274.02374pt>
-File: Problems///Images/P2img1.png Graphic file (type png)
-<use Problems///Images/P2img1.png>
-Package pdftex.def Info: Problems///Images/P2img1.png  used on input line 15.
-(pdftex.def)             Requested size: 469.75502pt x 215.2429pt.
- [4 <./Problems///Images/P2img1.png>] [5] [6] [7]) (./Problems/Elec3.tex [8]
+{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]) (./Problems/Elec2.tex [4]
+Overfull \hbox (27.30482pt too wide) in paragraph at lines 40--41
+ [] 
+ []
+
+[5] [6] [7] [8]) (./Problems/Elec3.tex [9]
 Underfull \hbox (badness 10000) in paragraph at lines 35--35
 
  []
@@ -727,7 +726,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--55
 
  []
 
-[9] [10]) (./Problems/Elec5.tex
+[10] [11]) (./Problems/Elec5.tex
 Overfull \hbox (6.08548pt too wide) in paragraph at lines 10--11
 []\T1/stix/m/n/10.95 A par-al-lel plate ca-pac-i-tor is hooked up to a bat-tery and re-sister in se-ries. At time $\LS1/stix/m/it/10.95 t$\T1/stix/m/n/10.95 , the $[]$
  []
@@ -737,25 +736,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--31
 
  []
 
-) (./Problems/Elec6.tex [11]
+) (./Problems/Elec6.tex [12]
 Underfull \hbox (badness 10000) in paragraph at lines 76--76
 
  []
 
-[12]) (./Problems/Elec7.tex [13] [14]) (./Problems/Elec8.tex [15] [16] [17]) [18] (./Electric_fields_problem_bank.aux) ) 
+[13]) (./Problems/Elec7.tex [14]) (./Problems/Elec8.tex [15] [16] [17] [18]) [19] (./Electric_fields_problem_bank.aux) ) 
 Here is how much of TeX's memory you used:
- 45282 strings out of 476093
- 1195882 string characters out of 5795582
- 1876787 words of memory out of 5000000
- 65076 multiletter control sequences out of 15000+600000
+ 45272 strings out of 476093
+ 1195610 string characters out of 5795582
+ 1877787 words of memory out of 5000000
+ 65070 multiletter control sequences out of 15000+600000
  562968 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,13n,80p,862b,2129s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,13n,80p,862b,2131s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/stix/STIXGeneral-Bold.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/STIXGeneral-Italic.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/STIXGeneral-Regular.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathbbit.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathcal.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathex.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathit.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathrm.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathscr.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathsf.pfb>
-Output written on Electric_fields_problem_bank.pdf (18 pages, 228853 bytes).
+Output written on Electric_fields_problem_bank.pdf (19 pages, 224099 bytes).
 PDF statistics:
- 119 PDF objects out of 1000 (max. 8388607)
- 76 compressed objects within 1 object stream
+ 120 PDF objects out of 1000 (max. 8388607)
+ 78 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
