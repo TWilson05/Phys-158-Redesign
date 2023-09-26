@@ -15,6 +15,7 @@
 \usepackage{circuitikz}
 \usepackage{etoolbox} % included for conditionals
 \usepackage{pgfplots} % use for plotting
+\usepackage{stix} % use to make stars for difficulty
 \setlength{\parindent}{0em}
 
 % sets the enumerate to a), b), c), ...
@@ -23,12 +24,15 @@
 % define conditionals
 \newtoggle{solutions}
 \newtoggle{contributions}
+\newtoggle{difficulty}
 
 % set conditionals values
 \toggletrue{solutions}
 \toggletrue{contributions}
+\toggletrue{difficulty}
 % \togglefalse{solutions}
 % \togglefalse{contributions}
+% \togglefalse{difficulty}
 
 \title{Physics 158 Electric Fields Problem Bank}
 \author{}
