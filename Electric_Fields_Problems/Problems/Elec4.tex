@@ -7,13 +7,59 @@
 Difficulty: $\medblackstar \medwhitestar \medwhitestar$
 }{}
 
+\tdplotsetmaincoords{60}{110} % Set the viewpoint angles
+
 A rectangular box has dimensions $2\units{m}\times4\units{m}\times8\units{m}$. At each corner of the box sits a point charge of value $Q$.\\
 \textit{Leave your answers in terms of $k$ and $Q$.}
+
+\begin{center}
+\begin{tikzpicture}[tdplot_main_coords]
+    \draw[dashed] (0,0,0) -- (4,0,0) -- (4,8,0) -- (0,8,0) -- (0,0,0);
+    \draw[dashed] (0,0,-2) -- (4,0,-2) -- (4,8,-2) -- (0,8,-2) -- (0,0,-2);
+    \draw[dashed] (0,0,0) -- (0,0,-2);
+    \draw[dashed] (4,0,0) -- (4,0,-2);
+    \draw[dashed] (4,8,0) -- (4,8,-2);
+    \draw[dashed] (0,8,0) -- (0,8,-2);
+    \draw[ball color=blue] (4,0,0) circle (0.15);
+    \draw[ball color=blue] (4,0,-2) circle (0.15);
+    \draw[ball color=blue] (4,8,0) circle (0.15);
+    \draw[ball color=blue] (4,8,-2) circle (0.15);
+    \draw[ball color=blue] (0,0,0) circle (0.15);
+    \draw[ball color=blue] (0,0,-2) circle (0.15);
+    \draw[ball color=blue] (0,8,0) circle (0.15);
+    \draw[ball color=blue] (0,8,-2) circle (0.15);
+    \node[below] at (4,4,-2) {$8\units{cm}$};
+    \node[right] at (2,8,-2) {$4\units{cm}$};
+    \node[right] at (0,8,-1) {$2\units{cm}$};
+\end{tikzpicture}
+\end{center}
+
 \begin{enumerate}
     \item What is the electric field at the center of the box?
     \item What is the potential at the center of the box?
 \end{enumerate}
 One of the point charges on the corners is removed.
+\begin{center}
+\begin{tikzpicture}[tdplot_main_coords]
+    \draw[dashed] (0,0,0) -- (4,0,0) -- (4,8,0) -- (0,8,0) -- (0,0,0);
+    \draw[dashed] (0,0,-2) -- (4,0,-2) -- (4,8,-2) -- (0,8,-2) -- (0,0,-2);
+    \draw[dashed] (0,0,0) -- (0,0,-2);
+    \draw[dashed] (4,0,0) -- (4,0,-2);
+    \draw[dashed] (4,8,0) -- (4,8,-2);
+    \draw[dashed] (0,8,0) -- (0,8,-2);
+    \draw[ball color=blue] (4,0,0) circle (0.15);
+    \draw[ball color=blue] (4,0,-2) circle (0.15);
+    \draw[ball color=blue] (4,8,0) circle (0.15);
+    \draw[ball color=blue] (4,8,-2) circle (0.15);
+    \draw[ball color=blue] (0,0,0) circle (0.15);
+    \draw[ball color=white] (0,0,-2) circle (0.15);
+    \draw[ball color=blue] (0,8,0) circle (0.15);
+    \draw[ball color=blue] (0,8,-2) circle (0.15);
+    \node[below] at (4,4,-2) {$8\units{cm}$};
+    \node[right] at (2,8,-2) {$4\units{cm}$};
+    \node[right] at (0,8,-1) {$2\units{cm}$};
+\end{tikzpicture}
+\end{center}
 \begin{enumerate}
     \setcounter{enumi}{2}
     \item What is the magnitude of the new electric field at the center of the box?
