@@ -1,9 +1,10 @@
 # Fdb version 4
-["pdflatex"] 1695592804 "c:/Users/tbwil/Documents/LaTeX Documents/Phys 158 Redesign/Magnetism_Problems/Magnetism_problem_bank.tex" "Magnetism_problem_bank.pdf" "Magnetism_problem_bank" 1695592806 0
-  "Magnetism_problem_bank.aux" 1695592806 32 ab05033ccbb38b00a31b200ccedf8001 "pdflatex"
-  "Magnetism_problem_bank.tex" 1695556333 961 112bd42c97e82db991519753028c9a13 ""
+["pdflatex"] 1695641919 "c:/Users/tbwil/Documents/LaTeX Documents/Phys 158 Redesign/Magnetism_Problems/Magnetism_problem_bank.tex" "Magnetism_problem_bank.pdf" "Magnetism_problem_bank" 1695641920 0
+  "Magnetism_problem_bank.aux" 1695641920 32 2d1df76398b3c48c6419a45a7331db2d "pdflatex"
+  "Magnetism_problem_bank.tex" 1695641587 995 33d36a617d77bb1c95a647f184ce4f49 ""
   "Problems/Mag1.tex" 1695592804 5271 3b284fa37482a200ec1c507b1d5ffbea ""
-  "c:/Users/tbwil/Documents/LaTeX Documents/Phys 158 Redesign/Magnetism_Problems/Magnetism_problem_bank.tex" 1695556333 961 112bd42c97e82db991519753028c9a13 ""
+  "Problems/Mag2.tex" 1695641918 5143 0634d14bcf563bfbe49f177085951a74 ""
+  "c:/Users/tbwil/Documents/LaTeX Documents/Phys 158 Redesign/Magnetism_Problems/Magnetism_problem_bank.tex" 1695641587 995 33d36a617d77bb1c95a647f184ce4f49 ""
   "c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1671859246 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1671856204 1004 54797486969f23fa377b128694d548df ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1671856204 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""

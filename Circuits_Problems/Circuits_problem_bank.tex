@@ -14,6 +14,8 @@
 \usepackage{tikz}
 \usepackage{circuitikz}
 \usepackage{etoolbox} % included for conditionals
+% use to make stars for difficulty
+\usepackage{stix}
 \setlength{\parindent}{0em}
 
 % sets the enumerate to a), b), c), ...
@@ -22,12 +24,15 @@
 % define conditionals
 \newtoggle{solutions}
 \newtoggle{contributions}
+\newtoggle{difficulty}
 
 % set conditionals values
 \toggletrue{solutions}
 \toggletrue{contributions}
+\toggletrue{difficulty}
 % \togglefalse{solutions}
 % \togglefalse{contributions}
+% \togglefalse{difficulty}
 
 \title{Physics 158 Circuits Problem Bank}
 \author{}
@@ -45,7 +50,7 @@
 
 \section*{Time Dependent Circuits}
 \import{Problems/}{Circuits1.tex}
-% \import{Problems/}{Circuits2.tex}
+% \import{Problems/}{Circuits2.tex} % used in tutorial
 \import{Problems/}{Circuits3.tex}
 \import{Problems/}{Circuits4.tex}
 \import{Problems/}{Circuits5.tex}
