@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.23)  30 OCT 2023 19:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.23)  30 OCT 2023 21:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -678,20 +678,20 @@ LaTeX Font Info:    Trying to load font information for LS2+stixtt on input line
 File: ls2stixtt.fd 2015/04/17 v1.1.2-latex STIX typewriter LS2 font definitions
 ) (./Problems/Mag1.tex [1
 
-{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]) (./Problems/Mag2.tex) [3] (./Magnetism_problem_bank.aux) ) 
+{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]) (./Problems/Mag2.tex [3]) [4] (./Magnetism_problem_bank.aux) ) 
 Here is how much of TeX's memory you used:
- 34875 strings out of 476093
- 845223 string characters out of 5795582
- 1869787 words of memory out of 5000000
- 54809 multiletter control sequences out of 15000+600000
- 557424 words of font info for 103 fonts, out of 8000000 for 9000
+ 34893 strings out of 476093
+ 845565 string characters out of 5795582
+ 1872787 words of memory out of 5000000
+ 54827 multiletter control sequences out of 15000+600000
+ 562968 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,13n,80p,506b,947s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/stix/STIXGeneral-Bold.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/STIXGeneral-Italic.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/STIXGeneral-Regular.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathbbit.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathcal.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathex.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathit.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathrm.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathscr.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathsf.pfb>
-Output written on Magnetism_problem_bank.pdf (3 pages, 160267 bytes).
+Output written on Magnetism_problem_bank.pdf (4 pages, 175309 bytes).
 PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
- 42 compressed objects within 1 object stream
+ 71 PDF objects out of 1000 (max. 8388607)
+ 44 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

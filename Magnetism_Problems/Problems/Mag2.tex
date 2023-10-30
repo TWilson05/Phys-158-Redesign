@@ -4,12 +4,56 @@
 }{}
 
 \iftoggle{difficulty}{
-Difficulty: $\medblackstar \medblackstar \medwhitestar$
+Difficulty: $\medblackstar \medwhitestar \medwhitestar$
 }{}
 
-
+A toy company is planning on rolling out a new product called the magnetic hula-hoop. The hoop is made of a non-conducting material and has a radius of $R$ and has a uniform charge density of $\lambda$.
+\begin{enumerate}
+    \item If the hoop (depicted below) is spun around the point $O$ with a constant angular velocity of $\omega$, what is the magnetic field at the center of the hoop?
+    \item If the speed of the ring is no longer constant, but instead is expressed by the function $\omega(t)=\omega_0e^{-at}$ then what is the direction of the induced emf in the ring? (write your answer as either clockwise or counterclockwise)
+\end{enumerate}
+\begin{center}
+    \begin{tikzpicture}
+        \draw[postaction={decorate, decoration={
+            markings,
+            mark=at position 0.3 with {\arrow{>}}
+        }}] (0,0) circle (2);
+        \draw[fill=black] (0,0) circle (0.05) node[below] {$O$};
+        \draw[->] (0,0) -- (45:2) node[above right] {$R$};
+        \node[below right] at (-45:2) {$Q$};
+        \node[above] at (100:2) {$\omega$};
+        \draw[->] (3,1) -- +(1,0) node[right] {$\hat{i}$};
+        \draw[->] (3,1) -- +(0,1) node[above] {$\hat{j}$};
+    \end{tikzpicture}
+\end{center}
 
 \iftoggle{solutions}{
 \textbf{Solution:}
+\begin{enumerate}
+    \item We can recognize that current is simply the rate of change (or flow) of charge. In the case of the spinning ring we are creating a flow of charge so we can write the current as
+    \begin{align*}
+        &I=\frac{dQ}{dt}
+    \end{align*}
+    We can then use chain rule to rewrite this in terms of the variables that we have.
+    \begin{align*}
+        &I=\frac{dQ}{dt}=\frac{dQ}{ds}\frac{ds}{dt}=\lambda\cdot v\\
+        &v=R\omega\Ra I=\lambda R\omega
+    \end{align*}
+    We can then use the Biot-Savart law to find the magnetic field at the center of the ring.
+    \begin{align*}
+        &\vec{B}=\frac{\mu_0I}{4\pi}\int\frac{d\vec{l}\times\hat{r}}{r^2}\\
+        &d\vec{l}\times\hat{r}=dl\hat{k}\\
+        &dl=Rd\theta\\
+        &r=R\\
+        &\vec{B}=\frac{\mu_0\lambda R\omega}{4\pi}\int_0^{2\pi}\frac{Rd\theta}{R^2}\hat{k}=\answer{\frac{\mu_0\lambda \omega}{2}\hat{k}}
+    \end{align*}
+    \item We found in part (a) that the magnetic field is pointing out of the page. We also found that the magnetic field is proportional to the angular velocity of the ring so as $\omega$ decreases over time then the magnetic field strength will also decrease.
+    \begin{align*}
+        &\ddx[\vec{B}]{t}<0\hat{k}\\
+        &\Phi_B=\vec{B}\cdot\vec{A}=BA\\
+        &\varepsilon=-\ddx[\Phi_B]{t}=-\ddx[B]{t}A>0 \text{(out of page)}
+    \end{align*}
+    We can see that the induced emf is positive and is pointing out of the page. This means that the induced current will be flowing in the \underline{clockwise} direction.
+\end{enumerate}
 
 }{}
