@@ -3,72 +3,13 @@
 \textit{Created by Tyler Wilson 2023}
 }{}
 
-Two current carrying loops, each with current $I$ and radius $R$, are placed a distance $d$ apart from each other, centered at the points $(-\tfrac{d}{2},0,0)$ and $(\tfrac{d}{2},0,0)$
+\iftoggle{difficulty}{
+Difficulty: $\medblackstar \medblackstar \medwhitestar$
+}{}
 
-\begin{center}
-    \begin{tikzpicture}
-        \draw[dashed, ->] (0,0) -- (4,0);
-        \draw[dashed, ->] (0,0) -- (0,2) node[right] {$y$};
-        \node[right] at (4,0) {$x$};
-        \draw[postaction={decorate, decoration={
-            markings,
-            mark=at position 0.1 with {\arrow{>}}
-        }}] (0,0) ellipse (2 and 0.5);
-        \draw[fill=black] (0,0) circle (0.05);
-        \node[left] at (0,0) {$0$};
-        \node[right] at (1.3,0.6) {$\omega$};
-    \end{tikzpicture}
-\end{center}
 
-\begin{enumerate}
-    \item Compute the magnitude of the magnetic field at the origin $(0,0,0)$ due to this configuration.
-    \item Compute the magnitude of the magnetic field for all points on the $x$-axis, $|\vec{B}(x)|$.
-    \item Determine the optimal distance $d$ between the two loops such that the magnetic field along the axis of symmetry is as uniform as possible.\\
-    \textit{Hint: This can be done by choosing $d$ to make as many derivatives of $|\vec{B}(x)$ equal to zero at $x=0$ as possible.}
-\end{enumerate}
 
 \iftoggle{solutions}{
 \textbf{Solution:}
-\begin{enumerate}
-    \item We can start by writing the Biot-Savart law for the magnetic field due to a single current carrying loop.
-    \begin{align*}
-        &B=\frac{\mu_0I}{4\pi}\int_0^{2\pi}\frac{d\vec{l}\times\hat{r}}{r^2}
-    \end{align*}
-    \begin{center}
-        \begin{tikzpicture}
-            \draw (0,0) -- (2,0) -- (0,4) -- (0,0);
-            \draw (0,3.5) arc (270:296.6:0.5) node[midway, below] {$\phi$};
-            \node[left] at (0,2) {$\frac{d}{2}$};
-            \node[below] at (1,0) {$R$};
-            \draw[blue, ->] (0,4) -- (2,5) node[right] {$\vec{B}$};
-            \draw[purple, ->] (0,4) -- (0,5) node[above] {$\vec{B}_x$};
-            \draw[dashed] (0,0) ellipse (2 and 1);
-            \node[right, above] at (1.1,2.2) {$r$};
-        \end{tikzpicture}
-    \end{center}
-    We can see that the magnetic field will only have a component in the $x$-direction, so we can write the magnetic field as
-    \begin{align*}
-        &r=\sqrt{R^2+\frac{d^2}{4}}\\
-        &l=R\theta\Ra dl=Rd\theta\\
-        &B_x=\frac{\mu_0I}{4\pi}\int_0^{2\pi}\frac{d\vec{l}\times\hat{r}}{r^2}\cdot\hat{i}=\frac{\mu_0I}{4\pi}\int_0^{2\pi}\frac{Rd\theta}{R^2+\frac{d^2}{4}}\sin\phi=\frac{\mu_0I}{4\pi}\int_0^{2\pi}\frac{Rd\theta}{R^2+\frac{d^2}{4}}\frac{R}{\sqrt{R^2+\frac{d^2}{4}}}\\
-        &B_x=\frac{\mu_0IR^2}{4\pi}\int_0^{2\pi}\frac{d\theta}{\left(R^2+\frac{d^2}{4}\right)^{\frac{3}{2}}}=\frac{\mu_0IR^2}{4\pi}\frac{2\pi}{\left(R^2+\frac{d^2}{4}\right)^{\frac{3}{2}}}=\frac{\mu_0IR^2}{2\left(R^2+\frac{d^2}{4}\right)^{\frac{3}{2}}}
-    \end{align*}
-    This gives us the field for one wire. Using the right-hand-rule we can see that the two fields will add so the total field at the origin is double what we calculated.
-    \[\answer{|\vec{B}|=\frac{\mu_0IR^2}{\left(R^2+\frac{d^2}{4}\right)^{\frac{3}{2}}}}\]
-    \item We can use the same method as above to find the field at any point on the $x$-axis. If we use the same derivation as above but replace $\frac{d}{2}$ with $x+\frac{d}{2}$ for the left ring and $x-\frac{d}{2}$ for the right ring then we get a general expression for the field at any point on the $x$-axis.
-    \[\answer{|\vec{B}|(x)=\frac{\mu_0IR^2}{2}\brround{\frac{1}{\brround{R^2+(x+\frac{d}{2})^2}^{3/2}}+\frac{1}{\brround{R^2+(x-\frac{d}{2})^2}^{3/2}}}}\]
-    \item We can find the optimal distance by finding the points where the derivative of the field is zero at $z=0$.
-    \begin{align*}
-        &\ddx[B]{x}\eval_{x=0}=-\frac{\mu_0IR^2}{2}\frac{3}{2}\brround{\frac{2(x+\frac{d}{2})}{\brround{R^2+(x+\frac{d}{2})^2}^{5/2}}+\frac{2(x-\frac{d}{2})}{\brround{R^2+(x-\frac{d}{2})^2}^{5/2}}}\eval_{x=0}\\
-        &=\frac{3\mu_0IR^2}{2}\brround{\frac{\frac{d}{2}}{\brround{R^2+\frac{d^2}{4}}^{5/2}}-\frac{\frac{d}{2}}{\brround{R^2+\frac{d^2}{4}}^{5/2}}}=0\\
-    \end{align*}
-    The first derivative didn't tell us anything so now we can look at the second derivative.
-    \begin{align*}
-        &\frac{d^2B}{dx^2}\eval_{x=0}=-\frac{3\mu_0IR^2}{2}\ddx{x}\brround{\frac{x+\frac{d}{2}}{\brround{R^2+(x+\frac{d}{2})^2}^{5/2}}+\frac{x-\frac{d}{2}}{\brround{R^2+(x-\frac{d}{2})^2}^{5/2}}}\eval_{x=0}=0\\
-        &\frac{\brround{R^2+(x+\frac{d}{2})^2}^{5/2}-(x+\frac{d}{2})(\frac{5}{2})(R^2+(x+\frac{d}{2})^2)^{3/2}(2)(x+\frac{d}{2})}{\brround{R^2+(x+\frac{d}{2})^2}^5}\eval_{x=0}\\&+\frac{\brround{R^2+(x-\frac{d}{2})^2}^{5/2}-(x-\frac{d}{2})(\frac{5}{2})(R^2+(x-\frac{d}{2})^2)^{3/2}(2)(x-\frac{d}{2})}{\brround{R^2+(x-\frac{d}{2})^2}^5}\eval_{x=0}=0\\
-        &\frac{2(R^2+\frac{d^2}{4})^{5/2}-\frac{5d^2}{2}(R^2+\frac{d^2}{4})^{3/2}}{\brround{R^2+\frac{d^2}{4}}^5}=0\\
-        &2\brround{R^2+\frac{d^2}{4}}-\frac{5d^2}{2}=2R^2-2d^2=0\\
-        &\answer{d=R}
-    \end{align*}
-\end{enumerate}
+
 }{}

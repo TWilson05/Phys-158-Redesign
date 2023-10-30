@@ -14,6 +14,8 @@
 \usepackage{tikz}
 \usepackage{circuitikz}
 \usepackage{etoolbox} % included for conditionals
+% use to make stars for difficulty
+\usepackage{stix}
 \usetikzlibrary{decorations.markings}
 \setlength{\parindent}{0em}
 
@@ -23,12 +25,15 @@
 % define conditionals
 \newtoggle{solutions}
 \newtoggle{contributions}
+\newtoggle{difficulty}
 
 % set conditionals values
 \toggletrue{solutions}
 \toggletrue{contributions}
+\toggletrue{difficulty}
 % \togglefalse{solutions}
 % \togglefalse{contributions}
+% \togglefalse{difficulty}
 
 \title{Physics 158 Magnetism Problem Bank}
 \author{}
