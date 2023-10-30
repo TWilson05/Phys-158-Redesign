@@ -33,6 +33,29 @@ A very rough approximation for a water molecule can be represented by the follow
     \item Assuming all the charges are fixed in place, if you bring a positive test charge ($q'$) from infinity to the point A, how much external work would be required?\\
     (Simplify your answer as much as possible)
     \item After bringing the point charge to the origin in part (c), what would the new total energy stored in the system?
+    \item Note that in a real water molecle, the angle between the hydrogen atoms is $104.5^\circ$ as shown below. How would this affect your answer to part (c)?
+    \begin{center}
+        \begin{tikzpicture}
+            \draw[<->] (-1.9,2) -- (-0.1,2);
+            \draw[<->] (0.1,2) -- (1.9,2);
+            \draw[<->] (0,0.1) -- (0,1.9);
+            \draw[dashed] (0,0) -- (-2,2);
+            \draw[dashed] (0,0) -- (2,2);
+            \draw[fill=black] (0,2) circle (0.05);
+            \draw[fill=blue] (0,0) circle (0.1);
+            \draw[fill=red] (2,2) circle (0.1);
+            \draw[fill=red] (-2,2) circle (0.1);
+            \draw (45:0.5) arc[start angle=45, end angle=135, radius=0.5];
+            \node[above] at (0,2.2) {A};
+            \node[below left] at (-2,2) {$q/2$};
+            \node[below right] at (2,2) {$q/2$};
+            \node[below] at (0,-0.2) {$-q$};
+            \node[above] at (1,2) {$b$};
+            \node[above] at (-1,2) {$b$};
+            \node[right] at (0,1) {$a$};
+            \node[below right] at (0.5,0.5) {$104.5^\circ$};
+        \end{tikzpicture}
+    \end{center}
 \end{enumerate}
 
 \iftoggle{solutions}{
@@ -70,5 +93,11 @@ A very rough approximation for a water molecule can be represented by the follow
     We get that the charge at point A is the same as that at infinity. Therefore, no work is required to bring the charge from infinity to point A.
     \item This is a bit of a trick question. Becasue there was no work done in bringing the charge into the system, the total energy stored in the system is the same as it was before.
     \[\answer{W=\frac{kq^2}{a}\brround{\frac{1}{\sqrt{2}}-\frac{1}{8}}}\]
+    \item The angle between the hydrogen atoms is $104.5^\circ$ which means that the distance from the hydrogen atoms to point A is now no longer the same (now represented by $b$). We can also note that the angle in the original schematic was 90 degrees which is less than the new angle. This implies that $b>a$ and so the hydrogen atoms are now further away from point A. So we get
+    \begin{align*}
+        &V(A)=\frac{k\bfrac{q}{2}}{b}+\frac{k\bfrac{q}{2}}{b}+\frac{k(-q)}{a}=kq\brround{\frac{1}{b}-\frac{1}{a}}\\
+        &b>a\Ra V(A)<0
+    \end{align*}
+    Seeing that the potential is negative, we can conclude that the work done on the charge is negative ($W=q'V$). This means that energy is released when the charge is brought into the system.\\
 \end{enumerate}
 }{}
