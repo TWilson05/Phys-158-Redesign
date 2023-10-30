@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.23)  26 SEP 2023 09:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.23)  30 OCT 2023 12:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -732,15 +732,15 @@ Package pdftex.def Info: Problems//Images/P8img2.png  used on input line 67.
 File: Problems//Images/P8img3.png Graphic file (type png)
 <use Problems//Images/P8img3.png>
 Package pdftex.def Info: Problems//Images/P8img3.png  used on input line 67.
-(pdftex.def)             Requested size: 442.37996pt x 115.6891pt.
+(pdftex.def)             Requested size: 442.37996pt x 123.46866pt.
 [13 <./Problems//Images/P8img1.png> <./Problems//Images/P8img2.png>]
-<Problems//Images/P8img4.png, id=79, 217.2918pt x 94.4328pt>
+<Problems//Images/P8img4.png, id=80, 217.2918pt x 94.4328pt>
 File: Problems//Images/P8img4.png Graphic file (type png)
 <use Problems//Images/P8img4.png>
 Package pdftex.def Info: Problems//Images/P8img4.png  used on input line 67.
 (pdftex.def)             Requested size: 265.43066pt x 115.35768pt.
 ) (./Problems/Circuits9.tex
-<Problems//Images/P9img2.png, id=80, 125.268pt x 131.5314pt>
+<Problems//Images/P9img2.png, id=81, 125.268pt x 131.5314pt>
 File: Problems//Images/P9img2.png Graphic file (type png)
 <use Problems//Images/P9img2.png>
 Package pdftex.def Info: Problems//Images/P9img2.png  used on input line 13.
@@ -751,30 +751,30 @@ File: Problems//Images/P9img2.png Graphic file (type png)
 Package pdftex.def Info: Problems//Images/P9img2.png  used on input line 94.
 (pdftex.def)             Requested size: 164.41711pt x 172.64053pt.
  [15 <./Problems//Images/P9img2.png>] [16]
-<Problems//Images/P9img3.png, id=93, 238.491pt x 100.2144pt>
+<Problems//Images/P9img3.png, id=95, 238.491pt x 100.2144pt>
 File: Problems//Images/P9img3.png Graphic file (type png)
 <use Problems//Images/P9img3.png>
 Package pdftex.def Info: Problems//Images/P9img3.png  used on input line 94.
 (pdftex.def)             Requested size: 309.66461pt x 130.1334pt.
 ) (./Problems/Circuits10.tex
-<Problems//Images/P10img1.png, id=94, 156.585pt x 85.5195pt>
+<Problems//Images/P10img1.png, id=96, 156.585pt x 85.5195pt>
 File: Problems//Images/P10img1.png Graphic file (type png)
 <use Problems//Images/P10img1.png>
 Package pdftex.def Info: Problems//Images/P10img1.png  used on input line 11.
 (pdftex.def)             Requested size: 234.8775pt x 128.28412pt.
  [17 <./Problems//Images/P9img3.png>]
-<Problems//Images/P10img2.png, id=99, 193.4427pt x 84.5559pt>
+<Problems//Images/P10img2.png, id=101, 193.4427pt x 84.5559pt>
 File: Problems//Images/P10img2.png Graphic file (type png)
 <use Problems//Images/P10img2.png>
 Package pdftex.def Info: Problems//Images/P10img2.png  used on input line 73.
 (pdftex.def)             Requested size: 234.8775pt x 102.669pt.
-<Problems//Images/P10img3.png, id=100, 145.2627pt x 71.5473pt>
+<Problems//Images/P10img3.png, id=102, 145.2627pt x 71.5473pt>
 File: Problems//Images/P10img3.png Graphic file (type png)
 <use Problems//Images/P10img3.png>
 Package pdftex.def Info: Problems//Images/P10img3.png  used on input line 73.
 (pdftex.def)             Requested size: 176.94928pt x 87.1609pt.
  [18 <./Problems//Images/P10img1.png> <./Problems//Images/P10img2.png> <./Problems//Images/P10img3.png>]) (./Problems/Circuits11.tex
-<Problems//Images/P11img1.png, id=107, 177.66376pt x 109.00725pt>
+<Problems//Images/P11img1.png, id=109, 177.66376pt x 109.00725pt>
 File: Problems//Images/P11img1.png Graphic file (type png)
 <use Problems//Images/P11img1.png>
 Package pdftex.def Info: Problems//Images/P11img1.png  used on input line 11.
@@ -784,18 +784,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 73--73
 
  []
 
-<Problems//Images/P11img2.png, id=112, 154.4169pt x 79.0152pt>
+<Problems//Images/P11img2.png, id=114, 154.4169pt x 79.0152pt>
 File: Problems//Images/P11img2.png Graphic file (type png)
 <use Problems//Images/P11img2.png>
 Package pdftex.def Info: Problems//Images/P11img2.png  used on input line 73.
 (pdftex.def)             Requested size: 176.94928pt x 90.55087pt.
-<Problems//Images/P11img3.png, id=113, 220.1826pt x 79.0152pt>
+<Problems//Images/P11img3.png, id=115, 220.1826pt x 79.0152pt>
 File: Problems//Images/P11img3.png Graphic file (type png)
 <use Problems//Images/P11img3.png>
 Package pdftex.def Info: Problems//Images/P11img3.png  used on input line 73.
 (pdftex.def)             Requested size: 265.43066pt x 95.26385pt.
 [20 <./Problems//Images/P11img1.png> <./Problems//Images/P11img2.png> <./Problems//Images/P11img3.png>]
-<Problems//Images/P11img4.png, id=120, 126.2316pt x 79.0152pt>
+<Problems//Images/P11img4.png, id=122, 126.2316pt x 79.0152pt>
 File: Problems//Images/P11img4.png Graphic file (type png)
 <use Problems//Images/P11img4.png>
 Package pdftex.def Info: Problems//Images/P11img4.png  used on input line 73.
@@ -806,30 +806,30 @@ Overfull \hbox (1.82863pt too wide) in paragraph at lines 73--73
  []
 
 ) (./Problems/Circuits12.tex
-<Problems//Images/P12img1.png, id=121, 181.8795pt x 154.77824pt>
+<Problems//Images/P12img1.png, id=123, 181.8795pt x 154.77824pt>
 File: Problems//Images/P12img1.png Graphic file (type png)
 <use Problems//Images/P12img1.png>
 Package pdftex.def Info: Problems//Images/P12img1.png  used on input line 12.
 (pdftex.def)             Requested size: 234.8775pt x 199.88203pt.
  [21 <./Problems//Images/P11img4.png> <./Problems//Images/P12img1.png>]
-<Problems//Images/P12img2.png, id=127, 186.6975pt x 117.0774pt>
+<Problems//Images/P12img2.png, id=129, 186.6975pt x 117.0774pt>
 File: Problems//Images/P12img2.png Graphic file (type png)
 <use Problems//Images/P12img2.png>
 Package pdftex.def Info: Problems//Images/P12img2.png  used on input line 76.
 (pdftex.def)             Requested size: 243.31032pt x 152.58646pt.
-<Problems//Images/P12img3.png, id=128, 186.6975pt x 117.0774pt>
+<Problems//Images/P12img3.png, id=130, 186.6975pt x 117.0774pt>
 File: Problems//Images/P12img3.png Graphic file (type png)
 <use Problems//Images/P12img3.png>
 Package pdftex.def Info: Problems//Images/P12img3.png  used on input line 76.
 (pdftex.def)             Requested size: 243.31032pt x 152.58646pt.
  [22 <./Problems//Images/P12img2.png>]) (./Problems/Circuits20.tex (./Problems/Images/P20img1.tex [23 <./Problems//Images/P12img3.png>]) [24]) (./Problems/Circuits13.tex [25]) (./Problems/Circuits14.tex
-<Problems//Images/P14img1.png, id=144, 169.23225pt x 96.36pt>
+<Problems//Images/P14img1.png, id=146, 169.23225pt x 96.36pt>
 File: Problems//Images/P14img1.png Graphic file (type png)
 <use Problems//Images/P14img1.png>
 Package pdftex.def Info: Problems//Images/P14img1.png  used on input line 33.
 (pdftex.def)             Requested size: 164.41711pt x 93.62491pt.
  [26 <./Problems//Images/P14img1.png>]
-<Problems//Images/P14img2.png, id=149, 150.5625pt x 183.68625pt>
+<Problems//Images/P14img2.png, id=151, 150.5625pt x 183.68625pt>
 File: Problems//Images/P14img2.png Graphic file (type png)
 <use Problems//Images/P14img2.png>
 Package pdftex.def Info: Problems//Images/P14img2.png  used on input line 33.
@@ -854,10 +854,10 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  84i,13n,80p,535b,944s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/stix/stix-ts1.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/stix/STIXGeneral-Bold.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/STIXGeneral-Italic.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/STIXGeneral-Regular.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathbbit.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathcal.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathex.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathit.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathrm.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathscr.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathsf.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathtt.pfb>
-Output written on Circuits_problem_bank.pdf (28 pages, 716249 bytes).
+Output written on Circuits_problem_bank.pdf (28 pages, 716508 bytes).
 PDF statistics:
- 209 PDF objects out of 1000 (max. 8388607)
- 104 compressed objects within 2 object streams
+ 211 PDF objects out of 1000 (max. 8388607)
+ 105 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 138 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 144 words of extra memory for PDF output out of 10000 (max. 10000000)
 
