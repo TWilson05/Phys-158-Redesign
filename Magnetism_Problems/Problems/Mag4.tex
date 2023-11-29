@@ -1,0 +1,96 @@
+\subsection*{Problem 4}
+\iftoggle{contributions}{
+\textit{Created by Tyler Wilson 2023}
+}{}
+
+\iftoggle{difficulty}{
+Difficulty: $\medblackstar \medblackstar \medwhitestar$
+}{}
+
+Two identical square plates have side length $w$. The top plate has a surface charge density of $\sigma$ while the bottom plate has a surface charge density of $-\sigma$. The plates are separated by a distance $d$. The two plates are moved at some constant velocity $\vec{v}$ in the direction shown.\\
+Assume that $w\gg d$ so that the plates can be treated as infinite planes.
+
+\begin{enumerate}
+    \item Find the magnetic field everywhere in space.
+    \item What would be different if we didn't make the assumption that $w\gg d$?
+\end{enumerate}
+
+
+\tdplotsetmaincoords{60}{110} % Set the viewpoint angles
+
+\begin{center}
+    \begin{tikzpicture}[tdplot_main_coords]
+        \draw[dashed] (0,0,0) -- (0,0,-2);
+        \draw[fill=gray, opacity=0.5] (0,0,0) -- (3,0,0) -- (3,3,0) -- (0,3,0) -- (0,0,0);
+        \draw[fill=gray, opacity=0.5] (0,0,-2) -- (3,0,-2) -- (3,3,-2) -- (0,3,-2) -- (0,0,-2);
+        \draw[dashed] (0,3,0) -- (0,3,-2);
+        \draw[dashed] (3,3,0) -- (3,3,-2);
+        \draw[dashed] (3,0,0) -- (3,0,-2) node[midway, left] {$d$};
+        \draw[blue, ->] (1.5,3,0) -- (1.5,4,0) node[right] {$\vec{v}$};
+        \draw[blue, ->] (1.5,3,-2) -- (1.5,4,-2) node[right] {$\vec{v}$};
+        \node[below] at (3,1.5,-2) {$w$};
+        \draw[->] (0,5,1) -- (1,5,1) node[below] {$\hat{i}$};
+        \draw[->] (0,5,1) -- (0,6,1) node[right] {$\hat{j}$};
+        \draw[->] (0,5,1) -- (0,5,2) node[above] {$\hat{k}$};
+    \end{tikzpicture}
+\end{center}
+
+\iftoggle{solutions}{
+\textbf{Solution:}
+\begin{enumerate}
+    \item We can start by solving this problem with one plate. The plate being in motion means that we will have moving charged particles which will resemble a current in the direction of the velocity. Using the right-hand-rule, we can find the direction of the magnetic field and create an Amperian loop.
+    \tdplotsetmaincoords{60}{120}
+    \begin{center}
+        \begin{tikzpicture}[tdplot_main_coords]
+            \draw[red, dashed, ->] (4,1.5,-1) -- (2.5,1.5,-1);
+            \draw[red, dashed] (-1,1.5,-1) -- (-1,1.5,2);
+            \draw[red, dashed] (2.5,1.5,-1) -- (-1,1.5,-1);
+            \draw[green, ->] (3,1.5,-0.5) -- (0,1.5,-0.5) node[above] {$\vec{B}$};
+            \draw[fill=gray, opacity=0.7] (0,0,0) -- (3,0,0) -- (3,3,0) -- (0,3,0) -- (0,0,0);
+            \draw[->] (0,5,1) -- (1,5,1) node[below] {$\hat{i}$};
+            \draw[->] (0,5,1) -- (0,6,1) node[right] {$\hat{j}$};
+            \draw[->] (0,5,1) -- (0,5,2) node[above] {$\hat{k}$};
+            \draw[blue, ->] (1.5,0,0) -- (1.5,3,0) node[right] {$\vec{I}$};
+            \draw[blue, ->] (0.5,0,0) -- (0.5,3,0);
+            \draw[blue, ->] (2.5,0,0) -- (2.5,3,0);
+            \draw[red, dashed] (4,1.5,-1) -- (4,1.5,2);
+            \draw[red, dashed, ->] (-1,1.5,2) -- (1.5,1.5,2);
+            \draw[red, dashed] (1.5,1.5,2) -- (4,1.5,2);
+            \draw[green, ->] (0,1.5,0.5) -- (3,1.5,0.5) node[above] {$\vec{B}$};
+        \end{tikzpicture}
+    \end{center}
+    Ampere's law tells us that
+    \[\oint\vec{B}\cdot d\vec{l}=\mu_0I_\text{enc}\]
+    With the dot product, the left side of the equation works out to be
+    \[\oint\vec{B}\cdot d\vec{l}=2wB\]
+    The enclosed current can be computed as follows:
+    \begin{align*}
+        &I=\ddx[q]{t}=\ddx[q]{A}\ddx[A]{t}=\sigma\ddx[A]{t}\\
+        &A=wy\Ra \ddx[A]{t}=w\ddx[y]{t}=wv\\
+        &I=\sigma wv
+    \end{align*}
+    And so we get
+    \begin{align*}
+        &2wB=\mu_0\sigma wv\\
+        &B=\frac{\mu_0\sigma v}{2}
+    \end{align*}
+    If we combine both plates then we can see that the magnetic field will be doubled in the center and will cancel on the outside.
+    \begin{center}
+        \begin{tikzpicture}
+            \draw (-2,-1) -- (2,-1);
+            \draw (-2,1) -- (2,1);
+            \draw[->] (4,2) -- +(-1,0) node[left] {$\hat{i}$};
+            \draw[->] (4,2) -- +(0,1) node[above] {$\hat{k}$};
+            \draw[red, ->] (1,1.2) -- (-1,1.2) node[above left] {$\vec{B}$};
+            \draw[red, ->] (-1,0.8) -- (1,0.8);
+            \draw[red, ->] (-1,-0.8) -- (1,-0.8) node[above right] {$\vec{B}$};
+            \draw[red, ->] (1,-1.2) -- (-1,-1.2);
+        \end{tikzpicture}
+    \end{center}
+    And so we get that the magnetic field is
+    \[\vec{B}=-\mu_0\sigma v\hat{i}\]
+    between the plates and zero everywhere else.
+    \item In assuming that $w\gg d$ we are assuming that the plates are infinite and so there will be \underline{no edge effects}. If we account for the edge effects then we will no longer have $\vec{B}\cdot d\vec{l}=0$ for the vertical parts of our loop and so we would no longer be able to solve for $B$ using Ampere's law. Instead, we would have to use the Biot-Savart law to find the magnetic field everywhere in space which would be much more difficult.
+\end{enumerate}
+
+}{}
