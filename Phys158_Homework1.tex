@@ -1,0 +1,59 @@
+\documentclass[11pt, fleqn]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{fullpage}
+\usepackage{amsmath,amssymb,array}
+\usepackage{dsfont}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage{mathtools}
+\usepackage{polynom}
+\usepackage{esint}
+\usepackage{mathrsfs}
+\usepackage{fizztex}
+\usepackage{import}
+\usepackage{tikz}
+\usepackage{circuitikz}
+\usepackage{etoolbox} % included for conditionals
+\usepackage{tikz-3dplot} % use for 3d tikz
+% use to make stars for difficulty
+\usepackage{stix}
+\usetikzlibrary{decorations.markings}
+\setlength{\parindent}{0em}
+
+% sets the enumerate to a), b), c), ...
+\renewcommand{\labelenumi}{\alph{enumi})}
+
+% define conditionals
+\newtoggle{title}
+\newtoggle{solutions}
+\newtoggle{contributions}
+\newtoggle{difficulty}
+
+% set conditionals values
+% \toggletrue{title}
+\toggletrue{solutions}
+% \toggletrue{contributions}
+\toggletrue{difficulty}
+\togglefalse{title}
+% \togglefalse{solutions}
+\togglefalse{contributions}
+% \togglefalse{difficulty}
+
+\title{Physics 158 Written Homework 1}
+\author{}
+\date{}
+
+\begin{document}
+\allowdisplaybreaks
+
+\maketitle
+
+% include problems here
+\subimport*{"Problem_Banks/Circuits_Problems/Problems/"}{Circuits16.tex}
+\subimport*{"Problem_Banks/Circuits_Problems/Problems/"}{Circuits17.tex}
+\subimport*{"Problem_Banks/Circuits_Problems/Problems/"}{Circuits4.tex}
+\subimport*{"Problem_Banks/Circuits_Problems/Problems/"}{Circuits6.tex}
+\subimport*{"Problem_Banks/Circuits_Problems/Problems/"}{Circuits8.tex}
+\subimport*{"Problem_Banks/Circuits_Problems/Problems/"}{Circuits10.tex}
+
+\end{document}
