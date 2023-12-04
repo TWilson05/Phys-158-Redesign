@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1701709300 "c:/Users/tbwil/Documents/LaTeX Documents/Phys 158 Redesign/Problem_Banks/Electric_Fields_Problems/Electric_fields_problem_bank.tex" "Electric_fields_problem_bank.pdf" "Electric_fields_problem_bank" 1701709304 0
-  "Electric_fields_problem_bank.aux" 1701709304 33 0ae11b936eb3d966de265f4e1c711c46 "pdflatex"
-  "Electric_fields_problem_bank.tex" 1701708508 1659 9d6ff54031b39b2cb4e5d70b89eda32a ""
+["pdflatex"] 1701710175 "c:/Users/tbwil/Documents/LaTeX Documents/Phys 158 Redesign/Problem_Banks/Electric_Fields_Problems/Electric_fields_problem_bank.tex" "Electric_fields_problem_bank.pdf" "Electric_fields_problem_bank" 1701710179 0
+  "Electric_fields_problem_bank.aux" 1701710179 33 d2184818cd16c7334a2328a01fa4fb24 "pdflatex"
+  "Electric_fields_problem_bank.tex" 1701710170 1624 790661811abf6db668c30ce36485a8ec ""
   "Problems//Images/P10img1.png" 1701708816 494090 8861378cd3c278bcedf75ddf1f395c82 ""
   "Problems//Images/P11img1.png" 1701708861 386827 efb1def7247f1c2c4c4a833d37da6580 ""
   "Problems//Images/P11img2.png" 1701708888 275299 c0e218680bb12360725cf9f0b2270096 ""
@@ -10,7 +10,6 @@
   "Problems//Images/P12img3.png" 1701708974 496359 d47f6d8369080f25339dcc176244aa4f ""
   "Problems//Images/P13img1.png" 1701709033 245356 8ed872593168117e6004ccbf991b499b ""
   "Problems//Images/P13img2.png" 1701709058 438143 81a437446494b36accd68f0605c95f9f ""
-  "Problems//Images/P9img1.png" 1701708665 298082 5a2c07ffc0a4c6aa4dfcf417a927d686 ""
   "Problems/Elec1.tex" 1701705829 7724 ec9259f08f9826d96b224e60aabf6f68 ""
   "Problems/Elec10.tex" 1701709125 1363 828968e4945588217c07956db63f3bc1 ""
   "Problems/Elec11.tex" 1701709181 1652 d547f31531be396b9667229a2637ae74 ""
@@ -23,8 +22,7 @@
   "Problems/Elec6.tex" 1701705892 3189 133bb3e79e79200bfb1c7201ff16695e ""
   "Problems/Elec7.tex" 1701705901 5859 1b4341b0597ae6b8daee9aa1ffe77c51 ""
   "Problems/Elec8.tex" 1701706435 6831 f7898623f5218ce99b0cfa632e521712 ""
-  "Problems/Elec9.tex" 1701709130 665 8563dad5363e8d05944d37a2e6c05c67 ""
-  "c:/Users/tbwil/Documents/LaTeX Documents/Phys 158 Redesign/Problem_Banks/Electric_Fields_Problems/Electric_fields_problem_bank.tex" 1701708508 1659 9d6ff54031b39b2cb4e5d70b89eda32a ""
+  "c:/Users/tbwil/Documents/LaTeX Documents/Phys 158 Redesign/Problem_Banks/Electric_Fields_Problems/Electric_fields_problem_bank.tex" 1701710170 1624 790661811abf6db668c30ce36485a8ec ""
   "c:/texlive/2022/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc" 1671864022 7013 c55cc8669071ac14036c4a0c96c16202 ""
   "c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1671859246 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1671856204 916 f87d7c45f9c908e672703b83b72241a3 ""

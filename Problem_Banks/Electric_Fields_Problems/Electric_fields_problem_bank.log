@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.23)  4 DEC 2023 17:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.23)  4 DEC 2023 17:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -731,70 +731,64 @@ Underfull \hbox (badness 10000) in paragraph at lines 105--105
 
  []
 
-) (./Problems/Elec8.tex [16] [17] [18] [19]) (./Problems/Elec9.tex
-<Problems//Images/P9img1.png, id=80, 648.021pt x 214.401pt>
-File: Problems//Images/P9img1.png Graphic file (type png)
-<use Problems//Images/P9img1.png>
-Package pdftex.def Info: Problems//Images/P9img1.png  used on input line 21.
-(pdftex.def)             Requested size: 469.75502pt x 155.42528pt.
-) (./Problems/Elec10.tex [20 <./Problems//Images/P9img1.png>]
-<Problems//Images/P10img1.png, id=86, 457.71pt x 407.121pt>
+) (./Problems/Elec8.tex [16] [17] [18] [19]) (./Problems/Elec10.tex
+<Problems//Images/P10img1.png, id=80, 457.71pt x 407.121pt>
 File: Problems//Images/P10img1.png Graphic file (type png)
 <use Problems//Images/P10img1.png>
 Package pdftex.def Info: Problems//Images/P10img1.png  used on input line 39.
 (pdftex.def)             Requested size: 469.75502pt x 417.8484pt.
- [21]) (./Problems/Elec11.tex [22 <./Problems//Images/P10img1.png>]
-<Problems//Images/P11img1.png, id=94, 478.78876pt x 301.72725pt>
+ [20]) (./Problems/Elec11.tex [21 <./Problems//Images/P10img1.png>]
+<Problems//Images/P11img1.png, id=89, 478.78876pt x 301.72725pt>
 File: Problems//Images/P11img1.png Graphic file (type png)
 <use Problems//Images/P11img1.png>
 Package pdftex.def Info: Problems//Images/P11img1.png  used on input line 39.
 (pdftex.def)             Requested size: 469.75502pt x 296.03598pt.
-<Problems//Images/P11img2.png, id=95, 463.7325pt x 254.1495pt>
+<Problems//Images/P11img2.png, id=90, 463.7325pt x 254.1495pt>
 File: Problems//Images/P11img2.png Graphic file (type png)
 <use Problems//Images/P11img2.png>
 Package pdftex.def Info: Problems//Images/P11img2.png  used on input line 39.
 (pdftex.def)             Requested size: 469.75502pt x 257.4568pt.
- [23 <./Problems//Images/P11img1.png>]) (./Problems/Elec12.tex
-<Problems//Images/P12img1.png, id=100, 489.62926pt x 325.81725pt>
+ [22 <./Problems//Images/P11img1.png>]) (./Problems/Elec12.tex
+<Problems//Images/P12img1.png, id=95, 489.62926pt x 325.81725pt>
 File: Problems//Images/P12img1.png Graphic file (type png)
 <use Problems//Images/P12img1.png>
 Package pdftex.def Info: Problems//Images/P12img1.png  used on input line 26.
 (pdftex.def)             Requested size: 469.75502pt x 312.59207pt.
-<Problems//Images/P12img2.png, id=101, 487.8225pt x 313.77225pt>
+<Problems//Images/P12img2.png, id=96, 487.8225pt x 313.77225pt>
 File: Problems//Images/P12img2.png Graphic file (type png)
 <use Problems//Images/P12img2.png>
 Package pdftex.def Info: Problems//Images/P12img2.png  used on input line 26.
 (pdftex.def)             Requested size: 469.75502pt x 302.15633pt.
-<Problems//Images/P12img3.png, id=102, 481.8pt x 440.847pt>
+<Problems//Images/P12img3.png, id=97, 481.8pt x 440.847pt>
 File: Problems//Images/P12img3.png Graphic file (type png)
 <use Problems//Images/P12img3.png>
 Package pdftex.def Info: Problems//Images/P12img3.png  used on input line 26.
 (pdftex.def)             Requested size: 469.75502pt x 429.84091pt.
- [24 <./Problems//Images/P11img2.png>] [25 <./Problems//Images/P12img1.png> <./Problems//Images/P12img2.png>]) (./Problems/Elec13.tex [26 <./Problems//Images/P12img3.png>]
-<Problems//Images/P13img1.png, id=117, 423.38174pt x 198.7425pt>
+ [23 <./Problems//Images/P11img2.png>] [24 <./Problems//Images/P12img1.png> <./Problems//Images/P12img2.png>]) (./Problems/Elec13.tex [25 <./Problems//Images/P12img3.png>]
+<Problems//Images/P13img1.png, id=112, 423.38174pt x 198.7425pt>
 File: Problems//Images/P13img1.png Graphic file (type png)
 <use Problems//Images/P13img1.png>
 Package pdftex.def Info: Problems//Images/P13img1.png  used on input line 29.
 (pdftex.def)             Requested size: 469.75502pt x 220.51276pt.
-<Problems//Images/P13img2.png, id=118, 464.33475pt x 400.49625pt>
+<Problems//Images/P13img2.png, id=113, 464.33475pt x 400.49625pt>
 File: Problems//Images/P13img2.png Graphic file (type png)
 <use Problems//Images/P13img2.png>
 Package pdftex.def Info: Problems//Images/P13img2.png  used on input line 29.
 (pdftex.def)             Requested size: 469.75502pt x 405.18857pt.
- [27 <./Problems//Images/P13img1.png>]) [28 <./Problems//Images/P13img2.png>] (./Electric_fields_problem_bank.aux) ) 
+ [26 <./Problems//Images/P13img1.png>]) [27 <./Problems//Images/P13img2.png>] (./Electric_fields_problem_bank.aux) ) 
 Here is how much of TeX's memory you used:
- 45647 strings out of 476093
- 1207037 string characters out of 5795582
+ 45633 strings out of 476093
+ 1206697 string characters out of 5795582
  1877787 words of memory out of 5000000
- 65434 multiletter control sequences out of 15000+600000
+ 65424 multiletter control sequences out of 15000+600000
  562968 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,13n,80p,876b,2133s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/stix/STIXGeneral-Bold.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/STIXGeneral-Italic.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/STIXGeneral-Regular.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathbbit.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathcal.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathex.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathit.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathrm.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathscr.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathsf.pfb>
-Output written on Electric_fields_problem_bank.pdf (28 pages, 3496700 bytes).
+Output written on Electric_fields_problem_bank.pdf (27 pages, 3233179 bytes).
 PDF statistics:
- 171 PDF objects out of 1000 (max. 8388607)
- 100 compressed objects within 1 object stream
+ 166 PDF objects out of 1000 (max. 8388607)
+ 98 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 70 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 65 words of extra memory for PDF output out of 10000 (max. 10000000)
 

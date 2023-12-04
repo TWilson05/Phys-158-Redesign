@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.23)  4 DEC 2023 15:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.23)  4 DEC 2023 17:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -845,20 +845,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--42
 
  []
 
-) [28] (./Circuits_problem_bank.aux) ) 
+) (./Problems/Circuits22.tex [28]
+<Problems//Images/P22img1.png, id=159, 648.021pt x 214.401pt>
+File: Problems//Images/P22img1.png Graphic file (type png)
+<use Problems//Images/P22img1.png>
+Package pdftex.def Info: Problems//Images/P22img1.png  used on input line 21.
+(pdftex.def)             Requested size: 469.75502pt x 155.42528pt.
+) [29 <./Problems//Images/P22img1.png>] (./Circuits_problem_bank.aux) ) 
 Here is how much of TeX's memory you used:
- 36535 strings out of 476093
- 893354 string characters out of 5795582
+ 36528 strings out of 476093
+ 893090 string characters out of 5795582
  1876787 words of memory out of 5000000
- 56375 multiletter control sequences out of 15000+600000
+ 56364 multiletter control sequences out of 15000+600000
  568800 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,13n,80p,549b,944s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/stix/stix-ts1.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/stix/STIXGeneral-Bold.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/STIXGeneral-Italic.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/STIXGeneral-Regular.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathbbit.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathcal.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathex.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathit.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathrm.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathscr.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathsf.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathtt.pfb>
-Output written on Circuits_problem_bank.pdf (28 pages, 716658 bytes).
+Output written on Circuits_problem_bank.pdf (29 pages, 979889 bytes).
 PDF statistics:
- 211 PDF objects out of 1000 (max. 8388607)
- 105 compressed objects within 2 object streams
+ 216 PDF objects out of 1000 (max. 8388607)
+ 107 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 144 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 149 words of extra memory for PDF output out of 10000 (max. 10000000)
 
