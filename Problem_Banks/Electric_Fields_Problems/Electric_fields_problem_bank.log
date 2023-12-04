@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.23)  29 OCT 2023 21:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.23)  4 DEC 2023 16:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/tbwil/Documents/LaTeX Documents/Phys 158 Redesign/Electric_Fields_Problems/Electric_fields_problem_bank.tex"
-(c:/Users/tbwil/Documents/LaTeX Documents/Phys 158 Redesign/Electric_Fields_Problems/Electric_fields_problem_bank.tex
+**"c:/Users/tbwil/Documents/LaTeX Documents/Phys 158 Redesign/Problem_Banks/Electric_Fields_Problems/Electric_fields_problem_bank.tex"
+(c:/Users/tbwil/Documents/LaTeX Documents/Phys 158 Redesign/Problem_Banks/Electric_Fields_Problems/Electric_fields_problem_bank.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2022-12-17> (c:/texlive/2022/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
@@ -590,7 +590,7 @@ File: tikzlibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 File: pgflibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \arrowsize=\dimen307
 )))
-LaTeX Font Info:    Trying to load font information for T1+stix on input line 42.
+LaTeX Font Info:    Trying to load font information for T1+stix on input line 45.
  (c:/texlive/2022/texmf-dist/tex/latex/stix/t1stix.fd
 File: t1stix.fd 2015/04/17 v1.1.2-latex STIX T1 font definitions
 ) (c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -600,34 +600,34 @@ File: l3backend-pdftex.def 2022-10-26 L3 backend support: PDF output (pdfTeX)
 ) (./Electric_fields_problem_bank.aux)
 \openout1 = `Electric_fields_problem_bank.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for LS1/stix/m/n on input line 42.
-LaTeX Font Info:    Trying to load font information for LS1+stix on input line 42.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for LS1/stix/m/n on input line 45.
+LaTeX Font Info:    Trying to load font information for LS1+stix on input line 45.
  (c:/texlive/2022/texmf-dist/tex/latex/stix/ls1stix.fd
 File: ls1stix.fd 2015/04/17 v1.1.2-latex STIX LS1 font definitions
 )
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for LS2/stix/m/n on input line 42.
-LaTeX Font Info:    Trying to load font information for LS2+stix on input line 42.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for LS2/stix/m/n on input line 45.
+LaTeX Font Info:    Trying to load font information for LS2+stix on input line 45.
  (c:/texlive/2022/texmf-dist/tex/latex/stix/ls2stix.fd
 File: ls2stix.fd 2015/04/17 v1.1.2-latex STIX LS2 font definitions
 )
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Info: Command `\dddot' is already robust on input line 42.
-LaTeX Info: Command `\ddddot' is already robust on input line 42.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Info: Command `\dddot' is already robust on input line 45.
+LaTeX Info: Command `\ddddot' is already robust on input line 45.
  (c:/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count310
@@ -649,99 +649,99 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into your preamble.
- on input line 42.
+ on input line 45.
 
-LaTeX Font Info:    Trying to load font information for LS1+stixscr on input line 46.
+LaTeX Font Info:    Trying to load font information for LS1+stixscr on input line 49.
 (c:/texlive/2022/texmf-dist/tex/latex/stix/ls1stixscr.fd
 File: ls1stixscr.fd 2015/04/17 v1.1.2-latex STIX script LS1 font definitions
 )
-LaTeX Font Info:    Trying to load font information for LS2+stixex on input line 46.
+LaTeX Font Info:    Trying to load font information for LS2+stixex on input line 49.
  (c:/texlive/2022/texmf-dist/tex/latex/stix/ls2stixex.fd
 File: ls2stixex.fd 2015/04/17 v1.1.2-latex STIX extentions LS2 font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 46.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 49.
  (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 46.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 49.
  (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+esint on input line 46.
+LaTeX Font Info:    Trying to load font information for U+esint on input line 49.
  (c:/texlive/2022/texmf-dist/tex/latex/esint/uesint.fd
 File: uesint.fd 
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 46.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 49.
  (c:/texlive/2022/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Trying to load font information for LS1+stixfrak on input line 46.
+LaTeX Font Info:    Trying to load font information for LS1+stixfrak on input line 49.
  (c:/texlive/2022/texmf-dist/tex/latex/stix/ls1stixfrak.fd
 File: ls1stixfrak.fd 2015/04/17 v1.1.2-latex STIX fraktur LS1 font definitions
 )
-LaTeX Font Info:    Trying to load font information for LS1+stixbb on input line 46.
+LaTeX Font Info:    Trying to load font information for LS1+stixbb on input line 49.
  (c:/texlive/2022/texmf-dist/tex/latex/stix/ls1stixbb.fd
 File: ls1stixbb.fd 2015/04/17 v1.1.2-latex STIX blackboard LS1 font definitions
 )
-LaTeX Font Info:    Trying to load font information for LS2+stixcal on input line 46.
+LaTeX Font Info:    Trying to load font information for LS2+stixcal on input line 49.
  (c:/texlive/2022/texmf-dist/tex/latex/stix/ls2stixcal.fd
 File: ls2stixcal.fd 2015/04/17 v1.1.2-latex STIX calligraphic LS2 font definitions
 )
-LaTeX Font Info:    Trying to load font information for LS1+stixsf on input line 46.
+LaTeX Font Info:    Trying to load font information for LS1+stixsf on input line 49.
  (c:/texlive/2022/texmf-dist/tex/latex/stix/ls1stixsf.fd
 File: ls1stixsf.fd 2015/04/17 v1.1.2-latex STIX sans-serif LS1 font definitions
 )
-LaTeX Font Info:    Trying to load font information for LS2+stixtt on input line 46.
+LaTeX Font Info:    Trying to load font information for LS2+stixtt on input line 49.
  (c:/texlive/2022/texmf-dist/tex/latex/stix/ls2stixtt.fd
 File: ls2stixtt.fd 2015/04/17 v1.1.2-latex STIX typewriter LS2 font definitions
 ) (./Problems/Elec1.tex [1
 
 {c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]) (./Problems/Elec2.tex [4]
-Overfull \hbox (27.30482pt too wide) in paragraph at lines 40--41
+Overfull \hbox (27.30482pt too wide) in paragraph at lines 42--43
  [] 
  []
 
 [5] [6] [7] [8]) (./Problems/Elec3.tex [9]
-Underfull \hbox (badness 10000) in paragraph at lines 35--35
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
 
  []
 
 ) (./Problems/Elec4.tex [10]
-Underfull \hbox (badness 10000) in paragraph at lines 101--101
+Underfull \hbox (badness 10000) in paragraph at lines 103--103
 
  []
 
 [11]) (./Problems/Elec5.tex
-Overfull \hbox (6.19498pt too wide) in paragraph at lines 10--11
+Overfull \hbox (6.19498pt too wide) in paragraph at lines 12--13
 []\T1/stix/m/n/10.95 A par-al-lel plate ca-pac-i-tor is hooked up to a bat-tery and re-sister in se-ries. At time $\LS1/stix/m/it/10.95 t$\T1/stix/m/n/10.95 , the $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--31
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
 
  []
 
 [12]) (./Problems/Elec6.tex
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
 
  []
 
 [13]) (./Problems/Elec7.tex [14] [15]
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
+Underfull \hbox (badness 10000) in paragraph at lines 105--105
 
  []
 
 ) (./Problems/Elec8.tex [16] [17] [18] [19]) [20] (./Electric_fields_problem_bank.aux) ) 
 Here is how much of TeX's memory you used:
- 45529 strings out of 476093
- 1204003 string characters out of 5795582
+ 45530 strings out of 476093
+ 1204058 string characters out of 5795582
  1877787 words of memory out of 5000000
- 65343 multiletter control sequences out of 15000+600000
+ 65344 multiletter control sequences out of 15000+600000
  562968 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,13n,80p,862b,2133s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,13n,80p,876b,2133s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/stix/STIXGeneral-Bold.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/STIXGeneral-Italic.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/STIXGeneral-Regular.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathbbit.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathcal.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathex.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathit.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathrm.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathscr.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathsf.pfb>
-Output written on Electric_fields_problem_bank.pdf (20 pages, 230987 bytes).
+Output written on Electric_fields_problem_bank.pdf (20 pages, 230907 bytes).
 PDF statistics:
  127 PDF objects out of 1000 (max. 8388607)
  82 compressed objects within 1 object stream
