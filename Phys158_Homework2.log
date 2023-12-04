@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.23)  4 DEC 2023 15:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.23)  4 DEC 2023 16:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/tbwil/Documents/LaTeX Documents/Phys 158 Redesign/Phys158_Homework1.tex"
-(c:/Users/tbwil/Documents/LaTeX Documents/Phys 158 Redesign/Phys158_Homework1.tex
+**"c:/Users/tbwil/Documents/LaTeX Documents/Phys 158 Redesign/Phys158_Homework2.tex"
+(c:/Users/tbwil/Documents/LaTeX Documents/Phys 158 Redesign/Phys158_Homework2.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2022-12-17> (c:/texlive/2022/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
@@ -568,8 +568,8 @@ File: t1stix.fd 2015/04/17 v1.1.2-latex STIX T1 font definitions
 File: l3backend-pdftex.def 2022-10-26 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count303
 \l__pdf_internal_box=\box69
-) (./Phys158_Homework1.aux)
-\openout1 = `Phys158_Homework1.aux'.
+) (./Phys158_Homework2.aux)
+\openout1 = `Phys158_Homework2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
 LaTeX Font Info:    ... okay on input line 46.
@@ -685,40 +685,39 @@ File: ls1stixsf.fd 2015/04/17 v1.1.2-latex STIX sans-serif LS1 font definitions
 LaTeX Font Info:    Trying to load font information for LS2+stixtt on input line 49.
  (c:/texlive/2022/texmf-dist/tex/latex/stix/ls2stixtt.fd
 File: ls2stixtt.fd 2015/04/17 v1.1.2-latex STIX typewriter LS2 font definitions
-) (./Problem_Banks/Circuits_Problems/Problems//Circuits16.tex (./Problem_Banks/Circuits_Problems/Problems///Images/P16img1.tex)) (./Problem_Banks/Circuits_Problems/Problems//Circuits17.tex (./Problem_Banks/Circuits_Problems/Problems//Images/P17img1.tex)) (./Problem_Banks/Circuits_Problems/Problems//Circuits4.tex [1
+) (./Problem_Banks/Circuits_Problems/Problems//Circuits20.tex (./Problem_Banks/Circuits_Problems/Problems//Images/P20img1.tex)) (./Problem_Banks/Circuits_Problems/Problems//Circuits13.tex) (./Problem_Banks/Circuits_Problems/Problems//Circuits18.tex [1
 
 {c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<Problem_Banks/Circuits_Problems/Problems////Images/P4img1.png, id=14, 462.528pt x 239.09325pt>
-File: Problem_Banks/Circuits_Problems/Problems////Images/P4img1.png Graphic file (type png)
-<use Problem_Banks/Circuits_Problems/Problems////Images/P4img1.png>
-Package pdftex.def Info: Problem_Banks/Circuits_Problems/Problems////Images/P4img1.png  used on input line 13.
-(pdftex.def)             Requested size: 281.85587pt x 145.70438pt.
-) (./Problem_Banks/Circuits_Problems/Problems//Circuits6.tex (./Problem_Banks/Circuits_Problems/Problems//Images/P6img1.tex)) (./Problem_Banks/Circuits_Problems/Problems//Circuits8.tex [2 <./Problem_Banks/Circuits_Problems/Problems////Images/P4img1.png>]
-<Problem_Banks/Circuits_Problems/Problems///Images/P8img1.png, id=20, 307.1475pt x 131.2905pt>
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+
+ []
+
+) (./Problem_Banks/Circuits_Problems/Problems//Circuits19.tex) (./Problem_Banks/Circuits_Problems/Problems//Circuits8.tex
+<Problem_Banks/Circuits_Problems/Problems///Images/P8img1.png, id=15, 307.1475pt x 131.2905pt>
 File: Problem_Banks/Circuits_Problems/Problems///Images/P8img1.png Graphic file (type png)
 <use Problem_Banks/Circuits_Problems/Problems///Images/P8img1.png>
 Package pdftex.def Info: Problem_Banks/Circuits_Problems/Problems///Images/P8img1.png  used on input line 13.
 (pdftex.def)             Requested size: 281.85587pt x 120.4862pt.
 ) (./Problem_Banks/Circuits_Problems/Problems//Circuits10.tex
-<Problem_Banks/Circuits_Problems/Problems///Images/P10img1.png, id=21, 156.585pt x 85.5195pt>
+<Problem_Banks/Circuits_Problems/Problems///Images/P10img1.png, id=17, 156.585pt x 85.5195pt>
 File: Problem_Banks/Circuits_Problems/Problems///Images/P10img1.png Graphic file (type png)
 <use Problem_Banks/Circuits_Problems/Problems///Images/P10img1.png>
 Package pdftex.def Info: Problem_Banks/Circuits_Problems/Problems///Images/P10img1.png  used on input line 13.
 (pdftex.def)             Requested size: 234.8775pt x 128.28412pt.
-) [3 <./Problem_Banks/Circuits_Problems/Problems///Images/P8img1.png> <./Problem_Banks/Circuits_Problems/Problems///Images/P10img1.png>] (./Phys158_Homework1.aux) ) 
+ [2 <./Problem_Banks/Circuits_Problems/Problems///Images/P8img1.png>]) [3 <./Problem_Banks/Circuits_Problems/Problems///Images/P10img1.png>] (./Phys158_Homework2.aux) ) 
 Here is how much of TeX's memory you used:
- 36771 strings out of 476093
- 898553 string characters out of 5795582
- 1877787 words of memory out of 5000000
- 56657 multiletter control sequences out of 15000+600000
- 554702 words of font info for 102 fonts, out of 8000000 for 9000
+ 36208 strings out of 476093
+ 880818 string characters out of 5795582
+ 1866787 words of memory out of 5000000
+ 56104 multiletter control sequences out of 15000+600000
+ 560246 words of font info for 104 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,6n,80p,551b,850s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{c:/texlive/2022/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/stix/STIXGeneral-Bold.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/STIXGeneral-Regular.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathbbit.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathit.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathrm.pfb>
-Output written on Phys158_Homework1.pdf (3 pages, 159780 bytes).
+ 84i,6n,80p,482b,848s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{c:/texlive/2022/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/stix/STIXGeneral-Bold.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/STIXGeneral-Regular.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathbbit.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathcal.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathit.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathrm.pfb>
+Output written on Phys158_Homework2.pdf (3 pages, 165328 bytes).
 PDF statistics:
- 50 PDF objects out of 1000 (max. 8388607)
- 28 compressed objects within 1 object stream
+ 53 PDF objects out of 1000 (max. 8388607)
+ 31 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 28 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
