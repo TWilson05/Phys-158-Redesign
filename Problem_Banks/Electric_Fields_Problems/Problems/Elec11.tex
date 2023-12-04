@@ -1,0 +1,39 @@
+\iftoggle{title}{
+\subsection*{Problem 11}
+}{}
+\iftoggle{contributions}{
+\textit{2023 PHYS 158 Homework 6 question 3}
+}{}
+
+\iftoggle{difficulty}{
+Difficulty: $\medblackstar \medblackstar \medwhitestar$
+}{}
+
+Consider a plastic ring of radius $R = 50.0 \units{cm}$ on which there are two charged beads as shown in the figure below.
+Bead 1 has $q_1 = +2.00 \units{\mu C}$ and is fixed in place on the x-axis. Bead 2 has $q_2 = +6.0 \units{\mu C}$ and can be moved along the ring.
+\begin{enumerate}
+    \item Determine the positive angle $\theta$ for $q_2$ which can produce a net Electric field of magnitude $E = 2.00 \times 10^5 \units{N/C}$ at the centre of the ring?
+    \item Is there any negative angle $\theta$ for $q_2$ which can produce a net Electric field of
+    magnitude $E = 2.00 \times 10^5 \units{N/C}$ at the centre of the ring? If so, calculate that angle.
+\end{enumerate}
+
+\begin{center}
+    \begin{tikzpicture}
+        \draw[fill=black] (0,0) circle (0.05);
+        \draw (0,0) -- (45:2) node[midway, above left] {$R$};
+        \draw[fill=black] (45:2) circle (0.1) node[above right] {Bead 2};
+        \draw (0,0) circle (2);
+        \draw (0.5,0) arc (0:45:0.5) node[midway, above right] {$\theta$};
+        \draw[fill=black] (-2,0) circle (0.1) node[above left] {Bead 1};
+        \draw (-3,0) -- (3,0) node[right] {$x$};
+        \draw (0,-3) -- (0,3) node[above] {$y$};
+    \end{tikzpicture}
+\end{center}
+
+\iftoggle{solutions}{
+\textbf{Solution:}
+\begin{center}
+    \includegraphics[width=\textwidth]{Images/P11img1.png}
+    \includegraphics[width=\textwidth]{Images/P11img2.png}
+\end{center}
+}{}
