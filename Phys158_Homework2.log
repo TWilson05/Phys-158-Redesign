@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.23)  8 DEC 2023 11:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.23)  9 JAN 2024 14:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -692,17 +692,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
-) (./Problem_Banks/Electric_Fields_Problems/Problems//Elec10.tex [2]) [3] (./Phys158_Homework2.aux) ) 
+) (./Problem_Banks/Electric_Fields_Problems/Problems//Elec11.tex [2]) [3] (./Phys158_Homework2.aux) ) 
 Here is how much of TeX's memory you used:
  36213 strings out of 476093
- 880450 string characters out of 5795582
+ 880424 string characters out of 5795582
  1865787 words of memory out of 5000000
  56112 multiletter control sequences out of 15000+600000
  560246 words of font info for 104 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,6n,80p,482b,848s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/stix/STIXGeneral-Bold.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/STIXGeneral-Regular.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathbbit.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathcal.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathit.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathrm.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/stix/stix-mathscr.pfb>
-Output written on Phys158_Homework2.pdf (3 pages, 128665 bytes).
+Output written on Phys158_Homework2.pdf (3 pages, 129671 bytes).
 PDF statistics:
  53 PDF objects out of 1000 (max. 8388607)
  33 compressed objects within 1 object stream
