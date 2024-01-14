@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.23)  29 DEC 2023 06:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.23)  13 JAN 2024 17:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -876,119 +876,119 @@ Overfull \hbox (2.31839pt too wide) in paragraph at lines 251--252
  []
 
 
-Overfull \hbox (133.87065pt too wide) in paragraph at lines 272--280
+Overfull \hbox (133.87065pt too wide) in paragraph at lines 273--281
 [][]
  []
 
 
-Overfull \hbox (122.43188pt too wide) in paragraph at lines 282--288
+Overfull \hbox (122.43188pt too wide) in paragraph at lines 283--289
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--288
+Underfull \hbox (badness 10000) in paragraph at lines 283--289
 
  []
 
 
-Overfull \hbox (2.31839pt too wide) in paragraph at lines 292--293
+Overfull \hbox (2.31839pt too wide) in paragraph at lines 293--294
 [][] 
  []
 
 
-Overfull \hbox (106.82013pt too wide) in paragraph at lines 301--307
+Overfull \hbox (106.82013pt too wide) in paragraph at lines 302--308
 [][]
  []
 
 
-Overfull \hbox (87.71823pt too wide) in paragraph at lines 309--318
+Overfull \hbox (87.71823pt too wide) in paragraph at lines 310--319
 [][]
  []
 
 
-Overfull \hbox (124.83392pt too wide) in paragraph at lines 320--326
+Overfull \hbox (124.83392pt too wide) in paragraph at lines 321--327
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--326
+Underfull \hbox (badness 10000) in paragraph at lines 321--327
 
  []
 
 
-Overfull \hbox (2.31839pt too wide) in paragraph at lines 330--331
+Overfull \hbox (2.31839pt too wide) in paragraph at lines 331--332
 [][] 
  []
 
 [1.1
 
 {c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (2.31839pt too wide) in paragraph at lines 349--350
+Overfull \hbox (2.31839pt too wide) in paragraph at lines 350--351
 [][] 
  []
 
 
-Overfull \hbox (81.78491pt too wide) in paragraph at lines 357--362
+Overfull \hbox (81.78491pt too wide) in paragraph at lines 358--363
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 357--362
+Underfull \hbox (badness 10000) in paragraph at lines 358--363
 
  []
 
 
-Overfull \hbox (2.31839pt too wide) in paragraph at lines 366--367
+Overfull \hbox (2.31839pt too wide) in paragraph at lines 367--368
 [][] 
  []
 
 
-Overfull \hbox (86.7113pt too wide) in paragraph at lines 377--385
+Overfull \hbox (86.7113pt too wide) in paragraph at lines 378--386
 [][]
  []
 
 
-Overfull \hbox (110.23752pt too wide) in paragraph at lines 387--396
+Overfull \hbox (110.23752pt too wide) in paragraph at lines 388--397
 [][]
  []
 
 
-Overfull \hbox (119.34995pt too wide) in paragraph at lines 398--407
+Overfull \hbox (119.34995pt too wide) in paragraph at lines 399--408
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 398--407
+Underfull \hbox (badness 10000) in paragraph at lines 399--408
 
  []
 
 
-Overfull \hbox (2.31839pt too wide) in paragraph at lines 411--412
+Overfull \hbox (2.31839pt too wide) in paragraph at lines 412--413
 [][] 
  []
 
 
-Overfull \hbox (124.51797pt too wide) in paragraph at lines 420--429
+Overfull \hbox (124.51797pt too wide) in paragraph at lines 421--430
 [][]
  []
 
 
-Overfull \hbox (112.03125pt too wide) in paragraph at lines 431--441
+Overfull \hbox (112.03125pt too wide) in paragraph at lines 432--442
 [][]
  []
 
 
-Overfull \hbox (79.74886pt too wide) in paragraph at lines 452--458
+Overfull \hbox (79.74886pt too wide) in paragraph at lines 453--459
 [][]
  []
 
 <right_hand_rule.png, id=25, 204.765pt x 175.857pt>
 File: right_hand_rule.png Graphic file (type png)
 <use right_hand_rule.png>
-Package pdftex.def Info: right_hand_rule.png  used on input line 459.
+Package pdftex.def Info: right_hand_rule.png  used on input line 460.
 (pdftex.def)             Requested size: 102.38223pt x 87.92828pt.
 
-Overfull \hbox (2.31839pt too wide) in paragraph at lines 464--465
+Overfull \hbox (2.31839pt too wide) in paragraph at lines 465--466
 [][] 
  []
 
@@ -1009,7 +1009,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  100i,23n,104p,929b,936s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/esint-type1/esint10.pfb>
-Output written on 158_formula_sheet.pdf (2 pages, 239757 bytes).
+Output written on 158_formula_sheet.pdf (2 pages, 239768 bytes).
 PDF statistics:
  94 PDF objects out of 1000 (max. 8388607)
  58 compressed objects within 1 object stream
